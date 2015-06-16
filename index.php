@@ -4,8 +4,14 @@
 	<title>Home</title>
 </head>
 <body>
-	<div class="">
+	<header class="header">
+		<div "logo">
 
-	</div>	
+		</div>
+	</header>
+	<nav class="navigation">
+
+	</nav>	
+	
 </body>
 </html>
