@@ -4,8 +4,9 @@
 	<title>Home</title>
 </head>
 <body>
-	<div class="">
-
-	</div>	
+	<header class="header">
+		<div class="logo"></div>
+		<div class="leaderboard"></div>
+	</header>
 </body>
 </html>
