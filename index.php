@@ -3,14 +3,40 @@
 	
 	<title>Home</title>
 
+	<link rel="stylesheet" href="js/woothemes-FlexSlider-8ed61ac/flexslider.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="js/woothemes-FlexSlider-8ed61ac/jquery.flexslider.js"></script>
+
+	<script type="text/javascript" charset="utf-8">
+	  $(window).load(function() {
+	    $('.flexslider').flexslider({
+	    	animation: "slide",
+	    	animationLoop: true,
+	    	slideshow: false,
+	    	controlNav: false,
+	    	itemWidth: 800,
+	    	itemMargin: 0,
+	    	minItems: 5,
+	    	move: 1
+	    });
+	    
+	  });
+	</script>
+
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
-
 </head>
 <body>
 	<header class="header">
-		<div "logo">
-
+		<div class="logo">
+			<a href="#">
+				<img src="photos/logo/logo.jpg">n00b Alliance
+			</a>
+		</div>
+		<div class="leaderboard">
+			<a href="#">
+				<img src="photos/logo/leaderboard.jpg">
+			</a>
 		</div>
 	</header>
 	<nav class="navigation">
@@ -29,7 +55,6 @@
 			<a href=""><li>Downloads</li></a>
 			<a href=""><li>About</li></a>
 		</ul>
-
 		<ul class="social">
 			<li class="anim-01 twitch"><a href="http://www.twitch.tv/team/dignitas">
 				<i class="fa fa-twitch"></i> 
@@ -50,14 +75,53 @@
 				<i class="fa fa-google-plus"></i> 
 			</a></li>
 		</ul>
-	</nav>	
+	</nav>
+	<div class="sponsors">
+		<div class="flexslider">
+		  <ul class="slides">
+		    <li>
+		    	<a href=""><img src="photos/sponsors/caltex.jpg" /></a>
+		    </li>
+		    <li>
+		    	<a href=""><img src="photos/sponsors/filmax.jpg" /></a>
+		    </li>
+		    <li>
+		    	<a href=""><img src="photos/sponsors/image_round.jpg" /></a>
+		    </li>
+		    <li>
+		      	<a href=""><img src="photos/sponsors/images.jpg" /></a>
+		    </li>
+		    <li>
+		      	<a href=""><img src="photos/sponsors/mer.jpg" /></a>
+		    </li>
+		    <li>
+		      	<a href=""><img src="photos/sponsors/mer.jpg" /></a>
+		    </li>
+		    <li>
+		    	<a href=""><img src="photos/sponsors/images.jpg" /></a>
+		    </li>
+		    <li>
+		      	<a href=""><img src="photos/sponsors/mer.jpg" /></a>
+		    </li>
+		    <li>
+		      	<a href=""><img src="photos/sponsors/image_round.jpg" /></a>
+		    </li>
+		    <li>
+		      	<a href=""><img src="photos/sponsors/image_round.jpg" /></a>
+		    </li>
+		  </ul>
+
+		</div>
+	</div>	
 	<div class="wrapper-content">
 		<div class="slider">
-ZXzX
+			ZXzX
 		</div>
 		<div class="side-bar">
-zXZX
+			zXZX
 		</div>
+		fdgfdg
 	</div>
+	
 </body>
 </html>

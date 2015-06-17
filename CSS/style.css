@@ -4,10 +4,12 @@ body{
 }
 
 .header{
-	padding: 20px 0px;
-	background: yellow;
+	padding: 20px;
+	z-index: 2;
+	background: green;
 	max-width: 1240px;
 	margin: 0px auto 0px auto;
+	overflow: hidden;
 	position: relative;
 }
 
@@ -22,8 +24,49 @@ body{
 	border-radius: 3px;
 }
 
-.header logo{
+.header .logo a img{
+	display: none;
+}
+
+.header .logo a{
 	height: 60px;
+	display: inline-block;
+	background: url(../photos/logo/logo.jpg) no-repeat;
+	background-size: 100%
+}
+
+.header .logo{
+	float: left;
+	margin-top: 15px;
+	line-height: 60px;
+	height: 60px;
+	font-size: 25px;
+}
+
+.header .leaderboard a img{
+
+	width: 500;
+	height: 100;
+}
+
+.header .leaderboard a{
+
+	text-decoration: none;
+}
+
+.header .leaderboard{
+
+	float: right;
+}
+
+.sponsors {
+	margin: 0px auto 0px auto;
+	left: 0;
+	right: 0;
+	max-width: 1240px;
+	border-radius: 3px;
+	padding: 5px 0;
+	position: relative;
 }
 
 .navigation a{
@@ -106,6 +149,7 @@ body{
 	left: 0;
 	right: 0;
 	position: relative;
+	padding: 4px;
 }
 
 .wrapper-content .slider{
@@ -114,7 +158,6 @@ body{
 	float: left;
 	width: 100%;
 	max-width: 920px;
-	padding: 2px;
 }
 
 .wrapper-content .side-bar{
@@ -123,5 +166,5 @@ body{
 	float: right;
 	width: 310;
 	position: relative;
-	padding: 2px;
 }
+
