@@ -51,6 +51,13 @@
 			</a></li>
 		</ul>
 	</nav>	
-
+	<div class="wrapper-content">
+		<div class="slider">
+ZXzX
+		</div>
+		<div class="side-bar">
+zXZX
+		</div>
+	</div>
 </body>
 </html>

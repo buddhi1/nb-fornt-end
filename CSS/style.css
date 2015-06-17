@@ -11,14 +11,13 @@ body{
 	position: relative;
 }
 
-.navigation{
-	/*background-color: red;*/
+.navigation{	
 	background: linear-gradient(to bottom, #222222, #161616);
 	max-width: 1240px;
 	margin: 0px auto 0px auto;
 	left: 0;
 	right: 0;
-	position: absolute;
+	position: relative;
 	overflow: hidden;
 	border-radius: 3px;
 }
@@ -99,4 +98,30 @@ body{
 
 .social .steam{
 	background: #333;
+}
+
+.wrapper-content{
+	max-width: 1240px;
+	margin: 0px auto 0px auto;
+	left: 0;
+	right: 0;
+	position: relative;
+}
+
+.wrapper-content .slider{
+	background-color: yellow;
+	display: inline-block;
+	float: left;
+	width: 100%;
+	max-width: 920px;
+	padding: 2px;
+}
+
+.wrapper-content .side-bar{
+	background-color: red;
+	display: inline-block;
+	float: right;
+	width: 310;
+	position: relative;
+	padding: 2px;
 }
