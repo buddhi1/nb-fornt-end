@@ -15,7 +15,7 @@
 	    	slideshow: false,
 	    	controlNav: false,
 	    	itemWidth: 800,
-	    	itemMargin: 5,
+	    	itemMargin: 0,
 	    	minItems: 5,
 	    	move: 1
 	    });
@@ -110,7 +110,18 @@
 		      	<a href=""><img src="photos/sponsors/image_round.jpg" /></a>
 		    </li>
 		  </ul>
+
 		</div>
+	</div>	
+	<div class="wrapper-content">
+		<div class="slider">
+			ZXzX
+		</div>
+		<div class="side-bar">
+			zXZX
+		</div>
+		fdgfdg
 	</div>
+	
 </body>
 </html>

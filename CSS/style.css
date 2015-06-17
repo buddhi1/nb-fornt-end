@@ -13,8 +13,7 @@ body{
 	position: relative;
 }
 
-.navigation{
-	/*background-color: red;*/
+.navigation{	
 	background: linear-gradient(to bottom, #222222, #161616);
 	max-width: 1240px;
 	margin: 0px auto 0px auto;
@@ -61,17 +60,14 @@ body{
 }
 
 .sponsors {
-	margin: 0 auto;
+	margin: 0px auto 0px auto;
+	left: 0;
+	right: 0;
 	max-width: 1240px;
 	border-radius: 3px;
 	padding: 5px 0;
 	position: relative;
 }
-
-.flexslider {
-	width: 1240px;
-}
-
 
 .navigation a{
 	color: #fff;
@@ -146,3 +142,29 @@ body{
 .social .steam{
 	background: #333;
 }
+
+.wrapper-content{
+	max-width: 1240px;
+	margin: 0px auto 0px auto;
+	left: 0;
+	right: 0;
+	position: relative;
+	padding: 4px;
+}
+
+.wrapper-content .slider{
+	background-color: yellow;
+	display: inline-block;
+	float: left;
+	width: 100%;
+	max-width: 920px;
+}
+
+.wrapper-content .side-bar{
+	background-color: red;
+	display: inline-block;
+	float: right;
+	width: 310;
+	position: relative;
+}
+
