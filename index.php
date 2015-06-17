@@ -12,7 +12,7 @@
 	    $('.flexslider').flexslider({
 	    	animation: "slide",
 	    	animationLoop: true,
-	    	slideshow: false,
+	    	slideshow: true,
 	    	controlNav: false,
 	    	itemWidth: 800,
 	    	itemMargin: 5,

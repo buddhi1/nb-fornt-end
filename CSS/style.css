@@ -61,17 +61,16 @@ body{
 }
 
 .sponsors {
-	margin: 0 auto;
+
+	margin: 0px auto 0px auto;
+	left: 0;
+	right: 0;
+	width: 100%;
 	max-width: 1240px;
 	border-radius: 3px;
-	padding: 5px 0;
 	position: relative;
+	background-color: green;
 }
-
-.flexslider {
-	width: 1240px;
-}
-
 
 .navigation a{
 	color: #fff;
