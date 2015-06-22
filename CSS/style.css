@@ -13,8 +13,7 @@ body{
 	position: relative;
 }
 
-.navigation{
-	/*background-color: red;*/
+.navigation{	
 	background: linear-gradient(to bottom, #222222, #161616);
 	max-width: 1240px;
 	margin: 0px auto 0px auto;
@@ -34,6 +33,14 @@ body{
 	display: inline-block;
 	background: url(../photos/logo/logo.jpg) no-repeat;
 	background-size: 100%
+}
+
+.header .clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
 }
 
 .header .logo{
@@ -65,7 +72,6 @@ body{
 	margin: 0px auto 0px auto;
 	left: 0;
 	right: 0;
-	width: 100%;
 	max-width: 1240px;
 	border-radius: 3px;
 	position: relative;
@@ -94,6 +100,14 @@ body{
 
 .navigation ul{
 	float: left;
+}
+
+.navigation .clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
 }
 
 .navigation .social {
@@ -144,4 +158,159 @@ body{
 
 .social .steam{
 	background: #333;
+}
+
+.wrapper-content{
+	max-width: 1240px;
+	margin: 0px auto 0px auto;
+	left: 0;
+	right: 0;
+	position: relative;
+	padding: 4px;
+}
+
+.wrapper-content .slider{
+	background-color: yellow;
+	display: inline-block;
+	float: left;
+	width: 100%;
+	max-width: 920px;
+}
+
+.wrapper-content .clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+/*side bar*/
+
+.wrapper-content .side-bar{
+	background-color: #011;
+	display: inline-block;
+	float: right;
+	width: 310;
+	position: relative;
+}
+
+.side-bar .streams-list .lead i {
+	color: #e6a800;
+}
+
+.side-bar .streams-list {
+	padding: 0px;
+}
+
+.side-bar .streams-list .lead {
+	padding: 15px;
+}
+
+.side-bar .streams-list .is-stream {
+	border: solid grey;
+	border-width: 0 0 4px 0;
+	text-transform: uppercase;
+	line-height: 30px;
+	padding: 15px;
+}
+
+.vidcarousel li .is-live {
+	position: absolute;
+	display: block;
+	z-index: 9;
+	color: #000;
+	/*bottom: 15px;
+	left: 15px;*/
+}
+
+.vidcarousel li {
+	padding: 0;
+	list-style-type: none;
+}
+
+.is-stream a img {
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+.is-stream #take_look {
+	text-decoration: none;
+	color: #e6a800;
+	margin-left: 20px;
+	font-size: 12px;
+}
+
+.is-stream h2 {
+	margin-top: 10px;
+	margin-bottom: 2px;
+	margin-left: 96px;
+	font-size: 14px;
+	font-family: "myriad-pro-condensed", helvetica, arial;
+	color: #e6a800;
+}
+
+.vidcarousel p {
+	color: #999;
+	margin-left: 96px;
+	margin-top: 2px;
+	font-size: 12px;
+}
+
+.vidcarousel ul li.lead {
+	color: #e6a800;
+	font-size: 20px;
+	line-height: 30px;
+	text-transform: uppercase;
+	border-width: 0 0 4px 0;
+}
+
+.vidcarousel ul li {
+	border-bottom: solid 1px #222;
+}
+
+.widget-list img {
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+.widget-list h2 {
+	margin-top: 10px;
+	margin-bottom: 2px;
+	margin-left: 96px;
+	font-size: 18px;
+	font-family: "myriad-pro-condensed", helvetica, arial;
+	color: #e6a800;
+}
+
+.vidcarousel p {
+	color: #999;
+	margin-left: 96px;
+	margin-top: 2px;
+}
+
+.side-bar .widget-list {
+	padding: 0px;
+}
+
+.side-bar .widget-list .lead {
+	padding: 15px;
+}
+
+.side-bar .widget-list .photo-content {
+	padding: 15px;
+}
+
+.side-bar .widget-list .photo-content h2 a {
+	text-decoration: none;
+	color: #e6a800;
+}
+
+.side-bar .widget-list .photo-des a {
+	text-decoration: none;
+	color: #e6a800;
+	margin-left: 20px;
+	font-size: 12px;
 }
