@@ -12,7 +12,7 @@
 	    $('#flexslider-carousel').flexslider({
 	    	animation: "slide",
 	    	animationLoop: true,
-	    	slideshow: false,
+	    	slideshow: true,
 	    	controlNav: false,
 	    	itemWidth: 800,
 	    	itemMargin: 0,
@@ -152,7 +152,43 @@
 			</div>
 		</div>
 		<div class="side-bar">
-			zXZX
+			<div class="vidcarousel">
+				<ul class="streams-list">
+					<li class="lead">
+						<i class="fa fa-twitch"> Live Streams</i>
+					</li>
+					<li class="is-stream">
+						<iframe width="250" height="195" src="https://www.youtube.com/watch?v=QcIy9NiNbmo">
+						</iframe>
+						<span class="is-live"><a href="#">Live</a></span>
+						<a href="#">
+							<img src="photos/is-live/image-slider-2.jpg" alt="image">
+						</a>
+						<h2>Person Name</h2>
+						<p>
+							<i class="fa fa-eye"># Views</i>
+						</p>
+						<a id="take_look" href="#" class="fa fa-twitch">
+							<i>Take a Look</i>
+						</a>
+					</li>
+				</ul>
+				<ul class="widget-list">
+					<li class="lead">
+						<i class="fa fa-play-circle"> Other Media</i>
+					</li>
+					<li class="photo-content">
+						<img src="photos/is-live/image-slider-2.jpg" width="80px" height="80px">
+						<h2><a href="https://www.youtube.com/watch?v=fa_58nN_yPM">Heading 1!!!</a></h2>
+						<p>We're back!!!</p>
+						<div class="photo-des">
+							<a href="#" class="fa fa-play-circle">
+								<i>Take a Look</i>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
 		</div>
 		fdgfdg
 	</div>
