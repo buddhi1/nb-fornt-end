@@ -27,6 +27,15 @@
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 </head>
 <body>
+	<div id="fb-root"></div>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	<header class="header">
 		<div class="logo">
 			<a href="#">
@@ -152,6 +161,51 @@
 								<i>Take a Look</i>
 							</a>
 						</div>
+					</li>
+					<li class="photo-content">
+						<img src="photos/is-live/image-slider-2.jpg" width="80px" height="80px">
+						<h2><a href="https://www.youtube.com/watch?v=fa_58nN_yPM">Heading 2!!!</a></h2>
+						<p>We're back!!!</p>
+						<div class="photo-des">
+							<a href="#" class="fa fa-play-circle">
+								<i>Take a Look</i>
+							</a>
+						</div>
+					</li>
+					<li class="photo-content">
+						<img src="photos/is-live/image-slider-2.jpg" width="80px" height="80px">
+						<h2><a href="https://www.youtube.com/watch?v=fa_58nN_yPM">Heading 3!!!</a></h2>
+						<p>We're back!!!</p>
+						<div class="photo-des">
+							<a href="#" class="fa fa-play-circle">
+								<i>Take a Look</i>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div id="advertisement">
+				<a href="#">
+					<img src="photos/advert/KLJSqkf.jpg" width="300" height="250">
+				</a>
+			</div>
+			<div id="twitter-feed">
+				<h2>Tweets by @n00bAlliance</h2>
+			</div>
+			<div id="facebook-widget">
+				<div class="fb-page" data-href="https://www.facebook.com/n00bAlliance/info?tab=page_info" data-width="300" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/n00bAlliance/info?tab=page_info"><a href="https://www.facebook.com/n00bAlliance/info?tab=page_info">n00b Alliance</a></blockquote></div></div>
+			</div>
+			<div id="footer_forum_activity">
+				<h2>Forum Activity</h2>
+				<ul class="widget-list">
+					<li>
+						<a href="#" class="comments">
+							<span class="anime-01">1</span>
+						</a>
+						<h3>
+							<a href="#">Forum activity 1</a>
+						</h3>
+						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
 					</li>
 				</ul>
 			</div>
