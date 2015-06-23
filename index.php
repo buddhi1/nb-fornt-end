@@ -3,6 +3,7 @@
 	
 	<title>Home</title>
 
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="js/woothemes-FlexSlider-8ed61ac/flexslider.css" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 	<script src="js/woothemes-FlexSlider-8ed61ac/jquery.flexslider.js"></script>
@@ -23,8 +24,8 @@
 	   
 	    $('#flexslider-main').flexslider({
 		    animation: "slide",
-		    smoothHeight: false, 
 		    controlNav: false,
+		    animation: "fade",
 		  });
 
 	  });
@@ -45,7 +46,7 @@
 	}(document, 'script', 'facebook-jssdk'));</script>
 	<header class="header">
 		<div class="logo">
-			<a href="#">
+			<a href="#">				
 				<img src="photos/logo/logo.jpg">n00b Alliance
 			</a>
 		</div>
@@ -122,31 +123,92 @@
 	</div>	
 	<div class="wrapper-content">
 		<div class="slider">
-			<div class="flexslider" id="flexslider-main">
+			<div class="flexslider" id="flexslider-main" style="height: 300px">
 			  <ul class="slides">
-			    <li>			      
-			      <img src="photos//main-slider/slide1.JPG" />
-			      <p class="flex-slide-caption">Caption 1</p>
+			    <li style="background: url(photos/main-slider/slide1.JPG); background-repeat:no-repeat; background-size: cover; position: relative;">
+			      <div class="flex-slide-caption" style="font-size: 20px;">
+			      	<h2>Caption 1</h2>
+			      	<p>Gaming gaming gaming gaming</p>
+			      	<button class="read-more anim-01">Read more</button>
+			      </div>
 			    </li>
-			    <li>
-			      <img src="photos//main-slider/slide2.JPG" />
-			      <p class="flex-slide-caption">Caption 1</p>
+			    <li style="background: url(photos/main-slider/slide2.JPG); background-repeat:no-repeat; background-size: cover; position: relative;">
+			      <div class="flex-slide-caption">
+			      	<h2>Caption 1dsfdsfsdf</h2>
+			      	<p>Gaming gaming gaming gamingdsf dsfdsv dfds fdsf</p>
+			      	<button class="read-more anim-01">Read more</button>
+			      </div>
 			    </li>
-			    <li>
-			      <img src="photos//main-slider/slide3.JPG" />
-			      <p class="flex-slide-caption">Caption 1</p>
+			    <li style="background: url(photos/main-slider/slide3.JPG); background-repeat:no-repeat; background-size: cover; position: relative;">
+			      <div class="flex-slide-caption">
+			      	<h2>Caption 1sdfcdsfsdf fdsfd</h2>
+			      	<p>Gaming gaming gaming gaming dsf dsfdsf</p>
+			      	<button class="read-more anim-01">Read more</button>
+			      </div>
 			    </li>
 			  </ul>
 			</div>			
 			<div class="news">
 				<ul>
 					<li class="news-item">
-						<div class="news-image"></div>
+						<div class="news-image" style="background: url();"></div>
 						<h2>Win a team Dignitas LCS player jersey</h2>
+						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
+						<button class="read-more anim-01">Read more</button>
+						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
+							<br/>By <span style="color: #FFCC66">Roscoe</span>
+						</p>
+						<p class="news-reads">13</p>
 					</li>
 					<li class="news-item">
-						<div class="news-image"><h2 class="head" styles="font-size: 10px">Win a team Dignitas LCS player jersey</h2></div>
-						<h2 class="head" styles="font-size: 10px">Win a team Dignitas LCS player jersey</h2>
+						<div class="news-image" style="background: url(photos/news/n1.png);"></div>
+						<h2>Win a team Dignitas LCS player jersey</h2>
+						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
+						<button class="read-more anim-01">Read more</button>
+						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
+							<br/>By <span style="color: #FFCC66">Roscoe</span>
+						</p>
+						<p class="news-reads">13</p>
+					</li>
+					<li class="news-item">
+						<div class="news-image" style="background: url(photos/news/n1.png);"></div>
+						<h2>Win a team Dignitas LCS player jersey</h2>
+						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
+						<button class="read-more anim-01">Read more</button>
+						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
+							<br/>By <span style="color: #FFCC66">Roscoe</span>
+						</p>
+						<p class="news-reads">13</p>
+					</li>
+					<li class="news-item">
+						<div class="news-image" style="background: url(photos/news/n1.png);"></div>
+						<h2>Win a team Dignitas LCS player jersey</h2>
+						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
+						<button class="read-more anim-01">Read more</button>
+						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
+							<br/>By <span style="color: #FFCC66">Roscoe</span>
+						</p>
+						<p class="news-reads">13</p>
+					</li>
+					<li class="news-item">
+						<div class="news-image" style="background: url();"></div>
+						<h2>Win a team Dignitas LCS player jersey</h2>
+						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
+						<button class="read-more anim-01">Read more</button>
+						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
+							<br/>By <span style="color: #FFCC66">Roscoe</span>
+						</p>
+						<p class="news-reads">13</p>
+					</li>
+					<li class="news-item">
+						<div class="news-image" style="background: url(photos/news/n1.png);"></div>
+						<h2>Win a team Dignitas LCS player jersey</h2>
+						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
+						<button class="read-more anim-01">Read more</button>
+						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
+							<br/>By <span style="color: #FFCC66">Roscoe</span>
+						</p>
+						<p class="news-reads">13</p>
 					</li>
 				</ul>
 			</div>
@@ -320,6 +382,6 @@
 		</div>
 		fdgfdg
 	</div>
-	<h2 class="head" styles="font-size: 10px">Win a team Dignitas LCS player jersey</h2>
+	
 </body>
 </html>
