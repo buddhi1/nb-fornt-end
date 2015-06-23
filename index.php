@@ -9,7 +9,7 @@
 
 	<script type="text/javascript" charset="utf-8">
 	  $(window).load(function() {
-	    $('.flexslider').flexslider({
+	    $('#flexslider-carousel').flexslider({
 	    	animation: "slide",
 	    	animationLoop: true,
 	    	slideshow: true,
@@ -19,7 +19,13 @@
 	    	minItems: 5,
 	    	move: 1
 	    });
-	    
+	   
+	    $('#flexslider-main').flexslider({
+		    animation: "slide",
+		    smoothHeight: false, 
+		    controlNav: false,
+		  });
+
 	  });
 	</script>
 
@@ -44,6 +50,7 @@
 		</div>
 		<div class="leaderboard">
 			<a href="#">
+				<div class="abc"></div>
 				<img src="photos/logo/leaderboard.jpg">
 			</a>
 		</div>
@@ -86,7 +93,7 @@
 		</ul>
 	</nav>
 	<div class="sponsors">
-		<div class="flexslider">
+		<div class="flexslider" id="flexslider-carousel">
 		  <ul class="slides">
 		    <li>
 		    	<a href=""><img src="photos/sponsors/caltex.jpg" /></a>
@@ -124,7 +131,34 @@
 	</div>	
 	<div class="wrapper-content">
 		<div class="slider">
-			ZXzX
+			<div class="flexslider" id="flexslider-main">
+			  <ul class="slides">
+			    <li>			      
+			      <img src="photos//main-slider/slide1.JPG" />
+			      <p class="flex-slide-caption">Caption 1</p>
+			    </li>
+			    <li>
+			      <img src="photos//main-slider/slide2.JPG" />
+			      <p class="flex-slide-caption">Caption 1</p>
+			    </li>
+			    <li>
+			      <img src="photos//main-slider/slide3.JPG" />
+			      <p class="flex-slide-caption">Caption 1</p>
+			    </li>
+			  </ul>
+			</div>			
+			<div class="news">
+				<ul>
+					<li class="news-item">
+						<div class="news-image"></div>
+						<h2>Win a team Dignitas LCS player jersey</h2>
+					</li>
+					<li class="news-item">
+						<div class="news-image"><h2 class="head" styles="font-size: 10px">Win a team Dignitas LCS player jersey</h2></div>
+						<h2 class="head" styles="font-size: 10px">Win a team Dignitas LCS player jersey</h2>
+					</li>
+				</ul>
+			</div>
 		</div>
 		<div class="side-bar">
 			<div class="vidcarousel">
@@ -212,6 +246,6 @@
 		</div>
 		fdgfdg
 	</div>
-	
+	<h2 class="head" styles="font-size: 10px">Win a team Dignitas LCS player jersey</h2>
 </body>
 </html>
