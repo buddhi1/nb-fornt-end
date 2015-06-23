@@ -1,14 +1,26 @@
+h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+}
+
 .head {
 	display: block;
 	font-size: 1.5em;
 	font-weight: bold;
-
 	color: white;
 }
 
 body{
-	background: #000 
-	url() fixed center 50px no-repeat
+	background: #000; 
+	url() fixed center 50px no-repeat;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
 }
 
 .side-bar a {
@@ -183,7 +195,6 @@ body{
 }
 
 .wrapper-content .slider{
-	background-color: yellow;
 	display: block;
 	float: left;
 	position: relative;
@@ -204,27 +215,10 @@ body{
 /*side bar*/
 
 .wrapper-content .side-bar{
-	background-color: #011;
 	display: inline-block;
 	float: right;
 	width: 310;
 	position: relative;
-}
-
-
-.flex-slide-caption {
-  width: 100%;
-  padding: 10px;
-  height: 18px;
-  left: 0;
-  bottom: 0;
-  /*background: rgba(0,0,0,.5);*/
-  color: #000;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
-  font-size: 14px;
-  line-height: 18px;
-  position: absolute;
-  z-index: 999;
 }
 
 .wrapper-content .news{
@@ -246,21 +240,79 @@ body{
 .news .news-item {
 	display: inline-block;
 	width: 50%;
-	height: 300px;
+	height: auto;
 	border-radius: 8px;
 	box-sizing: border-box;
 	padding: 0 0 0 0;
 	border-left: 6px solid #DCDCDC;
+	overflow: hidden;
+	background-color: #ffffff;
+	margin-bottom: 5px;
+}
+
+.news-item h2{
+	padding: 5px;
+	display: block;
+	margin: 10px;
+}
+
+.news-item .news-description{
+	display: block;
+	margin: 10px;	
+	padding-bottom: 18px;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.news-item .read-more{
+	display: inline-block;
+	position: relative;
+	background-color: #202020;
+	border: 0;
+	color: #fff;
+	padding: 8px;
+	border-radius: 3px;
+	font-family: 'Open Sans', sans-serif;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	text-transform: uppercase;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	vertical-align: bottom;
+}
+
+.news-item .news-post{
+	display: inline-block;
+	padding-left: 8px;
+	font-size: 12px;
+	vertical-align: bottom;
+	margin-bottom: 20px;
+}
+
+.news-item .news-reads{
+	display: inline-block;
+	float: right;
+	border: 2px solid #FFCC66;	
+	padding: 4px;
+	margin-right: 20px;
+	font-weight: 700;
+}
+
+.read-more:hover{
+	opacity: 1;
+	filter: alpha(opacity=100);
 }
 
 .news-item .news-image{
-	background: url(../photos/news/n1.png);
 	width: 100%;
-	height: 250px;
+	height: 200px;
 	position: relative;
 	margin: 0 auto 0 auto;
+	top:0;
 	border-top-right-radius: 8px;
 	border-top-left-radius: 8px;
+	background-repeat: no-repeat;
+	overflow: hidden;
 }
 
 .side-bar .streams-list .lead i {
@@ -410,7 +462,6 @@ body{
 	font-size: 20px;
 	font-family: helvetica;
 	color: #fff;
-	/*border: solid grey;*/
 	border-bottom: solid 1px #222;
 	border-width: 0 0 4px 0;
 	padding-bottom: 10px;
@@ -438,3 +489,84 @@ body{
 	border-bottom: solid 1px #222;
 }
 
+#flexslider-main li{
+	height: 300px;
+	overflow: hidden;
+}
+
+.flex-slide-caption {
+	min-height: 20px;
+	width: 100%;
+	left: 0;
+	bottom: 50;
+	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9)); 
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+	font-size: 14px;
+	line-height: 18px;
+	padding: 4px;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+}
+
+/*#flexslider-main .flex-slide-caption{
+	min-height: 120px;
+	padding: 8px;
+	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.3)); 
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	margin: 0 0 0 0;
+}*/
+
+ .flex-slide-caption h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	text-align: left;
+	color: #FFCC33;
+	position: relative;
+	padding-left: 8px;
+	margin: 3px;
+}
+
+ .flex-slide-caption p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	text-align: left;
+	color: #FFFFFF;
+	position: relative;
+	margin: 0;
+	padding-left: 8px;
+}
+
+
+#flexslider-main .read-more{
+	display: inline-block;
+	position: relative;
+	background-color: #000000;
+	border: 0;
+	color: #fff;	
+	float: right;
+	bottom: 20px;
+	right: 30px;
+	padding: 8px;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+	 text-transform: uppercase;
+}
+
+#flexslider-main .read-more:hover{
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.anim-01{
+	transition-property: all;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+	transition-delay: initial;
+}
