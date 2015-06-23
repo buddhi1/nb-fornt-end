@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="js/woothemes-FlexSlider-8ed61ac/flexslider.css" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 	<script src="js/woothemes-FlexSlider-8ed61ac/jquery.flexslider.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400' rel='stylesheet' type='text/css'>
 
 	<script type="text/javascript" charset="utf-8">
 	  $(window).load(function() {
@@ -93,40 +94,30 @@
 		</ul>
 	</nav>
 	<div class="sponsors">
-		<div class="flexslider" id="flexslider-carousel">
+		<div class="flexslider" id="flexslider-carousel" style="height: 100px">
 		  <ul class="slides">
-		    <li>
-		    	<a href=""><img src="photos/sponsors/caltex.jpg" /></a>
+		    <li style="background:url(photos/sponsors/caltex.jpg); background-size: cover; background-repeat: no-repeat; display: inline-block;">
+		    	<a href="#"></a>
 		    </li>
-		    <li>
-		    	<a href=""><img src="photos/sponsors/filmax.jpg" /></a>
+		    <li style="background:url(photos/sponsors/caltex.jpg); background-size: cover; background-repeat: no-repeat; display: inline-block;">
+		    	<a href="#"></a>
 		    </li>
-		    <li>
-		    	<a href=""><img src="photos/sponsors/image_round.jpg" /></a>
+		    <li style="background:url(photos/sponsors/caltex.jpg); background-size: cover; background-repeat: no-repeat; display: inline-block;">
+		    	<a href="#"></a>
 		    </li>
-		    <li>
-		      	<a href=""><img src="photos/sponsors/images.jpg" /></a>
+		    <li style="background:url(photos/sponsors/caltex.jpg); background-size: cover; background-repeat: no-repeat; display: inline-block;">
+		    	<a href="#"></a>
 		    </li>
-		    <li>
-		      	<a href=""><img src="photos/sponsors/mer.jpg" /></a>
+		    <li style="background:url(photos/sponsors/caltex.jpg); background-size: cover; background-repeat: no-repeat; display: inline-block;">
+		    	<a href="#"></a>
 		    </li>
-		    <li>
-		      	<a href=""><img src="photos/sponsors/mer.jpg" /></a>
+		    <li style="background:url(photos/sponsors/caltex.jpg); background-size: cover; background-repeat: no-repeat; display: inline-block;">
+		    	<a href="#"></a>
 		    </li>
-		    <li>
-		    	<a href=""><img src="photos/sponsors/images.jpg" /></a>
-		    </li>
-		    <li>
-		      	<a href=""><img src="photos/sponsors/mer.jpg" /></a>
-		    </li>
-		    <li>
-		      	<a href=""><img src="photos/sponsors/image_round.jpg" /></a>
-		    </li>
-		    <li>
-		      	<a href=""><img src="photos/sponsors/image_round.jpg" /></a>
+		    <li style="background:url(photos/sponsors/caltex.jpg); background-size: cover; background-repeat: no-repeat; display: inline-block;">
+		    	<a href="#"></a>
 		    </li>
 		  </ul>
-
 		</div>
 	</div>	
 	<div class="wrapper-content">
@@ -191,9 +182,7 @@
 						<h2><a href="https://www.youtube.com/watch?v=fa_58nN_yPM">Heading 1!!!</a></h2>
 						<p>We're back!!!</p>
 						<div class="photo-des">
-							<a href="#" class="fa fa-play-circle">
-								<i>Take a Look</i>
-							</a>
+							<a href="#" class="fa fa-play-circle"> Take a Look</a>
 						</div>
 					</li>
 					<li class="photo-content">
@@ -201,9 +190,7 @@
 						<h2><a href="https://www.youtube.com/watch?v=fa_58nN_yPM">Heading 2!!!</a></h2>
 						<p>We're back!!!</p>
 						<div class="photo-des">
-							<a href="#" class="fa fa-play-circle">
-								<i>Take a Look</i>
-							</a>
+							<a href="#" class="fa fa-play-circle"> Take a Look</a>
 						</div>
 					</li>
 					<li class="photo-content">
@@ -211,9 +198,7 @@
 						<h2><a href="https://www.youtube.com/watch?v=fa_58nN_yPM">Heading 3!!!</a></h2>
 						<p>We're back!!!</p>
 						<div class="photo-des">
-							<a href="#" class="fa fa-play-circle">
-								<i>Take a Look</i>
-							</a>
+							<a href="#" class="fa fa-play-circle"> Take a Look</a>
 						</div>
 					</li>
 				</ul>
@@ -229,7 +214,7 @@
 			<div id="facebook-widget">
 				<div class="fb-page" data-href="https://www.facebook.com/n00bAlliance/info?tab=page_info" data-width="300" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/n00bAlliance/info?tab=page_info"><a href="https://www.facebook.com/n00bAlliance/info?tab=page_info">n00b Alliance</a></blockquote></div></div>
 			</div>
-			<div id="footer_forum_activity">
+			<div id="footer_forum_activity" style="background-color: #141414">
 				<h2>Forum Activity</h2>
 				<ul class="widget-list">
 					<li>
@@ -241,7 +226,96 @@
 						</h3>
 						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
 					</li>
+					<li>
+						<a href="#" class="comments">
+							<span class="anime-01">1</span>
+						</a>
+						<h3>
+							<a href="#">Forum activity 1</a>
+						</h3>
+						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
+					</li>
+					<li>
+						<a href="#" class="comments">
+							<span class="anime-01">1</span>
+						</a>
+						<h3>
+							<a href="#">Forum activity 1</a>
+						</h3>
+						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
+					</li>
+					<li>
+						<a href="#" class="comments">
+							<span class="anime-01">1</span>
+						</a>
+						<h3>
+							<a href="#">Forum activity 1</a>
+						</h3>
+						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
+					</li>
+					<li>
+						<a href="#" class="comments">
+							<span class="anime-01">1</span>
+						</a>
+						<h3>
+							<a href="#">Forum activity 1</a>
+						</h3>
+						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
+					</li>
 				</ul>
+			</div>
+			<div id="footer_comment_activity" style="background-color: #141414">
+				<h2>Recent Comments</h2>
+				<ul class="widget-list">
+					<li>
+						<a href="#" class="comments">
+							<i class="fa fa-comment"></i>
+						</a>
+						<h3>
+							<a href="#">Comment activity 1Comment activity 1Comment activity 1Comment activity 1</a>
+						</h3>
+						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
+					</li>
+					<li>
+						<a href="#" class="comments">
+							<i class="fa fa-comment"></i>
+						</a>
+						<h3>
+							<a href="#">Comment activity 1</a>
+						</h3>
+						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
+					</li>
+					<li>
+						<a href="#" class="comments">
+							<i class="fa fa-comment"></i>
+						</a>
+						<h3>
+							<a href="#">Comment activity 1</a>
+						</h3>
+						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
+					</li>
+					<li>
+						<a href="#" class="comments">
+							<i class="fa fa-comment"></i>
+						</a>
+						<h3>
+							<a href="#">Comment activity 1</a>
+						</h3>
+						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
+					</li>
+					<li>
+						<a href="#" class="comments">
+							<i class="fa fa-comment"></i>
+						</a>
+						<h3>
+							<a href="#">Comment activity 1</a>
+						</h3>
+						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
+					</li>
+				</ul>
+			</div>
+			<div>
+
 			</div>
 		</div>
 		fdgfdg
