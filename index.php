@@ -217,25 +217,29 @@
 			<div class="vidcarousel">
 				<ul class="streams-list">
 					<li class="lead">
-						<i class="fa fa-twitch"> Live Streams</i>
+						<i class="fa fa-twitch"><span style="color:#999"> Live Streams</span></i>
 					</li>
 					<li class="is-stream">
-						<iframe width="250" height="195" src="https://www.youtube.com/watch?v=QcIy9NiNbmo">
-						</iframe>
-						<span class="is-live"><a href="#">Live</a></span>
-						<a href="#">
-							<img src="photos/is-live/image-slider-2.jpg" alt="image">
-						</a>
-						<h2>Person Name</h2>
-						<p>
-							<i class="fa fa-eye"> # Views</i>
-						</p>
-						<a id="take_look" href="#" class="fa fa-twitch"> Take a Look</a>
+						<div class="iframe-vid">
+							<iframe width="250" height="195" scr="#"></iframe>
+						</div>
+					</li>
+					<li style="border-top: 0px">
+						<div style="overflow:hidden">
+							<a href="#">
+								<img src="photos/is-live/image-slider-2.jpg" alt="image" width="80px" height="80px">
+							</a>
+							<h2><a href="#">Person Name</a></h2>
+							<p>
+								<i class="fa fa-eye"> # Views</i>
+							</p>
+							<a id="take_look" href="#" class="fa fa-twitch"> Take a Look</a>
+						</div>
 					</li>
 				</ul>
 				<ul class="widget-list">
 					<li class="lead">
-						<i class="fa fa-play-circle"> Other Media</i>
+						<i class="fa fa-play-circle"><span style="color:#999"> Other Media</span></i>
 					</li>
 					<li class="photo-content">
 						<img src="photos/is-live/image-slider-2.jpg" width="80px" height="80px">
@@ -274,7 +278,7 @@
 			<div id="facebook-widget">
 				<div class="fb-page" data-href="https://www.facebook.com/n00bAlliance/info?tab=page_info" data-width="300" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/n00bAlliance/info?tab=page_info"><a href="https://www.facebook.com/n00bAlliance/info?tab=page_info">n00b Alliance</a></blockquote></div></div>
 			</div>
-			<div id="footer_forum_activity" style="background-color: #141414">
+			<div id="footer_forum_activity" style="background-color: #141414; border-radius: 3px;">
 				<h2>Forum Activity</h2>
 				<ul class="widget-list">
 					<li>
@@ -313,7 +317,7 @@
 						</h3>
 						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
 					</li>
-					<li>
+					<li style="border-bottom:none">
 						<a href="#" class="comments">
 							<span class="anime-01">1</span>
 						</a>
@@ -324,7 +328,7 @@
 					</li>
 				</ul>
 			</div>
-			<div id="footer_comment_activity" style="background-color: #141414">
+			<div id="footer_comment_activity" style="background-color: #141414; border-radius: 3px;">
 				<h2>Recent Comments</h2>
 				<ul class="widget-list">
 					<li>
@@ -363,7 +367,7 @@
 						</h3>
 						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
 					</li>
-					<li>
+					<li style="border-bottom:none">
 						<a href="#" class="comments">
 							<i class="fa fa-comment"></i>
 						</a>
