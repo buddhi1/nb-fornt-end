@@ -771,3 +771,109 @@ body{
 	transition-timing-function: linear;
 	transition-delay: initial;
 }
+
+/*last results*/
+
+#lastresult ul {
+	list-style: none;
+	width: 100%;
+	margin: 10px 0 0 0;
+	padding: 0 0 0 0;
+}
+
+#lastresult a {
+	text-decoration: none;
+}
+
+#lastresult li {
+	list-style: none;
+	display: inline-block;
+	width: 25%;
+	margin: 0;
+	padding: 0;
+	margin-right: -4px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	vertical-align: top;
+}
+
+#lastresult .meta-details {
+	background-color: #1B1B1B;
+	display: inline-block;
+	color: #fff;
+	font-size: 13px;
+	width: 100%;
+}
+
+#lastresult .item-inner .meta-details .meta {
+	font-size: 13px;
+	float: left;
+	color: #B8B8B8;
+	padding: 5px 0 5px 5px;
+}
+#lastresult .item-inner .meta-details .meta-date {
+	font-size: 12px;
+	float: right;
+	color: #777;
+	vertical-align: middle;
+	padding: 7px 5px 5px 0;
+}
+
+#lastresult .our-squad {
+	background-color: #141414;
+	display: inline-block;
+	box-sizing:border-box;
+	border-right: 2px solid red;
+	color: #777;
+	font-size: 13px;
+	width: 100%;
+}
+
+#lastresult .item-inner .our-squad .squad-name {
+	font-size: 13px;
+	float: left;
+	padding: 5px 0 5px 5px;
+}
+#lastresult .item-inner .our-squad .score {
+	font-size: 12px;
+	font-weight: bold;
+	float: right;
+	margin: 4px 5px 0 0;
+	padding: 2px 4px 2px 4px;
+	border: 1px solid #000;
+	border-radius: 4px;
+	background-color: #000;
+	color: red;
+}
+
+#lastresult .our-opponent {
+	background-color: #1B1B1B;
+	display: inline-block;
+	box-sizing:border-box;
+	border-right: 2px solid red;
+	color: #B8B8B8;
+	font-size: 13px;
+	width: 100%;
+}
+
+#lastresult .item-inner .our-opponent .squad-name {
+	font-size: 13px;
+	padding: 5px 0 5px 5px;
+	float: left;
+}
+#lastresult .item-inner .our-opponent .score {
+	font-size: 12px;
+	font-weight: bold;
+	float: right;
+	margin: 4px 5px 0 0;
+	padding: 2px 4px 2px 4px;
+	border: 1px solid #000;
+	border-radius: 4px;
+	background-color: #000;
+	color: green;
+}
+
+#lastresult .item-inner div {
+	height: 32px;
+}
