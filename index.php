@@ -212,6 +212,58 @@
 					</li>
 				</ul>
 			</div>
+			<div id="lastresult" class="widget">
+				<ul>
+					<li>
+						<a href="#">
+							<div class="item-inner">
+								<div class="meta-details">
+									<span class="meta">Hearthstone Pro League</span>
+									<span>&nbsp;</span>
+									<span class="meta-date">23rd Jun 2015</span>
+								</div>
+								<div class="our-squad">
+									<span class="squad-name">Team Dignitas HS</span>
+									<span>&nbsp;</span>
+									<span class="score">1</span>
+								</div>
+								<div class="our-opponent">
+									<span class="squad-name">Hearthlytics JAB</span>
+									<span>&nbsp;</span>
+									<span class="score">1</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="item-inner">
+								<div class="meta-details"><span class="meta">Hearthstone Pro League</span><span class="meta-date">23rd Jun 2015</span></div>
+								<div class="our-squad"><span class="squad-name">Team Dignitas HS</span><span class="score">1</span></div>
+								<div class="our-opponent"><span class="squad-name">Hearthlytics JAB</span><span class="score">1</span></div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="item-inner">
+								<div class="meta-details"><span class="meta">Hearthstone Pro League</span><span class="meta-date">23rd Jun 2015</span></div>
+								<div class="our-squad"><span class="squad-name">Team Dignitas HS</span><span class="score">1</span></div>
+								<div class="our-opponent"><span class="squad-name">Hearthlytics JAB</span><span class="score">1</span></div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="item-inner">
+								<div class="meta-details"><span class="meta">Hearthstone Pro League</span><span class="meta-date">23rd Jun 2015</span></div>
+								<div class="our-squad"><span class="squad-name">Team Dignitas HS</span><span class="score">1</span></div>
+								<div class="our-opponent"><span class="squad-name">Hearthlytics JAB</span><span class="score">1</span></div>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 		<div class="side-bar">
 			<div class="vidcarousel">
