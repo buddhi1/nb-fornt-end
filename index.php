@@ -228,11 +228,9 @@
 						</a>
 						<h2>Person Name</h2>
 						<p>
-							<i class="fa fa-eye"># Views</i>
+							<i class="fa fa-eye"> # Views</i>
 						</p>
-						<a id="take_look" href="#" class="fa fa-twitch">
-							<i>Take a Look</i>
-						</a>
+						<a id="take_look" href="#" class="fa fa-twitch"> Take a Look</a>
 					</li>
 				</ul>
 				<ul class="widget-list">
@@ -334,7 +332,7 @@
 							<i class="fa fa-comment"></i>
 						</a>
 						<h3>
-							<a href="#">Comment activity 1Comment activity 1Comment activity 1Comment activity 1</a>
+							<a href="#">Comment activity 1Comment activity 1</a>
 						</h3>
 						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
 					</li>
