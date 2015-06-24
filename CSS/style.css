@@ -453,7 +453,17 @@ body{
 }
 
 .side-bar .widget-list .photo-content h2 a:hover {
-	color: #e6a800;
+	color: #F1CD6C;
+}
+
+.side-bar .widget-list .photo-content img {
+	border: solid 1px #585650;
+	margin: 2px 2px 2px 2px;
+}
+
+.side-bar .widget-list .photo-content img:hover {
+	border: solid 1px #ACAAA8;
+	/*box-shadow:0px 0px 0px 10px grey inset;*/
 }
 
 .side-bar .widget-list .photo-des a {
