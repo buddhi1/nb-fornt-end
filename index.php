@@ -238,29 +238,194 @@
 					<li>
 						<a href="#">
 							<div class="item-inner">
-								<div class="meta-details"><span class="meta">Hearthstone Pro League</span><span class="meta-date">23rd Jun 2015</span></div>
-								<div class="our-squad"><span class="squad-name">Team Dignitas HS</span><span class="score">1</span></div>
-								<div class="our-opponent"><span class="squad-name">Hearthlytics JAB</span><span class="score">1</span></div>
+								<div class="meta-details">
+									<span class="meta">Hearthstone Pro League</span>
+									<span>&nbsp;</span>
+									<span class="meta-date">23rd Jun 2015</span>
+								</div>
+								<div class="our-squad">
+									<span class="squad-name">Team Dignitas HS</span>
+									<span>&nbsp;</span>
+									<span class="score">1</span>
+								</div>
+								<div class="our-opponent">
+									<span class="squad-name">Hearthlytics JAB</span>
+									<span>&nbsp;</span>
+									<span class="score">1</span>
+								</div>
 							</div>
 						</a>
 					</li>
 					<li>
 						<a href="#">
 							<div class="item-inner">
-								<div class="meta-details"><span class="meta">Hearthstone Pro League</span><span class="meta-date">23rd Jun 2015</span></div>
-								<div class="our-squad"><span class="squad-name">Team Dignitas HS</span><span class="score">1</span></div>
-								<div class="our-opponent"><span class="squad-name">Hearthlytics JAB</span><span class="score">1</span></div>
+								<div class="meta-details">
+									<span class="meta">Hearthstone Pro League</span>
+									<span>&nbsp;</span>
+									<span class="meta-date">23rd Jun 2015</span>
+								</div>
+								<div class="our-squad">
+									<span class="squad-name">Team Dignitas HS</span>
+									<span>&nbsp;</span>
+									<span class="score">1</span>
+								</div>
+								<div class="our-opponent">
+									<span class="squad-name">Hearthlytics JAB</span>
+									<span>&nbsp;</span>
+									<span class="score">1</span>
+								</div>
 							</div>
 						</a>
 					</li>
 					<li>
 						<a href="#">
 							<div class="item-inner">
-								<div class="meta-details"><span class="meta">Hearthstone Pro League</span><span class="meta-date">23rd Jun 2015</span></div>
-								<div class="our-squad"><span class="squad-name">Team Dignitas HS</span><span class="score">1</span></div>
-								<div class="our-opponent"><span class="squad-name">Hearthlytics JAB</span><span class="score">1</span></div>
+								<div class="meta-details">
+									<span class="meta">Hearthstone Pro League</span>
+									<span>&nbsp;</span>
+									<span class="meta-date">23rd Jun 2015</span>
+								</div>
+								<div class="our-squad">
+									<span class="squad-name">Team Dignitas HS</span>
+									<span>&nbsp;</span>
+									<span class="score">1</span>
+								</div>
+								<div class="our-opponent">
+									<span class="squad-name">Hearthlytics JAB</span>
+									<span>&nbsp;</span>
+									<span class="score">1</span>
+								</div>
 							</div>
 						</a>
+					</li>
+				</ul>
+			</div>
+			<div id="shop">
+				<h2 class="digi">DIGISTORE</h2>
+				<a class="digi-link" href="#">View Digistore</a>
+				<ul>
+					<li>
+						<div class="item-inner" style="margin-left: 10px">
+							<a href="">
+								<div class="shop-image">
+									<img width="213px" height="173px" src="photos/shop/cap.jpg">
+								</div>
+								<h3>Team Dignitas Cap</h3>
+								<h2 class="price">&euro;18.50</h2>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-inner">
+							<a href="">
+								<div class="shop-image">
+									<img width="213px" height="173px" src="photos/shop/hoodie.jpg">
+								</div>
+								<h3>Team Dignitas Classic Hoodie</h3>
+								<h2 class="price">From &euro;46.50</h2>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-inner">
+							<a href="">
+								<div class="shop-image">
+									<img width="213px" height="173px" src="photos/shop/jacket.jpg">
+								</div>
+								<h3>Team Dignitas Jacket 2015</h3>
+								<h2 class="price">From &euro;67.95</h2>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-inner" style="margin-right: 10px">
+							<a href="">
+								<div class="shop-image">
+									<img width="213px" height="173px" src="photos/shop/jersey.jpg">
+								</div>
+								<h3>Team Dignitas Jersey 2015</h3>
+								<h2 class="price">From &euro;41.85</h2>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div id="blogs">
+				<h2 class="digi">LATEST BLOGS</h2>
+				<a class="digi-link" href="#">View Blogs</a>
+				<ul class="blog-list">
+					<li>
+						<div class="item-inner">
+							<div class="blog-owner">
+								<a href="#">
+									<img width="73px" height="73px" src="photos/blogs/Novalas.png">
+								</a>
+							</div>
+							<div class="title">
+								<h3><a href="#">The power of Cinderhulk Ekko</a></h3>
+								<span class="meta">
+									By
+									<a href="#">Novalas</a>
+								</span>
+							</div>
+							<div class="read-more">
+								<a class="btn-read-more" href="#">Read More</a>
+								<span class="meta">Posted Wed 24th Jun 2015 - 6:15pm</span>
+								<span class="some-comments">
+									<a href="#">
+										<span>0</span>
+									</a>
+								</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-inner">
+							<div class="blog-owner">
+								<a href="#">
+									<img width="73px" height="73px" src="photos/blogs/Novalas.png">
+								</a>
+							</div>
+							<div class="title">
+								<h3><a href="#">The power of Cinderhulk Ekko</a></h3>
+								<span class="meta">
+									By
+									<a href="#">Novalas</a>
+								</span>
+							</div>
+							<div class="read-more">
+								<a class="btn-read-more" href="#">Read More</a>
+								<span class="meta">Posted Wed 24th Jun 2015 - 6:15pm</span>
+								<span class="some-comments">
+									<a href="#">
+										<span>0</span>
+									</a>
+								</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-inner">
+							<div class="blog-owner">
+								<a href="#">
+									<img width="73px" height="73px" src="photos/blogs/Novalas.png">
+								</a>
+							</div>
+							<h3><a href="#">The power of Cinderhulk Ekko</a></h3>
+							<span class="meta">
+								By
+								<a href="#">Novalas</a>
+							</span>
+							<div class="read-more">
+								<a class="btn-read-more" href="#">Read More</a>
+								<span class="meta">Posted Wed 24th Jun 2015 - 6:15pm</span>
+								<span class="some-comments">
+									<a href="#">
+										<span>0</span>
+									</a>
+								</span>
+							</div>
+						</div>
 					</li>
 				</ul>
 			</div>
@@ -430,12 +595,7 @@
 					</li>
 				</ul>
 			</div>
-			<div>
-
-			</div>
 		</div>
-		fdgfdg
 	</div>
-	
 </body>
 </html>
