@@ -97,25 +97,25 @@
 	<div class="sponsors">
 		<div class="flexslider" id="flexslider-carousel" style="height: 100px">
 		  <ul class="slides">
-		    <li style="background:url(photos/sponsors/caltex.jpg); background-size: cover; background-repeat: no-repeat; display: inline-block;">
+		    <li style="background:url(photos/sponsors/diesel-logo.png); background-size: 240px 80px; background-repeat: no-repeat; display: inline-block;">
 		    	<a href="#"></a>
 		    </li>
-		    <li style="background:url(photos/sponsors/caltex.jpg); background-size: cover; background-repeat: no-repeat; display: inline-block;">
+		    <li style="background:url(photos/sponsors/images-puma.jpg); background-size: 240px 80px; background-repeat: no-repeat; display: inline-block;">
 		    	<a href="#"></a>
 		    </li>
-		    <li style="background:url(photos/sponsors/caltex.jpg); background-size: cover; background-repeat: no-repeat; display: inline-block;">
+		    <li style="background:url(photos/sponsors/images.jpg); background-size: 240px 80px; background-repeat: no-repeat; display: inline-block;">
 		    	<a href="#"></a>
 		    </li>
-		    <li style="background:url(photos/sponsors/caltex.jpg); background-size: cover; background-repeat: no-repeat; display: inline-block;">
+		    <li style="background:url(photos/sponsors/Levis-Company-Logo-Image.jpg); background-size: 240px 80px; background-repeat: no-repeat; display: inline-block;">
 		    	<a href="#"></a>
 		    </li>
-		    <li style="background:url(photos/sponsors/caltex.jpg); background-size: cover; background-repeat: no-repeat; display: inline-block;">
+		    <li style="background:url(photos/sponsors/images.png); background-size: 240px 80px; background-repeat: no-repeat; display: inline-block;">
 		    	<a href="#"></a>
 		    </li>
-		    <li style="background:url(photos/sponsors/caltex.jpg); background-size: cover; background-repeat: no-repeat; display: inline-block;">
+		    <li style="background:url(photos/sponsors/Aeropostale-Company-Logo-Image.jpg); background-size: 240px 80px; background-repeat: no-repeat; display: inline-block;">
 		    	<a href="#"></a>
 		    </li>
-		    <li style="background:url(photos/sponsors/caltex.jpg); background-size: cover; background-repeat: no-repeat; display: inline-block;">
+		    <li style="background:url(photos/sponsors/images-alaskan.jpg); background-size: 240px 80px; background-repeat: no-repeat; display: inline-block;">
 		    	<a href="#"></a>
 		    </li>
 		  </ul>
@@ -383,7 +383,82 @@
 						<div class="item-inner">
 							<div class="blog-owner">
 								<a href="#">
-									<img width="73px" height="73px" src="photos/blogs/Novalas.png">
+									<img width="73px" height="73px" src="photos/blogs/Fury.jpg">
+								</a>
+							</div>
+							<div class="title">
+								<h3><a href="#">The power of Cinderhulk Ekko</a></h3>
+								<span class="meta">
+									By
+									<a href="#">Novalas</a>
+								</span>
+							</div>
+							<div class="read-more">
+								<a class="btn-read-more" href="#">Read More</a>
+								<span class="meta">Posted Wed 24th Jun 2015 - 6:15pm</span>
+								<span class="some-comments">
+									<a href="#">
+										<span>0</span>
+									</a>
+								</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-inner">
+							<div class="blog-owner">
+								<a href="#">
+									<img width="73px" height="73px" src="photos/blogs/Kazelrov.png">
+								</a>
+							</div>
+							<div class="title">
+								<h3><a href="#">The power of Cinderhulk Ekko</a></h3>
+								<span class="meta">
+									By
+									<a href="#">Novalas</a>
+								</span>
+							</div>
+							<div class="read-more">
+								<a class="btn-read-more" href="#">Read More</a>
+								<span class="meta">Posted Wed 24th Jun 2015 - 6:15pm</span>
+								<span class="some-comments">
+									<a href="#">
+										<span>0</span>
+									</a>
+								</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-inner">
+							<div class="blog-owner">
+								<a href="#">
+									<img width="73px" height="73px" src="photos/blogs/AngustusCaesar.png">
+								</a>
+							</div>
+							<div class="title">
+								<h3><a href="#">The power of Cinderhulk Ekko</a></h3>
+								<span class="meta">
+									By
+									<a href="#">Novalas</a>
+								</span>
+							</div>
+							<div class="read-more">
+								<a class="btn-read-more" href="#">Read More</a>
+								<span class="meta">Posted Wed 24th Jun 2015 - 6:15pm</span>
+								<span class="some-comments">
+									<a href="#">
+										<span>0</span>
+									</a>
+								</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-inner">
+							<div class="blog-owner">
+								<a href="#">
+									<img width="73px" height="73px" src="photos/blogs/Spirit_Rogue.jpg">
 								</a>
 							</div>
 							<div class="title">
@@ -411,11 +486,63 @@
 									<img width="73px" height="73px" src="photos/blogs/Novalas.png">
 								</a>
 							</div>
-							<h3><a href="#">The power of Cinderhulk Ekko</a></h3>
-							<span class="meta">
-								By
-								<a href="#">Novalas</a>
-							</span>
+							<div class="title">
+								<h3><a href="#">The power of Cinderhulk Ekko</a></h3>
+								<span class="meta">
+									By
+									<a href="#">Novalas</a>
+								</span>
+							</div>
+							<div class="read-more">
+								<a class="btn-read-more" href="#">Read More</a>
+								<span class="meta">Posted Wed 24th Jun 2015 - 6:15pm</span>
+								<span class="some-comments">
+									<a href="#">
+										<span>0</span>
+									</a>
+								</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-inner">
+							<div class="blog-owner">
+								<a href="#">
+									<img width="73px" height="73px" src="photos/blogs/Kenos.png">
+								</a>
+							</div>
+							<div class="title">
+								<h3><a href="#">The power of Cinderhulk Ekko</a></h3>
+								<span class="meta">
+									By
+									<a href="#">Novalas</a>
+								</span>
+							</div>
+							<div class="read-more">
+								<a class="btn-read-more" href="#">Read More</a>
+								<span class="meta">Posted Wed 24th Jun 2015 - 6:15pm</span>
+								<span class="some-comments">
+									<a href="#">
+										<span>0</span>
+									</a>
+								</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-inner">
+							<div class="blog-owner">
+								<a href="#">
+									<img width="73px" height="73px" src="photos/blogs/Rampant.jpg">
+								</a>
+							</div>
+							<div class="title">
+								<h3><a href="#">The power of Cinderhulk Ekko</a></h3>
+								<span class="meta">
+									By
+									<a href="#">Novalas</a>
+								</span>
+							</div>
 							<div class="read-more">
 								<a class="btn-read-more" href="#">Read More</a>
 								<span class="meta">Posted Wed 24th Jun 2015 - 6:15pm</span>
@@ -428,6 +555,10 @@
 						</div>
 					</li>
 				</ul>
+			</div>
+			<div id="latest-galleries">
+				<h2 class="digi">Latest Galleries</h2>
+				<a class="digi-link" href="#">View Galleries</a>
 			</div>
 		</div>
 		<div class="side-bar">
