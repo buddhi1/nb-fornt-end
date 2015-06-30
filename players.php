@@ -48,9 +48,7 @@
 	}(document, 'script', 'facebook-jssdk'));</script>
 	<header class="header">
 		<div class="logo">
-			<a href="#">				
-				<img src="photos/logo/logo.jpg">n00b Alliance
-			</a>
+			<img src="photos/logo/main-logo.png">
 		</div>
 		<div class="leaderboard">
 			<a href="#">
@@ -66,7 +64,6 @@
 			<a href=""><li>News</li></a>
 			<a href=""><li>Blogs</li></a>
 			<a href=""><li>Guides</li></a>
-			<a href=""><li>Shop</li></a>
 			<a href=""><li>Videos</li></a>
 			<a href=""><li>Streams</li></a>
 			<a href=""><li>Matches</li></a>
