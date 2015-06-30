@@ -151,7 +151,9 @@
 			<div class="news">
 				<ul>
 					<li class="news-item">
-						<div class="news-image" style="background: url();"></div>
+						<div class="news-image-box">
+							<div class="news-image" style="background: url();"></div>
+						</div>
 						<h2>Win a team Dignitas LCS player jersey</h2>
 						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
 						<button class="read-more anim-01">Read more</button>
@@ -161,7 +163,9 @@
 						<p class="news-reads">13</p>
 					</li>
 					<li class="news-item">
-						<div class="news-image" style="background: url(photos/news/n1.png);"></div>
+						<div class="news-image-box">
+							<div class="news-image" style="background: url(photos/news/n1.png);"></div>
+						</div>						
 						<h2>Win a team Dignitas LCS player jersey</h2>
 						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
 						<button class="read-more anim-01">Read more</button>
@@ -171,7 +175,9 @@
 						<p class="news-reads">13</p>
 					</li>
 					<li class="news-item">
-						<div class="news-image" style="background: url(photos/news/n1.png);"></div>
+						<div class="news-image-box">
+							<div class="news-image" style="background: url(photos/news/n1.png);"></div>
+						</div>							
 						<h2>Win a team Dignitas LCS player jersey</h2>
 						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
 						<button class="read-more anim-01">Read more</button>
@@ -181,7 +187,9 @@
 						<p class="news-reads">13</p>
 					</li>
 					<li class="news-item">
-						<div class="news-image" style="background: url(photos/news/n1.png);"></div>
+						<div class="news-image-box">
+							<div class="news-image" style="background: url(photos/news/n1.png);"></div>
+						</div>							
 						<h2>Win a team Dignitas LCS player jersey</h2>
 						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
 						<button class="read-more anim-01">Read more</button>
@@ -191,7 +199,9 @@
 						<p class="news-reads">13</p>
 					</li>
 					<li class="news-item">
-						<div class="news-image" style="background: url();"></div>
+						<div class="news-image-box">
+							<div class="news-image" style="background: url(photos/news/n1.png);"></div>
+						</div>	
 						<h2>Win a team Dignitas LCS player jersey</h2>
 						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
 						<button class="read-more anim-01">Read more</button>
