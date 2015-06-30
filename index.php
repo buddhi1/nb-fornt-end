@@ -210,27 +210,46 @@
 						</p>
 						<p class="news-reads">13</p>
 					</li>
-					<li class="news-item">
+					<li class="news-list">
 						<h2>CSGO NEWS</h2>
-						<ul>
-							<li>
-								<a href="#">Player Spotlight: Nicolaj "Nico" Jensen</a>
-							</li>
-							<li>
-								<a href="#">Player Spotlight: Nicolaj "Nico" Jensen</a>
-							</li>
-							<li>
-								<a href="#">Player Spotlight: Nicolaj "Nico" Jensen</a>
-							</li>
-							<li>
-								<a href="#">Player Spotlight: Nicolaj "Nico" Jensen</a>
-							</li>
-							<li>
-								<a href="#">Player Spotlight: Nicolaj "Nico" Jensen</a>
-							</li>
-						</ul>
+						<div class="news-bullets">
+							<h5><i class="fa fa-newspaper-o"></i> Link 1<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5>
+							<h5><i class="fa fa-newspaper-o"></i> Link 2<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5>
+							<h5><i class="fa fa-newspaper-o"></i> Link 3<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5>
+							<h5><i class="fa fa-newspaper-o"></i> Link 4<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5>
+							<button class="read-more anim-01">Read more</button>
+						</div>
 					</li>
-					
+					<li class="news-list">
+						<h2>CSGO NEWS</h2>
+						<div class="news-bullets">
+							<h5><i class="fa fa-newspaper-o"></i> Link 1<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5>
+							<h5><i class="fa fa-newspaper-o"></i> Link 2<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5>
+							<h5><i class="fa fa-newspaper-o"></i> Link 3<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5>
+							<h5><i class="fa fa-newspaper-o"></i> Link 4<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5>
+							<button class="read-more anim-01">Read more</button>
+						</div>
+					</li>
+					<li class="news-list">
+						<h2>CSGO NEWS</h2>
+						<div class="news-bullets">
+							<h5><i class="fa fa-newspaper-o"></i> Link 1<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5>
+							<h5><i class="fa fa-newspaper-o"></i> Link 2<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5>
+							<h5><i class="fa fa-newspaper-o"></i> Link 3<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5>
+							<h5><i class="fa fa-newspaper-o"></i> Link 4<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5>
+							<button class="read-more anim-01">Read more</button>
+						</div>
+					</li>
+					<li class="news-list">
+						<h2>CSGO NEWS</h2>
+						<div class="news-bullets">
+							<h5><i class="fa fa-newspaper-o"></i> Link 1<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5>
+							<h5><i class="fa fa-newspaper-o"></i> Link 2<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5>
+							<h5><i class="fa fa-newspaper-o"></i> Link 3<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5>
+							<h5><i class="fa fa-newspaper-o"></i> Link 4<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5>
+							<button class="read-more anim-01">Read more</button>
+						</div>
+					</li>
 					<li class="news-item">
 						<div class="news-image" style="background: url(photos/news/n1.png);"></div>
 						<h2>Win a team Dignitas LCS player jersey</h2>
