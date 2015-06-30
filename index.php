@@ -16,6 +16,8 @@
 	    	animationLoop: true,
 	    	slideshow: true,
 	    	controlNav: false,
+	    	prevText: "",
+	    	nextText: "",
 	    	itemWidth: 800,
 	    	itemMargin: 0,
 	    	minItems: 5,
