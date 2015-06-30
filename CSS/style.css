@@ -1515,3 +1515,55 @@ body{
 	font-size: 25px;
 	color: #696969;
 }
+
+
+/* styles of players.php */
+
+/* team styles */
+
+.slider a {
+	text-decoration: none;
+}
+
+.slider .team-type {
+	margin: 10px 5px 10px 5px;
+	border: 2px solid #fff;
+	border-radius: 3px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.slider .team-type a h2{
+	font-size: 26px;
+	margin: -5px 0 0 0 ;
+	padding: 12px 0 12px 0;
+	text-align: center;
+	background-color: #1B1B1B;
+	color: #E6A800;
+	width: 100%;
+	position: relative;
+}
+
+.slider .team-type a img{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.slider ul {
+	background-color: #DDD;
+	padding: 5px;
+}
+
+.slider .team-type:hover {
+	border: 2px solid #E68A00;
+	border-radius: 3px;
+}
+
+.slider .team-type:hover a h2{
+	color: #E6A800;
+}
+
+.slider .team-type:hover a img{
+	transform: scale(1.1);
+}
