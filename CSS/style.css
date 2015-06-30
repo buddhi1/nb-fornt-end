@@ -50,7 +50,7 @@ body{
 .header{
 	padding: 4px;
 	z-index: 2;
-	background: #000;
+	background-color: #000;
 	max-width: 1240px;
 	margin: 0px auto 0px auto;
 	overflow: hidden;
@@ -98,18 +98,33 @@ body{
    clear: both;
 }
 
-.header .logo{
+.header .logo {
+	float: left;
+	margin: 15px 0 5px 0;
+	font-size: 25px;
+	overflow: hidden;
+}
+
+.header .logo img {
+	width: 150px;
+	height: 150px;
+	margin-left: 10px;
+	border-radius: 3px;
+}
+
+/*.header .logo{
 	float: left;
 	margin-top: 15px;
 	line-height: 60px;
 	height: 60px;
 	font-size: 25px;
-}
+}*/
 
 .header .leaderboard a img{
 
-	width: 500;
-	height: 100;
+	width: 600;
+	height: 150;
+	border-radius: 3px;
 }
 
 .header .leaderboard a{
@@ -120,6 +135,7 @@ body{
 .header .leaderboard{
 
 	float: right;
+	margin: 15px 0 0 0;
 }
 
 .sponsors {
@@ -920,6 +936,7 @@ body{
 	width: 100%;
 	margin: 10px 0 0 0;
 	padding: 0 0 0 0;
+	background-color: #000;
 }
 
 #lastresult a {
@@ -937,6 +954,11 @@ body{
 	border: 2px solid #000000;
 	border-radius: 5px;
 	vertical-align: top;
+	overflow: hidden;
+}
+
+#lastresult .item-inner {
+	border-radius: 3px;
 }
 
 #lastresult .meta-details {
@@ -1067,7 +1089,7 @@ body{
 
 /* shop section */
 
-#shop {
+/*#shop {
 	width: 100%;
 	background-color: #191919;
 	position: relative;
@@ -1165,7 +1187,7 @@ body{
 	width: 100%;
 	margin: 0 0 0 0;
 	padding: 5px 0 5px 0;
-}
+}*/
 
 /* blogs section */
 
@@ -1284,14 +1306,14 @@ body{
 	color: #995C00;
 }
 
-#blogs ul li .item-inner .read-more {
+#blogs ul li .item-inner .btn-read {
 	margin-top: 10px;
 	height: auto;
 	overflow: hidden;
 	padding: 10px 0 10px 0;
 }
 
-#blogs ul li .item-inner .read-more .btn-read-more {
+#blogs ul li .item-inner .btn-read .btn-read-more {
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 10px;
@@ -1302,18 +1324,18 @@ body{
 	width: 73px;
 }
 
-#blogs ul li .item-inner .read-more .btn-read-more:hover {
+#blogs ul li .item-inner .btn-read .btn-read-more:hover {
 	background-color: #5C5C5C;
 	transition: 1s ease;
 }
 
-#blogs ul li .item-inner .read-more .meta {
+#blogs ul li .item-inner .btn-read .meta {
 	font-size: 12px;
 	color: #6A6A6A;
 	margin-left: 10px;
 }
 
-#blogs ul li .item-inner .read-more .some-comments {
+#blogs ul li .item-inner .btn-read .some-comments {
 	border: 3px solid #E6A800;
 	padding: 5px 5px 5px 5px;
 	border-radius: 2px;
@@ -1324,7 +1346,7 @@ body{
 	margin: -8px 0 0 0;
 }
 
-#blogs ul li .item-inner .read-more .some-comments a span{
+#blogs ul li .item-inner .btn-read .some-comments a span{
 	font-weight: 600;
 	color: #000;
 	font-size: 16px;

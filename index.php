@@ -48,9 +48,7 @@
 	}(document, 'script', 'facebook-jssdk'));</script>
 	<header class="header">
 		<div class="logo">
-			<a href="#">				
-				<img src="photos/logo/logo.jpg">n00b Alliance
-			</a>
+			<img src="photos/logo/main-logo.png">
 		</div>
 		<div class="leaderboard">
 			<a href="#">
@@ -66,7 +64,6 @@
 			<a href=""><li>News</li></a>
 			<a href=""><li>Blogs</li></a>
 			<a href=""><li>Guides</li></a>
-			<a href=""><li>Shop</li></a>
 			<a href=""><li>Videos</li></a>
 			<a href=""><li>Streams</li></a>
 			<a href=""><li>Matches</li></a>
@@ -373,7 +370,7 @@
 					</li>
 				</ul>
 			</div>
-			<div id="shop">
+			<!-- <div id="shop">
 				<h2 class="digi">DIGISTORE</h2>
 				<a class="digi-link" href="#">View Digistore</a>
 				<ul>
@@ -416,7 +413,7 @@
 						</div>
 					</li>
 				</ul>
-			</div>
+			</div> -->
 			<div id="blogs">
 				<h2 class="digi">LATEST BLOGS</h2>
 				<a class="digi-link" href="#">View Blogs</a>
@@ -435,7 +432,7 @@
 									<a href="#">Novalas</a>
 								</span>
 							</div>
-							<div class="read-more">
+							<div class="btn-read">
 								<a class="btn-read-more" href="#">Read More</a>
 								<span class="meta">Posted Wed 24th Jun 2015 - 6:15pm</span>
 								<span class="some-comments">
@@ -460,7 +457,7 @@
 									<a href="#">Novalas</a>
 								</span>
 							</div>
-							<div class="read-more">
+							<div class="btn-read">
 								<a class="btn-read-more" href="#">Read More</a>
 								<span class="meta">Posted Wed 24th Jun 2015 - 6:15pm</span>
 								<span class="some-comments">
@@ -485,7 +482,7 @@
 									<a href="#">Novalas</a>
 								</span>
 							</div>
-							<div class="read-more">
+							<div class="btn-read">
 								<a class="btn-read-more" href="#">Read More</a>
 								<span class="meta">Posted Wed 24th Jun 2015 - 6:15pm</span>
 								<span class="some-comments">
@@ -510,7 +507,7 @@
 									<a href="#">Novalas</a>
 								</span>
 							</div>
-							<div class="read-more">
+							<div class="btn-read">
 								<a class="btn-read-more" href="#">Read More</a>
 								<span class="meta">Posted Wed 24th Jun 2015 - 6:15pm</span>
 								<span class="some-comments">
@@ -535,7 +532,7 @@
 									<a href="#">Novalas</a>
 								</span>
 							</div>
-							<div class="read-more">
+							<div class="btn-read">
 								<a class="btn-read-more" href="#">Read More</a>
 								<span class="meta">Posted Wed 24th Jun 2015 - 6:15pm</span>
 								<span class="some-comments">
@@ -560,7 +557,7 @@
 									<a href="#">Novalas</a>
 								</span>
 							</div>
-							<div class="read-more">
+							<div class="btn-read">
 								<a class="btn-read-more" href="#">Read More</a>
 								<span class="meta">Posted Wed 24th Jun 2015 - 6:15pm</span>
 								<span class="some-comments">
@@ -585,7 +582,7 @@
 									<a href="#">Novalas</a>
 								</span>
 							</div>
-							<div class="read-more">
+							<div class="btn-read">
 								<a class="btn-read-more" href="#">Read More</a>
 								<span class="meta">Posted Wed 24th Jun 2015 - 6:15pm</span>
 								<span class="some-comments">
@@ -610,7 +607,7 @@
 									<a href="#">Novalas</a>
 								</span>
 							</div>
-							<div class="read-more">
+							<div class="btn-read">
 								<a class="btn-read-more" href="#">Read More</a>
 								<span class="meta">Posted Wed 24th Jun 2015 - 6:15pm</span>
 								<span class="some-comments">
