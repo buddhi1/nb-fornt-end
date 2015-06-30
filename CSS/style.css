@@ -48,9 +48,9 @@ body{
 }
 
 .header{
-	padding: 20px;
+	padding: 4px;
 	z-index: 2;
-	background: green;
+	background: #000;
 	max-width: 1240px;
 	margin: 0px auto 0px auto;
 	overflow: hidden;
@@ -66,6 +66,17 @@ body{
 	position: relative;
 	overflow: hidden;
 	border-radius: 3px;
+}
+
+.navigation .nav-links {	
+	padding: 0 0 0 0px;
+	margin: 6px 0 6px 0;
+	border-bottom: 5px solid #333;
+	width: 100%;
+}
+
+.navigation .nav-links a{
+	font-size: 17px;
 }
 
 .header .logo a img{
@@ -150,7 +161,7 @@ body{
 
 .navigation li{
 	display: inline-block;
-	padding: 2px;
+	padding: 20px 10px 20px 10px;
 }
 
 .navigation li:hover {
