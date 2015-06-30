@@ -120,7 +120,7 @@
 		    </li>
 		  </ul>
 		</div>
-	</div>	
+	</div>
 	<div class="wrapper-content">
 		<div class="slider">
 			<div class="flexslider" id="flexslider-main" style="height: 300px">
@@ -210,6 +210,47 @@
 						</p>
 						<p class="news-reads">13</p>
 					</li>
+					<li class="news-item">
+						<h2>CSGO NEWS</h2>
+						<ul>
+							<li>
+								<a href="#">Player Spotlight: Nicolaj "Nico" Jensen</a>
+							</li>
+							<li>
+								<a href="#">Player Spotlight: Nicolaj "Nico" Jensen</a>
+							</li>
+							<li>
+								<a href="#">Player Spotlight: Nicolaj "Nico" Jensen</a>
+							</li>
+							<li>
+								<a href="#">Player Spotlight: Nicolaj "Nico" Jensen</a>
+							</li>
+							<li>
+								<a href="#">Player Spotlight: Nicolaj "Nico" Jensen</a>
+							</li>
+						</ul>
+					</li>
+					
+					<li class="news-item">
+						<div class="news-image" style="background: url(photos/news/n1.png);"></div>
+						<h2>Win a team Dignitas LCS player jersey</h2>
+						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
+						<button class="read-more anim-01">Read more</button>
+						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
+							<br/>By <span style="color: #FFCC66">Roscoe</span>
+						</p>
+						<p class="news-reads">13</p>
+					</li>
+					<li class="news-item">
+						<div class="news-image" style="background: url(photos/news/n1.png);"></div>
+						<h2>Win a team Dignitas LCS player jersey</h2>
+						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
+						<button class="read-more anim-01">Read more</button>
+						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
+							<br/>By <span style="color: #FFCC66">Roscoe</span>
+						</p>
+						<p class="news-reads">13</p>
+					</li>
 				</ul>
 			</div>
 			<div id="lastresult" class="widget">
@@ -222,7 +263,28 @@
 									<span>&nbsp;</span>
 									<span class="meta-date">23rd Jun 2015</span>
 								</div>
-								<div class="our-squad">
+								<div class="our-squad winner">
+									<span class="squad-name">Team Dignitas HS</span>
+									<span>&nbsp;</span>
+									<span class="score">1</span>
+								</div>
+								<div class="our-opponent">
+									<span class="squad-name">Hearthlytics JAB</span>
+									<span>&nbsp;</span>
+									<span class="score">1</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="item-inner">
+								<div class="meta-details">
+									<span class="meta">Hearthstone Pro League</span>
+									<span>&nbsp;</span>
+									<span class="meta-date">23rd Jun 2015</span>
+								</div>
+								<div class="our-squad winner">
 									<span class="squad-name">Team Dignitas HS</span>
 									<span>&nbsp;</span>
 									<span class="score">1</span>
@@ -248,7 +310,7 @@
 									<span>&nbsp;</span>
 									<span class="score">1</span>
 								</div>
-								<div class="our-opponent">
+								<div class="our-opponent winner">
 									<span class="squad-name">Hearthlytics JAB</span>
 									<span>&nbsp;</span>
 									<span class="score">1</span>
@@ -264,28 +326,7 @@
 									<span>&nbsp;</span>
 									<span class="meta-date">23rd Jun 2015</span>
 								</div>
-								<div class="our-squad">
-									<span class="squad-name">Team Dignitas HS</span>
-									<span>&nbsp;</span>
-									<span class="score">1</span>
-								</div>
-								<div class="our-opponent">
-									<span class="squad-name">Hearthlytics JAB</span>
-									<span>&nbsp;</span>
-									<span class="score">1</span>
-								</div>
-							</div>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<div class="item-inner">
-								<div class="meta-details">
-									<span class="meta">Hearthstone Pro League</span>
-									<span>&nbsp;</span>
-									<span class="meta-date">23rd Jun 2015</span>
-								</div>
-								<div class="our-squad">
+								<div class="our-squad winner">
 									<span class="squad-name">Team Dignitas HS</span>
 									<span>&nbsp;</span>
 									<span class="score">1</span>
@@ -307,20 +348,18 @@
 					<li>
 						<div class="item-inner" style="margin-left: 10px">
 							<a href="">
-								<div class="shop-image">
+								<div>
 									<img width="213px" height="173px" src="photos/shop/cap.jpg">
+									<h3>Team Dignitas Cap</h3>
+									<h2 class="price">&euro;18.50</h2>
 								</div>
-								<h3>Team Dignitas Cap</h3>
-								<h2 class="price">&euro;18.50</h2>
 							</a>
 						</div>
 					</li>
 					<li>
 						<div class="item-inner">
 							<a href="">
-								<div class="shop-image">
-									<img width="213px" height="173px" src="photos/shop/hoodie.jpg">
-								</div>
+								<img width="213px" height="173px" src="photos/shop/hoodie.jpg">
 								<h3>Team Dignitas Classic Hoodie</h3>
 								<h2 class="price">From &euro;46.50</h2>
 							</a>
@@ -329,9 +368,7 @@
 					<li>
 						<div class="item-inner">
 							<a href="">
-								<div class="shop-image">
-									<img width="213px" height="173px" src="photos/shop/jacket.jpg">
-								</div>
+								<img width="213px" height="173px" src="photos/shop/jacket.jpg">
 								<h3>Team Dignitas Jacket 2015</h3>
 								<h2 class="price">From &euro;67.95</h2>
 							</a>
@@ -340,9 +377,7 @@
 					<li>
 						<div class="item-inner" style="margin-right: 10px">
 							<a href="">
-								<div class="shop-image">
-									<img width="213px" height="173px" src="photos/shop/jersey.jpg">
-								</div>
+								<img width="213px" height="173px" src="photos/shop/jersey.jpg">
 								<h3>Team Dignitas Jersey 2015</h3>
 								<h2 class="price">From &euro;41.85</h2>
 							</a>
@@ -559,6 +594,34 @@
 			<div id="latest-galleries">
 				<h2 class="digi">Latest Galleries</h2>
 				<a class="digi-link" href="#">View Galleries</a>
+				<div>
+					<ul class="gallery-list">
+						<li>
+							<a href="#">
+								<div class="item-inner">
+									<img class="photo" src="photos/latest-galleries/gareth-bale.jpg">
+									<h3>Gareth Bale</h3>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="item-inner">
+									<img class="photo" src="photos/latest-galleries/cr7.jpg">
+									<h3>Cristiano Ronaldo</h3>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="item-inner">
+									<img class="photo" src="photos/latest-galleries/ibrahimovic.jpg">
+									<h3>Zlatan Ibrahimovic</h3>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 		<div class="side-bar">
@@ -726,6 +789,76 @@
 					</li>
 				</ul>
 			</div>
+		</div>
+	</div>
+	<div id="main-footer">
+		<div class="logo">
+			<img src="photos/logo/main-logo.png">
+		</div>
+		<div class="legal">
+			<h3>Legal</h3>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+		</div>
+		<div class="site-map">
+			<h3>Site Map</h3>
+			<div class="links">
+				<ul class="set-1">
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="#">Blogs</a>
+					</li>
+					<li>
+						<a href="#">Videos</a>
+					</li>
+					<li>
+						<a href="#">Galleries</a>
+					</li>
+					<li>
+						<a href="#">About</a>
+					</li>
+				</ul>
+				<ul class="set-2">
+					<li>
+						<a href="#">Players</a>
+					</li>
+					<li>
+						<a href="#">Guides</a>
+					</li>
+					<li>
+						<a href="#">Streams</a>
+					</li>
+					<li>
+						<a href="#">Forums</a>
+					</li>
+				</ul>
+				<ul class="set-3">
+					<li>
+						<a href="#">News</a>
+					</li>
+					<li>
+						<a href="#">Shop</a>
+					</li>
+					<li>
+						<a href="#">Matches</a>
+					</li>
+					<li>
+						<a href="#">Downloads</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="about">
+			<h3>About</h3>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+		</div>
+	</div>
+	<div id="logo-footer">
+		<span>N00b Alliance</span>
+		<div style="float:right">
+			<span>Powered by</span>
+			<span id="comp">Ingens</span>
 		</div>
 	</div>
 </body>
