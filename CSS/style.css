@@ -349,7 +349,6 @@ body{
 	overflow: hidden;
 }
 
-<<<<<<< HEAD
 .news-item .news-image:hover{
 	
 	width: 100%;
@@ -362,7 +361,6 @@ body{
 	transform: scale(1.1,1.1);
 }
 
-=======
 .news .news-list {
 	display: inline-block;
 	width: 50%;
@@ -433,7 +431,6 @@ body{
 	margin-bottom: 5px;
 }*/
 
->>>>>>> 66a0457e344bef610afbf94e36296997a0849be9
 .side-bar .streams-list .lead i {
 	color: #e6a800;
 }
