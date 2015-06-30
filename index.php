@@ -60,8 +60,8 @@
 		</div>
 	</header>
 	<nav class="navigation">
-		<ul class="">
-			<a href=""><li>Home</li></a>
+		<ul class="nav-links">
+			<a href="" style="color:#F9C700"><li>Home</li></a>
 			<a href=""><li>Players</li></a>
 			<a href=""><li>News</li></a>
 			<a href=""><li>Blogs</li></a>
