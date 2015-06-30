@@ -215,10 +215,11 @@
 					<li class="news-list">
 						<h2>CSGO NEWS</h2>
 						<div class="news-bullets">
-							<h5><i class="fa fa-newspaper-o"></i> Link 1<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5>
-							<h5><i class="fa fa-newspaper-o"></i> Link 2<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5>
-							<h5><i class="fa fa-newspaper-o"></i> Link 3<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5>
-							<h5><i class="fa fa-newspaper-o"></i> Link 4<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5>
+							<a href=""><h5><i class="fa fa-newspaper-o"></i> Link 1<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5></a>
+							<a href=""><h5><i class="fa fa-newspaper-o"></i> Link 1<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5></a>
+							<a href=""><h5><i class="fa fa-newspaper-o"></i> Link 1<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5></a>
+							<a href=""><h5><i class="fa fa-newspaper-o"></i> Link 1<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5></a>
+							<a href=""><h5><i class="fa fa-newspaper-o"></i> Link 1<span class="right-arrow"><i class="fa fa-chevron-right"></i></span></h5></a>
 							<button class="read-more anim-01">Read more</button>
 						</div>
 					</li>
@@ -620,7 +621,7 @@
 						<li>
 							<a href="#">
 								<div class="item-inner">
-									<img class="photo" src="photos/latest-galleries/gareth-bale.jpg">
+									<img width = "300px" height = "200px" class="photo" src="photos/latest-galleries/gareth-bale.jpg">
 									<h3>Gareth Bale</h3>
 								</div>
 							</a>
@@ -628,14 +629,14 @@
 						<li>
 							<a href="#">
 								<div class="item-inner">
-									<img class="photo" src="photos/latest-galleries/cr7.jpg">
+									<img width = "300px" height = "200px" class="photo" src="photos/latest-galleries/cr7.jpg">
 									<h3>Cristiano Ronaldo</h3>
 								</div>
 							</a>
 						</li>
 						<li>
 							<a href="#">
-								<div class="item-inner">
+								<div width = "300px" height = "200px" class="item-inner">
 									<img class="photo" src="photos/latest-galleries/ibrahimovic.jpg">
 									<h3>Zlatan Ibrahimovic</h3>
 								</div>
