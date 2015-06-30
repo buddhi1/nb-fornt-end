@@ -9,6 +9,22 @@ p{
 	font-weight: 300;
 }
 
+.page-title{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 23px;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+.author-name{
+	color: #FFCC66;
+	text-decoration: none;
+}
+
+.author-name:hover{
+	color: #CC9900;
+}
+
 .head {
 	display: block;
 	font-size: 1.5em;
@@ -261,7 +277,7 @@ body{
 	display: inline-block;
 	width: 50%;
 	height: auto;
-	border-radius: 8px;
+	border-radius: 3px;
 	box-sizing: border-box;
 	padding: 0 0 0 0;
 	border-left: 6px solid #DCDCDC;
@@ -322,6 +338,14 @@ body{
 	font-weight: 700;
 }
 
+.news-reads a{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #000;
+}
+
 .read-more:hover{	
 	cursor:pointer;
 	opacity: 0.6;
@@ -376,7 +400,7 @@ body{
 	display: inline-block;
 	width: 50%;
 	height: auto;
-	border-radius: 8px;
+	border-radius: 3px;
 	box-sizing: border-box;
 	padding: 0 0 0 0;
 	border-left: 6px solid #DCDCDC;
@@ -1514,4 +1538,45 @@ body{
 #logo-footer #comp {
 	font-size: 25px;
 	color: #696969;
+}
+
+.pagination{
+	position: relative;
+	height: auto;
+	width: auto;
+	padding: 5px;
+}
+
+.pagination li {
+	
+	display: inline-block;
+	width: 22px;
+	height: 19px;
+	padding: 1px;
+	text-align: center;
+	display: inline-block;
+	background-color: #ffffff;
+	margin: 2px;
+	overflow: hidden;
+	border-radius: 3px;
+	text-decoration: none;
+
+}
+
+.pagination li a{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-weight: 400;
+	color: #e6a800;	
+	display: inline-block;	
+	text-decoration: none;
+}
+
+.pagination .last-page{
+	width: 70px;
+}
+
+.pagination li a:hover{
+	color: #CC9900;
+	cursor: pointer;
 }

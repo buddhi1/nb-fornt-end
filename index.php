@@ -160,9 +160,9 @@
 						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
 						<button class="read-more anim-01">Read more</button>
 						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
-							<br/>By <span style="color: #FFCC66">Roscoe</span>
+							<br/>By <a href="" class="author-name">Roscoe</a>
 						</p>
-						<p class="news-reads">13</p>
+						<p class="news-reads"><a href="">13</a></p>
 					</li>
 					<li class="news-item">
 						<div class="news-image-box">
@@ -172,9 +172,9 @@
 						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
 						<button class="read-more anim-01">Read more</button>
 						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
-							<br/>By <span style="color: #FFCC66">Roscoe</span>
+							<br/>By <a href="" class="author-name">Roscoe</a>
 						</p>
-						<p class="news-reads">13</p>
+						<p class="news-reads"><a href="">13</a></p>
 					</li>
 					<li class="news-item">
 						<div class="news-image-box">
@@ -184,9 +184,9 @@
 						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
 						<button class="read-more anim-01">Read more</button>
 						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
-							<br/>By <span style="color: #FFCC66">Roscoe</span>
+							<br/>By <a href="" class="author-name">Roscoe</a>
 						</p>
-						<p class="news-reads">13</p>
+						<p class="news-reads"><a href="">13</a></p>
 					</li>
 					<li class="news-item">
 						<div class="news-image-box">
@@ -196,9 +196,9 @@
 						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
 						<button class="read-more anim-01">Read more</button>
 						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
-							<br/>By <span style="color: #FFCC66">Roscoe</span>
+							<br/>By <a href="" class="author-name">Roscoe</a>
 						</p>
-						<p class="news-reads">13</p>
+						<p class="news-reads"><a href="">13</a></p>
 					</li>
 					<li class="news-item">
 						<div class="news-image-box">
@@ -208,9 +208,9 @@
 						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
 						<button class="read-more anim-01">Read more</button>
 						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
-							<br/>By <span style="color: #FFCC66">Roscoe</span>
+							<br/>By <a href="" class="author-name">Roscoe</a>
 						</p>
-						<p class="news-reads">13</p>
+						<p class="news-reads"><a href="">13</a></p>
 					</li>
 					<li class="news-item">
 						<div class="news-image" style="background: url(photos/news/n1.png);"></div>
@@ -218,9 +218,9 @@
 						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
 						<button class="read-more anim-01">Read more</button>
 						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
-							<br/>By <span style="color: #FFCC66">Roscoe</span>
+							<br/>By <a href="" class="author-name">Roscoe</a>
 						</p>
-						<p class="news-reads">13</p>
+						<p class="news-reads"><a href="">13</a></p>
 					</li>
 					<li class="news-list">
 						<h2>CSGO NEWS</h2>

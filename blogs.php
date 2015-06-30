@@ -125,7 +125,7 @@
 	</div>
 	<div class="wrapper-content">
 		<div class="slider">
-			<h2 class="page-title">News</h2>			
+			<h2 class="page-title">Blogs</h2>			
 			<div class="news">
 				<ul>
 					<li>
@@ -185,7 +185,7 @@
 						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
 							<br/>By <a href="" class="author-name">Roscoe</a>
 						</p>
-						<p class="news-reads"><a href="">13</a></p>
+						<p class="news-reads">13</p>
 					</li>
 					<li class="news-item">
 						<div class="news-image-box">
