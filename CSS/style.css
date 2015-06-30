@@ -381,14 +381,29 @@ body{
 	padding: 0 0 0 0;
 	border-left: 6px solid #DCDCDC;
 	overflow: hidden;
-	background-color: #ffffff;
+	background-color: #DCDCDC;
 	margin-bottom: 5px;
+	vertical-align: top;
+}
+
+.news-list a {
+	text-decoration: none;
+	color: #000;
 }
 
 .news-list h2{
 	padding: 5px;
 	display: block;
-	margin: 10px;
+	margin: 0 0 5px 0;
+	background-color: #DCDCDC;
+}
+
+.news ul .news-list .news-bullets {
+	padding: 0;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	background-color: #fff;
+	overflow: hidden;
 }
 
 .news ul .news-list .news-bullets ul {
@@ -397,13 +412,15 @@ body{
 
 .news-list .news-bullets h5 {
 	font-size: 16px;
-	margin: 0 0 0 0;
-	padding: 2px 0 5px 0;
+	margin: 5px 0 5px 10px;
+	margin: 5px 0 5px 10px;
 	border-bottom: 1px solid #D8D8D8;
 }
 
 .news-list .news-bullets h5 .right-arrow {
 	float: right;
+	color: #FFCC66;
+	padding: 2px 10px 0 0;
 }
 
 .news-list .read-more{
@@ -416,31 +433,11 @@ body{
 	padding: 8px;
 	border-radius: 3px;
 	font-family: 'Open Sans', sans-serif;
-	opacity: 0.6;
 	filter: alpha(opacity=60);
 	text-transform: uppercase;
-	margin-left: 20px;
-	margin-bottom: 20px;
-	margin-top: 20px;
+	margin: 20px 10px 20px 20px;
 	vertical-align: bottom;
 }
-
-/*.news .bullet-news ul li a{
-	font-size: 12px;
-}
-
-.news .bullet-news {
-	display: inline-block;
-	width: 50%;
-	height: auto;
-	border-radius: 8px;
-	box-sizing: border-box;
-	padding: 0 0 0 0;
-	border-left: 6px solid #DCDCDC;
-	overflow: hidden;
-	background-color: #ffffff;
-	margin-bottom: 5px;
-}*/
 
 .side-bar .streams-list .lead i {
 	color: #e6a800;
@@ -1366,8 +1363,8 @@ body{
 
 #latest-galleries li h3 {
 	font-size: 16px;
-	margin: 0 0 0 0 ;
-	padding: 12px 0 12px 0;
+	margin: 0 0 12px 0 ;
+	padding: 12px 0 0 0;
 	text-align: center;
 	background-color: #1B1B1B;
 	color: #fff;
@@ -1377,6 +1374,9 @@ body{
 
 #latest-galleries li a .item-inner {
 	border-radius: 5px;
+	overflow: hidden;
+	border: 1px solid #1B1B1B;
+	background-color: #1B1B1B;
 }
 
 #latest-galleries li .item-inner:hover h3{
