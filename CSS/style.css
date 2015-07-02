@@ -1986,3 +1986,139 @@ body{
 .guides-area .guides .guide img{
 	width: 100%;
 }
+
+/*--------------------------forums---------------------------*/
+
+.slider-forum{
+	max-width: none !important;
+}
+
+
+.wrapper-content .forums{
+	position: relative;	
+	border-radius: 5px;	
+	overflow: hidden;
+	height: auto;
+}
+
+.forums ul{
+	padding: 6px 6px 6px 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 0;
+	border-radius: 4px;
+	background-color: #DCDCDC;
+}
+
+.forums .forum-item {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	border-radius: 3px;
+	box-sizing: border-box;
+	padding: 0 0 0 0;
+	border-left: 6px solid #DCDCDC;
+	overflow: hidden;
+	background-color: #ffffff;
+	margin-bottom: 5px;
+}
+
+.forum-item-heading{
+	background-color: #000000;
+	font-weight: 300;
+	font-size: 17px;
+	letter-spacing: -1;
+	color: #ffffff;
+	padding: 20px;
+	margin: auto 0 auto 0;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	text-transform: uppercase;
+}
+
+.forum-item ul{
+	padding: 6px 6px 0 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 0;
+	border-radius: 4px;
+	background-color: #ffffff;
+}
+
+.forum-item li{
+	padding: 4px 15px;
+	display: block;
+	height: auto;
+	overflow: hidden;
+	border-bottom: 1px solid #D8D8D8;
+
+}
+
+.forum-item .title{
+	width: 600px;
+	display: inline-block;
+	float: left;
+}
+
+.forum-item li h2{
+	font-size: 16px;
+	font-weight: 300;
+	color: #FF9933;
+	margin: 0;
+}
+
+.forum-item .description{
+	font-size: 13px;
+	font-weight: 200;
+	color: ##707070 ;
+	margin: 0;
+}
+
+.forum-item .topics{
+	display: inline-block;
+	float: left;
+	width: 70px;
+	font-size: 12px;
+}
+
+.forum-item .latest-thread{
+	display: inline-block;
+	float: right;
+	width: 378px;
+	padding: 5px;
+}
+
+.latest-thread-logo{
+	width: 30px;
+	height: 30px;
+	background-size: cover !important;                      
+    background-repeat: no-repeat !important;
+    background-position: center center !important;   
+	display: inline-block;
+	position: relative;
+	margin-right: 6px;
+}
+
+.latest-thread .match-latest-thread{
+	font-size: 15px;
+	font-weight: 500;
+	color: #CC9933;
+	text-decoration: none;
+	display: inline-block;
+	position: absolute;
+}
+
+.latest-thread a{
+	font-size: 11px;
+	font-weight: 300;
+	color: #CC9933;
+	text-decoration: none;
+}
+
+.latest-thread p{
+	display: inline-block;
+	position: absolute;
+	font-size: 11px;
+	font-weight: 100;
+	padding: 4px;
+}
