@@ -61,9 +61,9 @@
 		<ul class="nav-links">
 			<a href="#" style="color:#F9C700"><li style="background-color: #333; border-top-left-radius: 3px; border-top-right-radius: 3px;">Home</li></a>
 			<a href="players.php"><li>Players</li></a>
-			<a href=""><li>News</li></a>
-			<a href=""><li>Blogs</li></a>
-			<a href=""><li>Guides</li></a>
+			<a href="news.php"><li>News</li></a>
+			<a href="blogs.php"><li>Blogs</li></a>
+			<a href="guides.php"><li>Guides</li></a>
 			<a href=""><li>Videos</li></a>
 			<a href=""><li>Streams</li></a>
 			<a href=""><li>Matches</li></a>
