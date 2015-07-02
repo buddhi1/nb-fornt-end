@@ -59,8 +59,8 @@
 	</header>
 	<nav class="navigation">
 		<ul class="nav-links">
-			<a href="" style="color:#F9C700"><li>Home</li></a>
-			<a href=""><li>Players</li></a>
+			<a href="#" style="color:#F9C700"><li style="background-color: #333; border-top-left-radius: 3px; border-top-right-radius: 3px;">Home</li></a>
+			<a href="players.php"><li>Players</li></a>
 			<a href=""><li>News</li></a>
 			<a href=""><li>Blogs</li></a>
 			<a href=""><li>Guides</li></a>
