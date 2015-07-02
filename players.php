@@ -59,7 +59,7 @@
 	</header>
 	<nav class="navigation">
 		<ul class="nav-links">
-			<a href=""><li>Home</li></a>
+			<a href="index.php"><li>Home</li></a>
 			<a class="players" href="" style="color:#F9C700"><li style="background-color: #333; border-top-left-radius: 3px; border-top-right-radius: 3px;">Players</li></a>
 			<a href=""><li>News</li></a>
 			<a href=""><li>Blogs</li></a>
@@ -71,6 +71,26 @@
 			<a href=""><li>Forums</li></a>
 			<a href=""><li>Downloads</li></a>
 			<a href=""><li>About</li></a>
+		</ul>
+		<ul class="social">
+			<li class="anim-01 twitch"><a href="http://www.twitch.tv/team/dignitas">
+				<i class="fa fa-twitch"></i> 
+			</a></li>
+			<li class="anim-01 twitter"><a href="http://www.twitter.com">
+				<i class="fa fa-twitter"></i> 
+			</a></li>
+			<li class="anim-01 facebook"><a href="http://www.facebook.com">
+				<i class="fa fa-facebook"></i> 
+			</a></li>
+			<li class="anim-01 youtube"><a href="http://www.youtube.com">
+				<i class="fa fa-youtube"></i> 
+			</a></li>
+			<li class="anim-01 steam"><a href="http://www.steam.com">
+				<i class="fa fa-steam"></i> 
+			</a></li>
+			<li class="anim-01 google-plus"><a href="https://plus.google.com">
+				<i class="fa fa-google-plus"></i> 
+			</a></li>
 		</ul>
 	</nav>
 	<div class="sponsors">
@@ -101,8 +121,11 @@
 		</div>
 	</div>
 	<div class="wrapper-content">
+		<div class="team-title">
+			<h2>Team</h2>
+		</div>
 		<div class="slider">		
-			<ul>
+			<ul class="team-ul">
 				<li>
 					<div class="team-type">
 						<a href="#">
@@ -166,6 +189,13 @@
 			</ul>
 		</div>
 		<div class="side-bar">
+			<div class="team-management">
+				<h2>Senior Team</h2>
+				<div>
+					<button class="read-more anim-01">Management</button>
+					<button class="read-more anim-01">Staff</button>
+				</div>
+			</div>
 			<div class="vidcarousel">
 				<ul class="streams-list">
 					<li class="lead">
