@@ -66,11 +66,11 @@
 			<a href="guides.php"><li>Guides</li></a>
 			<a href=""><li>Videos</li></a>
 			<a href=""><li>Streams</li></a>
-			<a href=""><li>Matches</li></a>
-			<a href=""><li>Galleries</li></a>
-			<a href=""><li>Forums</li></a>
-			<a href=""><li>Downloads</li></a>
-			<a href=""><li>About</li></a>
+			<a href="matches.php"><li>Matches</li></a>
+			<a href="galleries.php"><li>Galleries</li></a>
+			<a href="forums.php"><li>Forums</li></a>
+			<a href="downloads.php"><li>Downloads</li></a>
+			<a href="about.php"><li>About</li></a>
 		</ul>
 		<ul class="social">
 			<li class="anim-01 twitch"><a href="http://www.twitch.tv/team/dignitas">
