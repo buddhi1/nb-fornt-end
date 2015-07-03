@@ -1,7 +1,7 @@
 <html>
 <head>
 	
-	<title>Home</title>
+	<title>Galleries</title>
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="js/woothemes-FlexSlider-8ed61ac/flexslider.css" type="text/css">
@@ -16,20 +16,13 @@
 	    	animationLoop: true,
 	    	slideshow: true,
 	    	controlNav: false,
+	    	prevText: "",
+	    	nextText: "",
 	    	itemWidth: 800,
 	    	itemMargin: 0,
 	    	minItems: 5,
-	    	move: 1,
-	    	prevText: "",
-	    	nextText: "",
+	    	move: 1
 	    });
-	   
-	    $('#flexslider-main').flexslider({
-		    animation: "slide",
-		    controlNav: false,
-		    animation: "fade",
-		  });
-
 	  });
 	</script>
 
@@ -48,9 +41,7 @@
 	}(document, 'script', 'facebook-jssdk'));</script>
 	<header class="header">
 		<div class="logo">
-			<a href="#">				
-				<img src="photos/logo/logo.jpg">n00b Alliance
-			</a>
+			<img src="photos/logo/main-logo.png">
 		</div>
 		<div class="leaderboard">
 			<a href="#">
@@ -63,7 +54,7 @@
 		<ul class="nav-links">
 			<a href="index.php"><li>Home</li></a>
 			<a href="players.php"><li>Players</li></a>
-			<a href="#" style="color:#F9C700"><li style="background-color: #333; border-top-left-radius: 3px; border-top-right-radius: 3px;">News</li></a>
+			<a href="news.php"><li>News</li></a>
 			<a href="blogs.php"><li>Blogs</li></a>
 			<a href="guides.php"><li>Guides</li></a>
 			<a href=""><li>Videos</li></a>
@@ -72,7 +63,7 @@
 			<a href="galleries.php"><li>Galleries</li></a>
 			<a href="forums.php"><li>Forums</li></a>
 			<a href="downloads.php"><li>Downloads</li></a>
-			<a href="about.php"><li>About</li></a>
+			<a href="#" style="color:#F9C700"><li style="background-color: #333; border-top-left-radius: 3px; border-top-right-radius: 3px;">About</li></a>
 		</ul>
 		<ul class="social">
 			<li class="anim-01 twitch"><a href="http://www.twitch.tv/team/dignitas">
@@ -124,104 +115,22 @@
 	</div>
 	<div class="wrapper-content">
 		<div class="slider">
-			<h2 class="page-title">News</h2>			
-			<div class="news">
-				<ul>
-					<li>
-						<div class="pagination">
-							<ul>
-								<li><a href="">1</a></li>
-								<li><a href="">2</a></li>
-								<li><a href="">3</a></li>
-								<li><a href="">></a></li>
-								<li class="last-page"><a href="">Last Page</a></li>
-							</ul>	
-						</div>
-					</li>
-					<li class="news-item">
-						<div class="news-image-box">
-							<div class="news-image" style="background: url(photos/news/n1.png);"></div>
-						</div>	
-						<h2>Win a team Dignitas LCS player jersey</h2>
-						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
-						<button class="read-more anim-01">Read more</button>
-						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
-							<br/>By <a href="" class="author-name">Roscoe</a>
-						</p>
-						<p class="news-reads"><a href="">13</a></p>
-					</li>
-					<li class="news-item">
-						<div class="news-image-box">
-							<div class="news-image" style="background: url();"></div>
-						</div>	
-						<h2>Win a team Dignitas LCS player jersey</h2>
-						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
-						<button class="read-more anim-01">Read more</button>
-						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
-							<br/>By <a href="" class="author-name">Roscoe</a>
-						</p>
-						<p class="news-reads"><a href="">13</a></p>
-					</li>
-					<li class="news-item">
-						<div class="news-image-box">
-							<div class="news-image" style="background: url(photos/news/n1.png);"></div>
-						</div>	
-						<h2>Win a team Dignitas LCS player jersey</h2>
-						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
-						<button class="read-more anim-01">Read more</button>
-						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
-							<br/>By <a href="" class="author-name">Roscoe</a>
-						</p>
-						<p class="news-reads"><a href="">13</a></p>
-					</li>
-					<li class="news-item">
-						<div class="news-image-box">
-							<div class="news-image" style="background: url();"></div>
-						</div>	
-						<h2>Win a team Dignitas LCS player jersey</h2>
-						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
-						<button class="read-more anim-01">Read more</button>
-						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
-							<br/>By <a href="" class="author-name">Roscoe</a>
-						</p>
-						<p class="news-reads"><a href="">13</a></p>
-					</li>
-					<li class="news-item">
-						<div class="news-image-box">
-							<div class="news-image" style="background: url(photos/news/n1.png);"></div>
-						</div>	
-						<h2>Win a team Dignitas LCS player jersey</h2>
-						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
-						<button class="read-more anim-01">Read more</button>
-						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
-							<br/>By <a href="" class="author-name">Roscoe</a>
-						</p>
-						<p class="news-reads"><a href="">13</a></p>
-					</li>
-					<li class="news-item">
-						<div class="news-image-box">
-							<div class="news-image" style="background: url(photos/news/n1.png);"></div>
-						</div>	
-						<h2>Win a team Dignitas LCS player jersey</h2>
-						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
-						<button class="read-more anim-01">Read more</button>
-						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
-							<br/>By <a href="" class="author-name">Roscoe</a>
-						</p>
-						<p class="news-reads"><a href="">13</a></p>
-					</li>	
-					<li>
-						<div class="pagination">
-							<ul>
-								<li><a href="">1</a></li>
-								<li><a href="">2</a></li>
-								<li><a href="">3</a></li>
-								<li>><a href="">></a>/li>
-								<li class="last-page"><a href="">Last Page</a></li>
-							</ul>	
-						</div>
-					</li>
-				</ul>
+			<h2 class="page-title">About Us</h2>
+			<div class="about-outer">
+				<div class="about-inner">
+					<div class="about-logo" style="background: url(photos/logo/main-logo.png); background-size: contain; background-repeat: no-repeat;">
+					</div>
+					<p class="links">
+						<strong>Quick links:</strong> <a href="#">Management</a> - <a href="#">Staff</a> - <a href="#">Contact</a> - <a href="#">Career</a> - <a href="#">Hall of Fame</a> - <a href="#">ReadyUpTV</a> - <a href="#">Press</a> - <a href="#">Logos & Artwork</a>
+					</p>
+					<p>Team Dignitas is a Limited company, registered in the United Kingdom. Our goal is to further develop our reputation as one of the best and most professional gaming teams in the world.</p>
+					<p>Team Dignitas was formed in September 2003, after the merger of two excellent Battlefield 1942 teams. The new ‘Dignitas’ Battlefield team went on to be very successful and after attending CeBIT (2004) we held discussions with ABIT and within a few months we had secured our first sponsor.</p>
+					<p>By steadily adhering to our initial plans and seizing opportunities as they emerged, we developed what is now an iconic professional gaming brand. We are now one of the world’s leading eSport organisations, with our players recognised across the globe, as they go about competing for major honours.</p>
+					<div class="about-pic" style="background: url(photos/about/about_us.jpg); background-size: contain; background-repeat: no-repeat;"></div>
+					<p>What underpins our success and makes us different to other gaming teams? At Team Dignitas we have a highly talented and dedicated squad of players that is organised and directed by great management. We understand the importance of our sponsors and how they facilitate our gaming success. In return we offer a direct portal into the gaming and eSports market, where we reflect our partners brands, products and goals, as if they were our own.</p>
+					<div class="about-bottom-logo" style="background: url(photos/about/bottom-logo.jpg); background-size: contain; background-repeat: no-repeat;"></div>
+					<p>We are also a member of UKIE, the governing body of the British Interactive Entertainment Industry.</p>
+				</div>
 			</div>
 		</div>
 		<div class="side-bar">

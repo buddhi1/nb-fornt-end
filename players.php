@@ -121,10 +121,8 @@
 		</div>
 	</div>
 	<div class="wrapper-content">
-		<div class="team-title">
-			<h2>Team</h2>
-		</div>
-		<div class="slider">		
+		<div class="slider">
+			<h2 class="page-title">GALLERIES</h2>		
 			<ul class="team-ul">
 				<li>
 					<div class="team-type">
