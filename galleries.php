@@ -114,12 +114,10 @@
 		</div>
 	</div>
 	<div class="wrapper-content">
-		<div class="team-title">
-			<h2>GALLERIES</h2>
-		</div>
-		<div class="slider">		
+		<div class="slider">
+			<h2 class="page-title">GALLERIES</h2>
 			<ul class="gallery-ul">
-				<li>
+				<li class="gallery-li">
 					<div class="gallery-type">
 						<div class="heading-container">
 							<a href="#">
@@ -130,23 +128,28 @@
 						<div class="thumb-container">
 							<ul class="thumbs">
 								<li>
-									<div class="pic-container" style="background: url(photos/galleries/gallery1/pic1.jpg); background-size: cover; background-repeat: no-repeat;">
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery1/pic1.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container" style="background: url(photos/galleries/gallery1/pic2.png); background-size: cover; background-repeat: no-repeat;">
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery1/pic2.png); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container" style="background: url(photos/galleries/gallery1/pic3.jpg); background-size: cover; background-repeat: no-repeat;">
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery1/pic3.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container" style="background: url(photos/galleries/gallery1/pic4.jpg); background-size: cover; background-repeat: no-repeat;">
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery1/pic4.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container" style="background: url(photos/galleries/gallery1/pic5.jpg); background-size: cover; background-repeat: no-repeat;">
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery1/pic5.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 							</ul>
@@ -154,7 +157,7 @@
 						</div>
 					</div>
 				</li>
-				<li>
+				<li class="gallery-li">
 					<div class="gallery-type">
 						<div class="heading-container">
 							<a href="#">
@@ -165,37 +168,28 @@
 						<div class="thumb-container">
 							<ul class="thumbs">
 								<li>
-									<div class="pic-container">
-										<a href="">
-											<img src="photos/galleries/gallery2/pic1.jpg">
-										</a>
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery2/pic1.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container">
-										<a href="">
-											<img src="photos/galleries/gallery2/pic2.jpg">
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery2/pic2.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container">
-										<a href="">
-											<img src="photos/galleries/gallery2/pic3.jpg">
-										</a>
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery2/pic3.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container">
-										<a href="">
-											<img src="photos/galleries/gallery2/pic4.jpg">
-										</a>
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery2/pic4.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container">
-										<a href="">
-											<img src="photos/galleries/gallery2/pic5.png">
-										</a>
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery2/pic5.png); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 							</ul>
@@ -203,7 +197,7 @@
 						</div>
 					</div>
 				</li>
-				<li>
+				<li class="gallery-li">
 					<div class="gallery-type">
 						<div class="heading-container">
 							<a href="#">
@@ -214,37 +208,28 @@
 						<div class="thumb-container">
 							<ul class="thumbs">
 								<li>
-									<div class="pic-container">
-										<a href="">
-											<img src="photos/galleries/gallery3/pic1.jpg">
-										</a>
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery3/pic1.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container">
-										<a href="">
-											<img src="photos/galleries/gallery3/pic2.jpg">
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery3/pic2.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container">
-										<a href="">
-											<img src="photos/galleries/gallery3/pic3.jpg">
-										</a>
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery3/pic3.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container">
-										<a href="">
-											<img src="photos/galleries/gallery3/pic4.jpg">
-										</a>
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery3/pic4.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container">
-										<a href="">
-											<img src="photos/galleries/gallery3/pic5.jpg">
-										</a>
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery3/pic5.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 							</ul>
@@ -252,7 +237,7 @@
 						</div>
 					</div>
 				</li>
-				<li>
+				<li class="gallery-li">
 					<div class="gallery-type">
 						<div class="heading-container">
 							<a href="#">
@@ -263,23 +248,28 @@
 						<div class="thumb-container">
 							<ul class="thumbs">
 								<li>
-									<div class="pic-container" style="background: url(photos/galleries/gallery4/pic1.jpg); background-size: cover; background-repeat: no-repeat;">
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery4/pic1.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container" style="background: url(photos/galleries/gallery4/pic2.png); background-size: cover; background-repeat: no-repeat;">
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery4/pic2.png); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container" style="background: url(photos/galleries/gallery4/pic3.png); background-size: cover; background-repeat: no-repeat;">
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery4/pic3.png); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container" style="background: url(photos/galleries/gallery4/pic4.jpg); background-size: cover; background-repeat: no-repeat;">
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery4/pic4.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container" style="background: url(photos/galleries/gallery4/pic5.jpg); background-size: cover; background-repeat: no-repeat;">
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery4/pic5.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 							</ul>
@@ -287,7 +277,7 @@
 						</div>
 					</div>
 				</li>
-				<li>
+				<li class="gallery-li">
 					<div class="gallery-type">
 						<div class="heading-container">
 							<a href="#">
@@ -298,37 +288,28 @@
 						<div class="thumb-container">
 							<ul class="thumbs">
 								<li>
-									<div class="pic-container">
-										<a href="">
-											<img src="photos/galleries/gallery1/pic1.jpg">
-										</a>
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery1/pic1.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container">
-										<a href="">
-											<img src="photos/galleries/gallery1/pic2.png">
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery1/pic2.png); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container">
-										<a href="">
-											<img src="photos/galleries/gallery1/pic3.jpg">
-										</a>
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery1/pic3.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container">
-										<a href="">
-											<img src="photos/galleries/gallery1/pic4.jpg">
-										</a>
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery1/pic4.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container">
-										<a href="">
-											<img src="photos/galleries/gallery1/pic5.jpg">
-										</a>
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery1/pic5.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 							</ul>
@@ -336,7 +317,7 @@
 						</div>
 					</div>
 				</li>
-				<li>
+				<li class="gallery-li">
 					<div class="gallery-type">
 						<div class="heading-container">
 							<a href="#">
@@ -347,42 +328,44 @@
 						<div class="thumb-container">
 							<ul class="thumbs">
 								<li>
-									<div class="pic-container">
-										<a href="">
-											<img src="photos/galleries/gallery1/pic1.jpg">
-										</a>
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery1/pic1.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container">
-										<a href="">
-											<img src="photos/galleries/gallery1/pic2.png">
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery1/pic2.png); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container">
-										<a href="">
-											<img src="photos/galleries/gallery1/pic3.jpg">
-										</a>
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery1/pic3.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container">
-										<a href="">
-											<img src="photos/galleries/gallery1/pic4.jpg">
-										</a>
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery1/pic4.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 								<li>
-									<div class="pic-container">
-										<a href="">
-											<img src="photos/galleries/gallery1/pic5.jpg">
-										</a>
+									<div class="pic-border">
+										<div class="pic-container" style="background: url(photos/galleries/gallery1/pic5.jpg); background-size: cover; background-repeat: no-repeat;"></div>
 									</div>
 								</li>
 							</ul>
 							<button class="read-more anim-01">View Gallery</button>
 						</div>
+					</div>
+				</li>
+				<li>
+					<div class="pagination pagination-gallery">
+						<ul>
+							<li><a href="">1</a></li>
+							<li><a href="">2</a></li>
+							<li><a href="">3</a></li>
+							<li><a href="">></a></li>
+							<li class="last-page"><a href="">Last Page</a></li>
+						</ul>	
 					</div>
 				</li>
 			</ul>

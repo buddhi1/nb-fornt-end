@@ -108,7 +108,7 @@
 	</div>
 	<div class="wrapper-content">
 		<div class="guides-area">
-			<h2 class="heading">n00b Alliance PLAYER GUIDES</h2>	
+			<h2 class="heading">n00b Alliance PLAYER GUIDES</h2>
 			<div class="guides-cover">
 				<img src="photos/teams/team1.jpg">
 			</div>	
