@@ -2369,3 +2369,9 @@ body{
 }
 
 /*----------------------------------downloads end----------------------*/
+
+/* styles of team.php */
+.wrapper-content .teams-area .team-ul {
+	background-color: #ddd;
+	padding: 7px 10px 7px 10px;
+}
