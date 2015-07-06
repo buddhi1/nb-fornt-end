@@ -133,7 +133,7 @@
 								<li><a href="">1</a></li>
 								<li><a href="">2</a></li>
 								<li><a href="">3</a></li>
-								<li>><a href="">></a>/li>
+								<li><a href="">></a></li>
 								<li class="last-page"><a href="">Last Page</a></li>
 							</ul>	
 						</div>
@@ -216,7 +216,7 @@
 								<li><a href="">1</a></li>
 								<li><a href="">2</a></li>
 								<li><a href="">3</a></li>
-								<li>><a href="">></a>/li>
+								<li><a href="">></a></li>
 								<li class="last-page"><a href="">Last Page</a></li>
 							</ul>	
 						</div>

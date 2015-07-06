@@ -2199,3 +2199,180 @@ body{
 }
 
 /*----------------------------------downloads end----------------------*/
+
+/*------------------------------news item start-----------------------------*/
+
+.wrapper-content .news-description{
+	position: relative;	
+	border-radius: 5px;	
+	overflow: hidden;
+	height: auto;
+}
+
+.news-description ul{
+	padding: 6px 6px 6px 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 0;
+	border-radius: 4px;
+	background-color: #DCDCDC;
+}
+
+.news-description .news-heading{
+	font-size: 34px;
+	display: block;
+	background-color: #ffffff;
+	width: 100%;
+	padding: 18px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	box-sizing: border-box;
+	border-left: 6px solid #DCDCDC;
+	overflow: hidden;
+	background-color: #ffffff;
+	margin-bottom: 2px;
+	margin-top: 1px;
+}
+
+.news-description .news-info{
+	font-size: 34px;
+	display: block;
+	background-color: #F0F0F0 !important;
+	width: 100%;
+	padding: 10px;
+	
+	box-sizing: border-box;
+	border-left: 6px solid #DCDCDC;
+	overflow: hidden;
+	background-color: #ffffff;
+	margin-bottom: 2px;
+}
+
+.author-image{
+	width: 65px;
+	height: 65px;
+	background-size: cover !important;                      
+    background-repeat: no-repeat;
+    background-position: center center; 
+    border-radius: 4px ;
+    margin: auto 0 -15px 0;
+    display: inline-block;
+}
+
+.news-info .news-date{
+	margin: 0;
+}
+
+.news-info .author-name{
+	margin: 0;
+	display: inline;
+	margin: 0;
+	padding: 7px;
+	padding-top: 85px;
+}
+
+.news-info .info{
+	display: inline-block;
+	overflow: hidden;
+}
+
+.news-body{
+	font-size: 14px;
+	display: block;
+	background-color: #ffffff;
+	width: 100%;
+	padding: 10px;
+	font-weight: 200;
+	box-sizing: border-box;
+	border-left: 6px solid #DCDCDC;
+	overflow: hidden;
+	margin-bottom: 2px;
+}
+
+.comment-container{
+	background-color: #000000;
+
+	display: block;
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+	border-left: 6px solid #DCDCDC;
+	overflow: hidden;
+	margin-bottom: 2px;
+}
+
+.comment-heading{
+	color: #ffffff;
+	margin: 0;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 400;
+	background-color: #202020;
+	border-bottom: 2px solid #585858 ;
+}
+
+.comment-container ul{
+	margin-top: 5px;
+	background-color: #000000;
+}
+
+.author-info{
+	width: 181px;
+	height: 100px;
+	padding: 3px;
+	margin: 0;
+	overflow: hidden;
+	float: left;
+	background-color: #181818;	
+}
+
+.comment-info{
+	display: inline-block;
+	margin: 0;
+	min-height: 107px;
+	height: auto;
+	background-color: #181818;
+	padding-left: 0;
+	width: 77%;
+	position: relative;
+	border-left: 2px solid #707070;
+}
+
+.comment-date{
+	color: #989898;
+	display: block;
+	padding: 5px;
+	margin: 0;
+	border-bottom: 2px solid #707070;
+	font-size: 12px;
+}
+
+.comment{
+	color: #ffffff;
+	padding: 11px;
+	margin: 0;
+}
+
+.login-info{
+	color: #C0C0C0;
+	text-align: center;	
+}
+
+.login-info a{
+	color: #FFCC00;
+}
+
+.login-info a:hov{
+	color: #FFCC99;
+}
+
+.comment-container ul li{
+	margin-bottom: 4px;
+	background-color: #181818;
+	overflow: hidden;
+	height: auto;
+}
+
+
+/*------------------------------news item end-----------------------------*/
+
