@@ -31,6 +31,21 @@
 		  });
 
 	  });
+	
+
+	$(document).ready(function(){
+
+		$(window).scroll(function(){	 
+			   // alert($(window).scrollTop());
+	        if($(window).scrollTop() >= 150){
+	        	$('#navigation').addClass('navigation-fix');
+	        }else{
+	        	$('#navigation').removeClass('navigation-fix');
+	        }
+	        	
+	    });
+	});
+
 	</script>
 
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -59,7 +74,7 @@
 			</a>
 		</div>
 	</header>
-	<nav class="navigation">
+	<nav class="navigation" id="navigation">
 		<ul class="nav-links">
 			<a href="index.php"><li>Home</li></a>
 			<a href="players.php"><li>Players</li></a>
@@ -144,7 +159,16 @@
 						</div>
 						<div class="comment-container">
 							<h2 class="comment-heading">Your comments</h2>
-							<ul>
+							<ul>								
+								<div class="pagination">
+									<ul>
+										<li><a href="">1</a></li>
+										<li><a href="">2</a></li>
+										<li><a href="">3</a></li>
+										<li><a href="">></a></li>
+										<li class="last-page"><a href="">Last Page</a></li>
+									</ul>	
+								</div>							
 								<li>
 									<div class="author-info">
 										<a href=""><div class="author-image" style="background: url('photos/author/IMG_8778.JPG');"></div></a>
@@ -187,6 +211,15 @@
 										<p class="comment">Excellent work today, boys! I look forward to another solid match tomorrow.</p>
 									</div>
 								</li>
+								<div class="pagination">
+									<ul>
+										<li><a href="">1</a></li>
+										<li><a href="">2</a></li>
+										<li><a href="">3</a></li>
+										<li><a href="">></a></li>
+										<li class="last-page"><a href="">Last Page</a></li>
+									</ul>	
+								</div>								
 							</ul>
 							<p class="login-info">Please <a href="">register</a> or <a href="">login</a> to post comments</p>
 						</div>						
