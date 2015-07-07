@@ -1,7 +1,7 @@
 <html>
 <head>
 	
-	<title>Team</title>
+	<title>Users</title>
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="js/woothemes-FlexSlider-8ed61ac/flexslider.css" type="text/css">
@@ -46,7 +46,7 @@
 	<nav class="navigation">
 		<ul class="nav-links">
 			<a href="index.php"><li>Home</li></a>
-			<a href="players.php" style="color:#F9C700" style="background-color: #333; border-top-left-radius: 3px; border-top-right-radius: 3px;"><li>Players</li></a>
+			<a href="players.php"><li>Players</li></a>
 			<a href="news.php"><li>News</li></a>
 			<a href="blogs.php"><li>Blogs</li></a>
 			<a href="guides.php"><li>Guides</li></a>
@@ -107,38 +107,47 @@
 		</div>
 	</div>
 	<div class="wrapper-content">
-		<div class="teams-area">
-			<h2 class="heading">COD</h2>
-			<div class="teams-cover">
-				<img src="photos/players/team1/cover.jpg">
-			</div>	
-			<ul class="team">
-				<li class="team-member">
-					<div class="pic-border">
-						<div class="pic-container" style="background: url(photos/galleries/gallery1/pic1.jpg); background-size: cover; background-repeat: no-repeat;"></div>
+		<div class="profile-area">
+			<div class="cover-section">
+				<div class="pic-container" style="background: url(photos/teams/team1.jpg); background-size: cover; background-repeat: no-repeat;"></div>
+				<div class="profile-pic"  style="background: url(photos/teams/team1/pic1.jpg); background-size: cover; background-repeat: no-repeat;"></div>
+				<div class="profile-info">
+					<h1>Wunderwear</h1>
+					<p>Martin Hansen</p>
+				</div>
+			</div>
+			<div class="pro-container">
+				<h2 class="heading">GAMING STREAM</h2>
+				<div class="stream-section">
+					<iframe height="515" scr=""></iframe>
+					<iframe height="600" src=""></iframe>
+				</div>
+				<div class="advert-section">
+					<button class="stream-link">
+						<i class="fa fa-twitch"></i>
+						View Twitch.TV profile
+					</button>
+				</div>
+			</div>
+			<div class="hardware-section">
+				<h2 class="heading">MY HARDWARE</h2>
+				<div class="hardware-parts">
+					<div>
+						<h3>Mouse</h3>
+						<p>Corsair Gaming Sabre Laser RGB Gaming Mouse (EU version)</p>
 					</div>
-				</li>
-				<li class="team-member">
-					<div class="pic-border">
-						<div class="pic-container" style="background: url(photos/galleries/gallery1/pic2.png); background-size: cover; background-repeat: no-repeat;"></div>
+					<div>
+						<h3>Mousepad</h3>
+						<p>Corsair Gaming MM400 Mouse Mat — Standard Edition</p>
 					</div>
-				</li>
-				<li class="team-member">
-					<div class="pic-border">
-						<div class="pic-container" style="background: url(photos/galleries/gallery1/pic3.jpg); background-size: cover; background-repeat: no-repeat;"></div>
+					<div>
+						<h3>Keyboard</h3>
+						<p>Corsair Gaming K70 RGB Mechanical Gaming Keyboard — Cherry MX Red</p>
 					</div>
-				</li>
-				<li class="team-member">
-					<div class="pic-border">
-						<div class="pic-container" style="background: url(photos/galleries/gallery1/pic4.jpg); background-size: cover; background-repeat: no-repeat;"></div>
-					</div>
-				</li>
-				<li class="team-member">
-					<div class="pic-border">
-						<div class="pic-container" style="background: url(photos/galleries/gallery1/pic5.jpg); background-size: cover; background-repeat: no-repeat;"></div>
-					</div>
-				</li>
-			</ul>
+				</div>
+				<div class="advertisment">
+				</div>
+			</div>
 		</div>
 	</div>
 	<div id="main-footer">

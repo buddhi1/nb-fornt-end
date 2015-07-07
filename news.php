@@ -63,7 +63,7 @@
 		<ul class="nav-links">
 			<a href="index.php"><li>Home</li></a>
 			<a href="players.php"><li>Players</li></a>
-			<a href="#" style="color:#F9C700"><li style="background-color: #333; border-top-left-radius: 3px; border-top-right-radius: 3px;">News</li></a>
+			<a href="#"><li class="active">News</li></a>
 			<a href="blogs.php"><li>Blogs</li></a>
 			<a href="guides.php"><li>Guides</li></a>
 			<a href=""><li>Videos</li></a>

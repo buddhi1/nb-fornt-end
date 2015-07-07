@@ -1,7 +1,7 @@
 <html>
 <head>
 	
-	<title>Team</title>
+	<title>Teams</title>
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="js/woothemes-FlexSlider-8ed61ac/flexslider.css" type="text/css">
@@ -23,7 +23,14 @@
 	    	minItems: 5,
 	    	move: 1
 	    });
-	   });
+	   
+	    $('#flexslider-main').flexslider({
+		    animation: "slide",
+		    controlNav: false,
+		    animation: "fade",
+		  });
+
+	  });
 	</script>
 
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -32,6 +39,13 @@
 <body>
 	<div id="fb-root"></div>
 	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	<header class="header">
 		<div class="logo">
 			<img src="photos/logo/main-logo.png">
@@ -46,7 +60,7 @@
 	<nav class="navigation">
 		<ul class="nav-links">
 			<a href="index.php"><li>Home</li></a>
-			<a href="players.php" style="color:#F9C700" style="background-color: #333; border-top-left-radius: 3px; border-top-right-radius: 3px;"><li>Players</li></a>
+			<a href="#"><li class="active">Players</li></a>
 			<a href="news.php"><li>News</li></a>
 			<a href="blogs.php"><li>Blogs</li></a>
 			<a href="guides.php"><li>Guides</li></a>
@@ -107,44 +121,221 @@
 		</div>
 	</div>
 	<div class="wrapper-content">
-		<div class="guides-area">
-			<h2 class="heading">n00b Alliance PLAYER GUIDES</h2>
-			<div class="guides-cover">
-				<img src="photos/teams/team1.jpg">
-			</div>	
-			<ul class="guides">
-				<li>
-					<div class="guides-des">
-						<p>Welcome to the n00b Alliance Player Guides!</p>
-						<p>These guides will help you understand the essentials of your game and serve as "cheat sheets" for you to quickly access during your games. Unlike most other guide websites, these guides are created by world class professional gamers only, so you will get your information from the best possible sources.</p>
-						<h2>First, make your choice!</h2>
-					</div>
-				</li>
-				<li>
-					<div class="guide">
-						<div>
-							<a href="#"><h2 class="guide-heading">League of Legends</h2></a>
-							<a href="#"><img src="photos/teams/team3.jpg"></a>
+		<div class="slider">
+			<h2 class="page-title">COD</h2>
+			<div class="header-pic-container" style="background: url(photos/teams/team1.jpg); background-size: cover; background-repeat: no-repeat;"></div>
+			<div class="team-members">
+				<ul class="member-container">
+					<li>
+						<div class="pic-border">
+							<a href=""><div class="pic-container" style="background: url(photos/galleries/gallery1/pic1.jpg); background-size: cover; background-repeat: no-repeat;"></div></a>
+							<a href=""><h3 class="code-name">Wunderwear</h3></a>
+							<h3 class="name">Martin Hansen</h3>
 						</div>
-					</div>
-				</li>
-				<li>
-					<div class="guide">
-						<div>
-							<a href="#"><h2 class="guide-heading">StarCraft II</h2></a>
-							<a href="#"><img src="photos/teams/team4.png"></a>
+					</li>
+					<li>
+						<div class="pic-border">
+							<a href=""><div class="pic-container" style="background: url(photos/galleries/gallery1/pic2.png); background-size: cover; background-repeat: no-repeat;"></div></a>
+							<a href=""><h3 class="code-name">Wunderwear</h3></a>
+							<h3 class="name">Martin Hansen</h3>
 						</div>
-					</div>
-				</li>
-				<li>
-					<div class="guide">
-						<div>
-							<a href="#"><h2 class="guide-heading">SMITE</h2></a>
-							<a href="#"><img src="photos/teams/team5.png"></a>
+					</li>
+					<li>
+						<div class="pic-border">
+							<a href=""><div class="pic-container" style="background: url(photos/galleries/gallery1/pic3.jpg); background-size: cover; background-repeat: no-repeat;"></div></a>
+							<a href=""><h3 class="code-name">Wunderwear</h3></a>
+							<h3 class="name">Martin Hansen</h3>
 						</div>
-					</div>
-				</li>
-			</ul>
+					</li>
+					<li>
+						<div class="pic-border">
+							<a href=""><div class="pic-container" style="background: url(photos/galleries/gallery1/pic4.jpg); background-size: cover; background-repeat: no-repeat;"></div></a>
+							<a href=""><h3 class="code-name">Wunderwear</h3></a>
+							<h3 class="name">Martin Hansen</h3>
+						</div>
+					</li>
+					<li>
+						<div class="pic-border">
+							<a href=""><div class="pic-container" style="background: url(photos/galleries/gallery1/pic5.jpg); background-size: cover; background-repeat: no-repeat;"></div></a>
+							<a href=""><h3 class="code-name">Wunderwear</h3></a>
+							<h3 class="name">Martin Hansen</h3>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="side-bar">
+			<div class="team-management">
+				<h2>Senior Team</h2>
+				<div>
+					<button class="read-more anim-01">Management</button>
+					<button class="read-more anim-01">Staff</button>
+				</div>
+			</div>
+			<div class="vidcarousel">
+				<ul class="streams-list">
+					<li class="lead">
+						<i class="fa fa-twitch"><span style="color:#999"> Live Streams</span></i>
+					</li>
+					<li class="is-stream">
+						<div class="iframe-vid">
+							<iframe width="250" height="195" scr="#"></iframe>
+						</div>
+					</li>
+					<li style="border-top: 0px">
+						<div style="overflow:hidden">
+							<a href="#">
+								<img src="photos/is-live/image-slider-2.jpg" alt="image" width="80px" height="80px">
+							</a>
+							<h2><a href="#">Person Name</a></h2>
+							<p>
+								<i class="fa fa-eye"> # Views</i>
+							</p>
+							<a id="take_look" href="#" class="fa fa-twitch"> Take a Look</a>
+						</div>
+					</li>
+				</ul>
+				<ul class="widget-list">
+					<li class="lead">
+						<i class="fa fa-play-circle"><span style="color:#999"> Other Media</span></i>
+					</li>
+					<li class="photo-content">
+						<img src="photos/is-live/image-slider-2.jpg" width="80px" height="80px">
+						<h2><a href="https://www.youtube.com/watch?v=fa_58nN_yPM">Heading 1!!!</a></h2>
+						<p>We're back!!!</p>
+						<div class="photo-des">
+							<a href="#" class="fa fa-play-circle"> Take a Look</a>
+						</div>
+					</li>
+					<li class="photo-content">
+						<img src="photos/is-live/image-slider-2.jpg" width="80px" height="80px">
+						<h2><a href="https://www.youtube.com/watch?v=fa_58nN_yPM">Heading 2!!!</a></h2>
+						<p>We're back!!!</p>
+						<div class="photo-des">
+							<a href="#" class="fa fa-play-circle"> Take a Look</a>
+						</div>
+					</li>
+					<li class="photo-content">
+						<img src="photos/is-live/image-slider-2.jpg" width="80px" height="80px">
+						<h2><a href="https://www.youtube.com/watch?v=fa_58nN_yPM">Heading 3!!!</a></h2>
+						<p>We're back!!!</p>
+						<div class="photo-des">
+							<a href="#" class="fa fa-play-circle"> Take a Look</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div id="advertisement">
+				<a href="#">
+					<img src="photos/advert/KLJSqkf.jpg" width="300" height="250">
+				</a>
+			</div>
+			<div id="twitter-feed">
+				<h2>Tweets by @n00bAlliance</h2>
+			</div>
+			<div id="facebook-widget">
+				<div class="fb-page" data-href="https://www.facebook.com/n00bAlliance/info?tab=page_info" data-width="300" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/n00bAlliance/info?tab=page_info"><a href="https://www.facebook.com/n00bAlliance/info?tab=page_info">n00b Alliance</a></blockquote></div></div>
+			</div>
+			<div id="footer_forum_activity" style="background-color: #141414; border-radius: 3px;">
+				<h2>Forum Activity</h2>
+				<ul class="widget-list">
+					<li>
+						<a href="#" class="comments">
+							<span class="anime-01">1</span>
+						</a>
+						<h3>
+							<a href="#">Forum activity 1</a>
+						</h3>
+						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
+					</li>
+					<li>
+						<a href="#" class="comments">
+							<span class="anime-01">1</span>
+						</a>
+						<h3>
+							<a href="#">Forum activity 1</a>
+						</h3>
+						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
+					</li>
+					<li>
+						<a href="#" class="comments">
+							<span class="anime-01">1</span>
+						</a>
+						<h3>
+							<a href="#">Forum activity 1</a>
+						</h3>
+						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
+					</li>
+					<li>
+						<a href="#" class="comments">
+							<span class="anime-01">1</span>
+						</a>
+						<h3>
+							<a href="#">Forum activity 1</a>
+						</h3>
+						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
+					</li>
+					<li style="border-bottom:none">
+						<a href="#" class="comments">
+							<span class="anime-01">1</span>
+						</a>
+						<h3>
+							<a href="#">Forum activity 1</a>
+						</h3>
+						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
+					</li>
+				</ul>
+			</div>
+			<div id="footer_comment_activity" style="background-color: #141414; border-radius: 3px;">
+				<h2>Recent Comments</h2>
+				<ul class="widget-list">
+					<li>
+						<a href="#" class="comments">
+							<i class="fa fa-comment"></i>
+						</a>
+						<h3>
+							<a href="#">Comment activity 1Comment activity 1</a>
+						</h3>
+						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
+					</li>
+					<li>
+						<a href="#" class="comments">
+							<i class="fa fa-comment"></i>
+						</a>
+						<h3>
+							<a href="#">Comment activity 1</a>
+						</h3>
+						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
+					</li>
+					<li>
+						<a href="#" class="comments">
+							<i class="fa fa-comment"></i>
+						</a>
+						<h3>
+							<a href="#">Comment activity 1</a>
+						</h3>
+						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
+					</li>
+					<li>
+						<a href="#" class="comments">
+							<i class="fa fa-comment"></i>
+						</a>
+						<h3>
+							<a href="#">Comment activity 1</a>
+						</h3>
+						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
+					</li>
+					<li style="border-bottom:none">
+						<a href="#" class="comments">
+							<i class="fa fa-comment"></i>
+						</a>
+						<h3>
+							<a href="#">Comment activity 1</a>
+						</h3>
+						<span class="meta">Mon 22nd Jun 2015 - 7:10am</span>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 	<div id="main-footer">

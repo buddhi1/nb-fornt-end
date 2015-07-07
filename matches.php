@@ -68,7 +68,7 @@
 			<a href="guides.php"><li>Guides</li></a>
 			<a href=""><li>Videos</li></a>
 			<a href=""><li>Streams</li></a>
-			<a href="#" style="color:#F9C700"><li style="background-color: #333; border-top-left-radius: 3px; border-top-right-radius: 3px;">Matches</li></a>
+			<a href="#"><li class="active">Matches</li></a>
 			<a href="galleries.php"><li>Galleries</li></a>
 			<a href="forums.php"><li>Forums</li></a>
 			<a href="downloads.php"><li>Downloads</li></a>
