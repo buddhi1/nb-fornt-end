@@ -60,7 +60,7 @@
 			<a href=""><li>Videos</li></a>
 			<a href=""><li>Streams</li></a>
 			<a href="matches.php"><li>Matches</li></a>
-			<a href="#" style="color:#F9C700"><li style="background-color: #333; border-top-left-radius: 3px; border-top-right-radius: 3px;">Galleries</li></a>
+			<a href="#"><li class="active">Galleries</li></a>
 			<a href="forums.php"><li>Forums</li></a>
 			<a href="downloads.php"><li>Downloads</li></a>
 			<a href="about.php"><li>About</li></a>
