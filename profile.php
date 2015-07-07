@@ -1,7 +1,7 @@
 <html>
 <head>
 	
-	<title>Home</title>
+	<title>Users</title>
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="js/woothemes-FlexSlider-8ed61ac/flexslider.css" type="text/css">
@@ -16,21 +16,14 @@
 	    	animationLoop: true,
 	    	slideshow: true,
 	    	controlNav: false,
+	    	prevText: "",
+	    	nextText: "",
 	    	itemWidth: 800,
 	    	itemMargin: 0,
 	    	minItems: 5,
-	    	move: 1,
-	    	prevText: "",
-	    	nextText: "",
+	    	move: 1
 	    });
-	   
-	    $('#flexslider-main').flexslider({
-		    animation: "slide",
-		    controlNav: false,
-		    animation: "fade",
-		  });
-
-	  });
+	   });
 	</script>
 
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -39,18 +32,9 @@
 <body>
 	<div id="fb-root"></div>
 	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
 	<header class="header">
 		<div class="logo">
-			<a href="#">				
-				<img src="photos/logo/logo.jpg">n00b Alliance
-			</a>
+			<img src="photos/logo/main-logo.png">
 		</div>
 		<div class="leaderboard">
 			<a href="#">
@@ -70,7 +54,7 @@
 			<a href=""><li>Streams</li></a>
 			<a href="matches.php"><li>Matches</li></a>
 			<a href="galleries.php"><li>Galleries</li></a>
-			<a href="#"><li class="active">Forums</li></a>
+			<a href="forums.php"><li>Forums</li></a>
 			<a href="downloads.php"><li>Downloads</li></a>
 			<a href="about.php"><li>About</li></a>
 		</ul>
@@ -123,94 +107,46 @@
 		</div>
 	</div>
 	<div class="wrapper-content">
-		<div class="slider slider-forum">
-			<h2 class="page-title">Forums</h2>
-			<div class="forums">
-				<ul>					
-					<li class="forum-item">
-						<h2 class="forum-item-heading">General</h2>	
-						<ul>
-							<li>
-								<div class="title">
-									<h2>General Discussion</h2>								
-									<p class="description">General Discussion about Team Dignitas and Gaming</p>									
-								</div>
-								<p class="topics"><b>264</b> topics</p>
-								<div class="latest-thread">
-									<div class="latest-thread-logo" style="background: url(photos/images/ingens.jpg);"></div>
-									<a href="" class="match-latest-thread" >Flores: Take Watford into the Europe match</a>
-									<p>by <a href="">sara</a> on Thu 2nd Jul 2015 - 8:18am</p>
-								</div>
-							</li>
-							<li>
-								<div class="title">
-									<h2>General Discussion</h2>								
-									<p class="description">General Discussion about Team Dignitas and Gaming</p>									
-								</div>
-								<p class="topics"><b>264</b> topics</p>
-								<div class="latest-thread">
-									<div class="latest-thread-logo" style="background: url(photos/images/ingens.jpg);"></div>
-									<a href="" class="match-latest-thread" >Flores: Take Watford into the Europe match</a>
-									<p>by <a href="">sara</a> on Thu 2nd Jul 2015 - 8:18am</p>
-								</div>
-							</li>
-							<li>
-								<div class="title">
-									<h2>General Discussion</h2>								
-									<p class="description">General Discussion about Team Dignitas and Gaming</p>									
-								</div>
-								<p class="topics"><b>264</b> topics</p>
-								<div class="latest-thread">
-									<div class="latest-thread-logo" style="background: url(photos/images/ingens.jpg);"></div>
-									<a href="" class="match-latest-thread" >Flores: Take Watford into the Europe match</a>
-									<p>by <a href="">sara</a> on Thu 2nd Jul 2015 - 8:18am</p>
-								</div>
-							</li>
-							<li>
-								<div class="title">
-									<h2>General Discussion</h2>								
-									<p class="description">General Discussion about Team Dignitas and Gaming</p>									
-								</div>
-								<p class="topics"><b>264</b> topics</p>
-								<div class="latest-thread">
-									<div class="latest-thread-logo" style="background: url(photos/images/no-pic.jpg);"></div>
-									<a href="" class="match-latest-thread">Flores: Take Watford into the Europe match</a>
-									<p>by <a href="">sara</a> on Thu 2nd Jul 2015 - 8:18am</p>
-								</div>
-							</li>
-						</ul>
-					</li>
-
-					<li class="forum-item">						
-						<h2 class="forum-item-heading">General</h2>	
-						<ul>
-							<li>
-								<div class="title">
-									<h2>General Discussion</h2>								
-									<p class="description">General Discussion about Team Dignitas and Gaming</p>									
-								</div>
-								<p class="topics"><b>264</b> topics</p>
-								<div class="latest-thread">
-									<div class="latest-thread-logo" style="background: url(photos/images/ingens.jpg);"></div>
-									<a href="" class="match-latest-thread">Flores: Take Watford into the Europe match</a>
-									<p>by <a href="">sara</a> on Thu 2nd Jul 2015 - 8:18am</p>
-								</div>
-							</li>							
-							<li>
-								<div class="title">
-									<h2>General Discussion</h2>								
-									<p class="description">General Discussion about Team Dignitas and Gaming</p>									
-								</div>
-								<p class="topics"><b>264</b> topics</p>
-								<div class="latest-thread">
-									<div class="latest-thread-logo" style="background: url(photos/images/no-pic.jpg);"></div>
-									<a href="" class="match-latest-thread">Flores: Take Watford into the Europe match</a>
-									<p>by <a href="">sara</a> on Thu 2nd Jul 2015 - 8:18am</p>
-								</div>
-							</li>
-						</ul>
-					</li>		
-				</ul>
+		<div class="profile-area">
+			<div class="cover-section">
+				<div class="pic-container" style="background: url(photos/teams/team1.jpg); background-size: cover; background-repeat: no-repeat;"></div>
+				<div class="profile-pic"  style="background: url(photos/teams/team1/pic1.jpg); background-size: cover; background-repeat: no-repeat;"></div>
+				<div class="profile-info">
+					<h1>Wunderwear</h1>
+					<p>Martin Hansen</p>
+				</div>
+			</div>
+			<div class="pro-container">
+				<h2 class="heading">GAMING STREAM</h2>
+				<div class="stream-section">
+					<iframe height="515" scr=""></iframe>
+					<iframe height="600" src=""></iframe>
+				</div>
+				<div class="advert-section">
+					<button class="stream-link">
+						<i class="fa fa-twitch"></i>
+						View Twitch.TV profile
+					</button>
+				</div>
+			</div>
+			<div class="hardware-section">
+				<h2 class="heading">MY HARDWARE</h2>
+				<div class="hardware-parts">
+					<div>
+						<h3>Mouse</h3>
+						<p>Corsair Gaming Sabre Laser RGB Gaming Mouse (EU version)</p>
+					</div>
+					<div>
+						<h3>Mousepad</h3>
+						<p>Corsair Gaming MM400 Mouse Mat — Standard Edition</p>
+					</div>
+					<div>
+						<h3>Keyboard</h3>
+						<p>Corsair Gaming K70 RGB Mechanical Gaming Keyboard — Cherry MX Red</p>
+					</div>
+				</div>
+				<div class="advertisment">
+				</div>
 			</div>
 		</div>
 	</div>

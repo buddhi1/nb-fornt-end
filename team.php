@@ -1,7 +1,7 @@
 <html>
 <head>
 	
-	<title>Home</title>
+	<title>Teams</title>
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="js/woothemes-FlexSlider-8ed61ac/flexslider.css" type="text/css">
@@ -16,12 +16,12 @@
 	    	animationLoop: true,
 	    	slideshow: true,
 	    	controlNav: false,
+	    	prevText: "",
+	    	nextText: "",
 	    	itemWidth: 800,
 	    	itemMargin: 0,
 	    	minItems: 5,
-	    	move: 1,
-	    	prevText: "",
-	    	nextText: "",
+	    	move: 1
 	    });
 	   
 	    $('#flexslider-main').flexslider({
@@ -48,9 +48,7 @@
 	}(document, 'script', 'facebook-jssdk'));</script>
 	<header class="header">
 		<div class="logo">
-			<a href="#">				
-				<img src="photos/logo/logo.jpg">n00b Alliance
-			</a>
+			<img src="photos/logo/main-logo.png">
 		</div>
 		<div class="leaderboard">
 			<a href="#">
@@ -62,9 +60,9 @@
 	<nav class="navigation">
 		<ul class="nav-links">
 			<a href="index.php"><li>Home</li></a>
-			<a href="players.php"><li>Players</li></a>
+			<a href="#"><li class="active">Players</li></a>
 			<a href="news.php"><li>News</li></a>
-			<a href="#"><li class="active">Blogs</li></a>
+			<a href="blogs.php"><li>Blogs</li></a>
 			<a href="guides.php"><li>Guides</li></a>
 			<a href=""><li>Videos</li></a>
 			<a href=""><li>Streams</li></a>
@@ -124,107 +122,56 @@
 	</div>
 	<div class="wrapper-content">
 		<div class="slider">
-			<h2 class="page-title">Blogs</h2>			
-			<div class="news">
-				<ul>
+			<h2 class="page-title">COD</h2>
+			<div class="header-pic-container" style="background: url(photos/teams/team1.jpg); background-size: cover; background-repeat: no-repeat;"></div>
+			<div class="team-members">
+				<ul class="member-container">
 					<li>
-						<div class="pagination">
-							<ul>
-								<li><a href="">1</a></li>
-								<li><a href="">2</a></li>
-								<li><a href="">3</a></li>
-								<li>><a href="">></a>/li>
-								<li class="last-page"><a href="">Last Page</a></li>
-							</ul>	
+						<div class="pic-border">
+							<a href=""><div class="pic-container" style="background: url(photos/galleries/gallery1/pic1.jpg); background-size: cover; background-repeat: no-repeat;"></div></a>
+							<a href=""><h3 class="code-name">Wunderwear</h3></a>
+							<h3 class="name">Martin Hansen</h3>
 						</div>
 					</li>
-					<li class="news-item">
-						<div class="news-image-box">
-							<div class="news-image" style="background: url(photos/news/n1.png);"></div>
-						</div>	
-						<h2>Win a team Dignitas LCS player jersey</h2>
-						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
-						<button class="read-more anim-01">Read more</button>
-						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
-							<br/>By <a href="" class="author-name">Roscoe</a>
-						</p>
-						<p class="news-reads"><a href="">13</a></p>
-					</li>
-					<li class="news-item">
-						<div class="news-image-box">
-							<div class="news-image" style="background: url();"></div>
-						</div>	
-						<h2>Win a team Dignitas LCS player jersey</h2>
-						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
-						<button class="read-more anim-01">Read more</button>
-						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
-							<br/>By <a href="" class="author-name">Roscoe</a>
-						</p>
-						<p class="news-reads"><a href="">13</a></p>
-					</li>
-					<li class="news-item">
-						<div class="news-image-box">
-							<div class="news-image" style="background: url(photos/news/n1.png);"></div>
-						</div>	
-						<h2>Win a team Dignitas LCS player jersey</h2>
-						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
-						<button class="read-more anim-01">Read more</button>
-						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
-							<br/>By <a href="" class="author-name">Roscoe</a>
-						</p>
-						<p class="news-reads"><a href="">13</a></p>
-					</li>
-					<li class="news-item">
-						<div class="news-image-box">
-							<div class="news-image" style="background: url();"></div>
-						</div>	
-						<h2>Win a team Dignitas LCS player jersey</h2>
-						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
-						<button class="read-more anim-01">Read more</button>
-						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
-							<br/>By <a href="" class="author-name">Roscoe</a>
-						</p>
-						<p class="news-reads">13</p>
-					</li>
-					<li class="news-item">
-						<div class="news-image-box">
-							<div class="news-image" style="background: url(photos/news/n1.png);"></div>
-						</div>	
-						<h2>Win a team Dignitas LCS player jersey</h2>
-						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
-						<button class="read-more anim-01">Read more</button>
-						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
-							<br/>By <a href="" class="author-name">Roscoe</a>
-						</p>
-						<p class="news-reads"><a href="">13</a></p>
-					</li>
-					<li class="news-item">
-						<div class="news-image-box">
-							<div class="news-image" style="background: url(photos/news/n1.png);"></div>
-						</div>	
-						<h2>Win a team Dignitas LCS player jersey</h2>
-						<p class="news-description">Desc desc desc desc desc 11 1 22 2 22222</p>
-						<button class="read-more anim-01">Read more</button>
-						<p class="news-post">Posted on Sunday 21st Jun 2015 - 7:16pm
-							<br/>By <a href="" class="author-name">Roscoe</a>
-						</p>
-						<p class="news-reads"><a href="">13</a></p>
-					</li>	
 					<li>
-						<div class="pagination">
-							<ul>
-								<li><a href="">1</a></li>
-								<li><a href="">2</a></li>
-								<li><a href="">3</a></li>
-								<li>><a href="">></a>/li>
-								<li class="last-page"><a href="">Last Page</a></li>
-							</ul>	
+						<div class="pic-border">
+							<a href=""><div class="pic-container" style="background: url(photos/galleries/gallery1/pic2.png); background-size: cover; background-repeat: no-repeat;"></div></a>
+							<a href=""><h3 class="code-name">Wunderwear</h3></a>
+							<h3 class="name">Martin Hansen</h3>
+						</div>
+					</li>
+					<li>
+						<div class="pic-border">
+							<a href=""><div class="pic-container" style="background: url(photos/galleries/gallery1/pic3.jpg); background-size: cover; background-repeat: no-repeat;"></div></a>
+							<a href=""><h3 class="code-name">Wunderwear</h3></a>
+							<h3 class="name">Martin Hansen</h3>
+						</div>
+					</li>
+					<li>
+						<div class="pic-border">
+							<a href=""><div class="pic-container" style="background: url(photos/galleries/gallery1/pic4.jpg); background-size: cover; background-repeat: no-repeat;"></div></a>
+							<a href=""><h3 class="code-name">Wunderwear</h3></a>
+							<h3 class="name">Martin Hansen</h3>
+						</div>
+					</li>
+					<li>
+						<div class="pic-border">
+							<a href=""><div class="pic-container" style="background: url(photos/galleries/gallery1/pic5.jpg); background-size: cover; background-repeat: no-repeat;"></div></a>
+							<a href=""><h3 class="code-name">Wunderwear</h3></a>
+							<h3 class="name">Martin Hansen</h3>
 						</div>
 					</li>
 				</ul>
 			</div>
 		</div>
 		<div class="side-bar">
+			<div class="team-management">
+				<h2>Senior Team</h2>
+				<div>
+					<button class="read-more anim-01">Management</button>
+					<button class="read-more anim-01">Staff</button>
+				</div>
+			</div>
 			<div class="vidcarousel">
 				<ul class="streams-list">
 					<li class="lead">

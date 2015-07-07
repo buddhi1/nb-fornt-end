@@ -63,7 +63,7 @@
 			<a href="galleries.php"><li>Galleries</li></a>
 			<a href="forums.php"><li>Forums</li></a>
 			<a href="downloads.php"><li>Downloads</li></a>
-			<a href="#" style="color:#F9C700"><li style="background-color: #333; border-top-left-radius: 3px; border-top-right-radius: 3px;">About</li></a>
+			<a href="#"><li class="active">About</li></a>
 		</ul>
 		<ul class="social">
 			<li class="anim-01 twitch"><a href="http://www.twitch.tv/team/dignitas">
