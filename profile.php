@@ -49,7 +49,6 @@
 			<a href="players.php"><li>Players</li></a>
 			<a href="news.php"><li>News</li></a>
 			<a href="blogs.php"><li>Blogs</li></a>
-			<a href="guides.php"><li>Guides</li></a>
 			<a href=""><li>Videos</li></a>
 			<a href=""><li>Streams</li></a>
 			<a href="matches.php"><li>Matches</li></a>
@@ -57,6 +56,7 @@
 			<a href="forums.php"><li>Forums</li></a>
 			<a href="downloads.php"><li>Downloads</li></a>
 			<a href="about.php"><li>About</li></a>
+			<a href="contact.php"><li>Contact</li></a>
 		</ul>
 		<ul class="social">
 			<li class="anim-01 twitch"><a href="http://www.twitch.tv/team/dignitas">
@@ -115,6 +115,11 @@
 					<h1>Wunderwear</h1>
 					<p>Martin Hansen</p>
 				</div>
+				<div class="personal-data">
+					<i class="fa fa-map-marker"><span>From Dudenhofen, Germany</span></i>
+					<br>
+					<i class="fa fa-heart"><span>Born on the 24th May 1989</span></i>
+				</div>
 			</div>
 			<div class="pro-container">
 				<h2 class="heading">GAMING STREAM</h2>
@@ -129,20 +134,74 @@
 					</button>
 				</div>
 			</div>
+			<div class="biography-section">
+				<h2 class="heading">BIOGRAPHY</h2>
+				<div class="bio">
+					<p>Hello! My name is Alex Donahue and I am a recent high school gradute and long time League of Legends player. I started playing around the middle of season two and ever since then I have managed to achive the rank of diamond, and I have an interest in sharing the knowledge I've gained with others.</p>
+				</div>
+			</div>
 			<div class="hardware-section">
 				<h2 class="heading">MY HARDWARE</h2>
 				<div class="hardware-parts">
-					<div>
-						<h3>Mouse</h3>
-						<p>Corsair Gaming Sabre Laser RGB Gaming Mouse (EU version)</p>
+					<div class="border-div">
+						<div>
+							<h3>Mouse</h3>
+							<p>Corsair Gaming Sabre Laser RGB Gaming Mouse (EU version)</p>
+						</div>
 					</div>
-					<div>
-						<h3>Mousepad</h3>
-						<p>Corsair Gaming MM400 Mouse Mat — Standard Edition</p>
+					<div class="border-div">
+						<div>
+							<h3>Mousepad</h3>
+							<p>Corsair Gaming MM400 Mouse Mat — Standard Edition</p>
+						</div>
 					</div>
-					<div>
-						<h3>Keyboard</h3>
-						<p>Corsair Gaming K70 RGB Mechanical Gaming Keyboard — Cherry MX Red</p>
+					<div class="border-div">
+						<div>
+							<h3>Keyboard</h3>
+							<p>Corsair Gaming K70 RGB Mechanical Gaming Keyboard — Cherry MX Red MX Red</p>
+						</div>
+					</div>
+					<div class="border-div">
+						<div>
+							<h3>CASE</h3>
+							<p>Cooler Master HAF 912 Mid tower</p>
+						</div>
+					</div>
+					<div class="border-div">
+						<div>
+							<h3>CPU</h3>
+							<p>AMD FX(tm)-4350 Quad-Core Processor</p>
+						</div>
+					</div>
+					<div class="border-div">
+						<div>
+							<h3>GFX</h3>
+							<p>Nvidia Geoforce GTX 970</p>
+						</div>
+					</div>
+					<div class="border-div">
+						<div>
+							<h3>RAM</h3>
+							<p>8gigs of DDR 3</p>
+						</div>
+					</div>
+					<div class="border-div">
+						<div>
+							<h3>STORAGE</h3>
+							<p>1 Terabyte</p>
+						</div>
+					</div>
+					<div class="border-div">
+						<div>
+							<h3>MONITOR</h3>
+							<p>Asus Widescreen LED</p>
+						</div>
+					</div>
+					<div class="border-div">
+						<div>
+							<h3>HEADSET</h3>
+							<p>Logitech G430</p>
+						</div>
 					</div>
 				</div>
 				<div class="advertisment">

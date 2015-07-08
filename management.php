@@ -1,7 +1,7 @@
 <html>
 <head>
 	
-	<title>Players</title>
+	<title>Management</title>
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="js/woothemes-FlexSlider-8ed61ac/flexslider.css" type="text/css">
@@ -23,13 +23,6 @@
 	    	minItems: 5,
 	    	move: 1
 	    });
-	   
-	    $('#flexslider-main').flexslider({
-		    animation: "slide",
-		    controlNav: false,
-		    animation: "fade",
-		  });
-
 	  });
 	</script>
 
@@ -60,7 +53,7 @@
 	<nav class="navigation">
 		<ul class="nav-links">
 			<a href="index.php"><li>Home</li></a>
-			<a href=""><li class="active">Players</li></a>
+			<a href="players.php"><li>Players</li></a>
 			<a href="news.php"><li>News</li></a>
 			<a href="blogs.php"><li>Blogs</li></a>
 			<a href=""><li>Videos</li></a>
@@ -122,78 +115,189 @@
 	</div>
 	<div class="wrapper-content">
 		<div class="slider">
-			<h2 class="page-title">GALLERIES</h2>		
-			<ul class="team-ul">
-				<li>
-					<div class="team-type">
-						<a href="#">
-							<div>
-								<img src="photos/teams/team1.jpg">
-								<h2>League of Legends</h2>
+			<h2 class="page-title">Management & Staff</h2>
+			<div class="management-staff">
+				<div class="management-section">
+					<h2 class="heading">Management</h2>
+					<div class="manage-section">
+						<div class="border-div">
+							<div class="container">
+								<div class="pic-container" style="background: url(photos/management-staff/management/pic1.jpg); background-size: contain; background-repeat: no-repeat;"></div>
+								<p class="name">Michael O'Dell</p>
+								<br>
+								<p class="position">Managing Director</p>
 							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class="team-type">
-						<a href="#">
-							<div>
-								<img src="photos/teams/team2.png">
-								<h2>Hearthstone</h2>
+						</div>
+						<div class="border-div">
+							<div class="container">
+								<div class="pic-container" style="background: url(photos/management-staff/management/pic1.jpg); background-size: contain; background-repeat: no-repeat;"></div>
+								<p class="name">Michael O'Dell</p>
+								<br>
+								<p class="position">Managing Director</p>
 							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class="team-type">
-						<a href="#">
-							<div>
-								<img src="photos/teams/team3.jpg">
-								<h2>Counter Strike Global Offensive</h2>
+						</div>
+						<div class="border-div">
+							<div class="container">
+								<div class="pic-container" style="background: url(photos/management-staff/management/pic1.jpg); background-size: contain; background-repeat: no-repeat;"></div>
+								<p class="name">Michael O'Dell</p>
+								<br>
+								<p class="position">Managing Director</p>
 							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class="team-type">
-						<a href="#">
-							<div>
-								<img src="photos/teams/team4.png">
-								<h2>StarCraft II</h2>
+						</div>
+						<div class="border-div">
+							<div class="container">
+								<div class="pic-container" style="background: url(photos/management-staff/management/pic1.jpg); background-size: contain; background-repeat: no-repeat;"></div>
+								<p class="name">Michael O'Dell</p>
+								<br>
+								<p class="position">Managing Director</p>
 							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class="team-type">
-						<a href="#">
-							<div>
-								<img src="photos/teams/team5.png">
-								<h2>SMITE</h2>
+						</div>
+						<div class="border-div">
+							<div class="container">
+								<div class="pic-container" style="background: url(photos/management-staff/management/pic1.jpg); background-size: contain; background-repeat: no-repeat;"></div>
+								<p class="name">Michael O'Dell</p>
+								<br>
+								<p class="position">Managing Director</p>
 							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class="team-type">
-						<a href="#">
-							<div>
-								<img src="photos/teams/team6.jpg">
-								<h2>Heroes of the Storm</h2>
+						</div>
+						<div class="border-div">
+							<div class="container">
+								<div class="pic-container" style="background: url(photos/management-staff/management/pic1.jpg); background-size: contain; background-repeat: no-repeat;"></div>
+								<p class="name">Michael O'Dell</p>
+								<br>
+								<p class="position">Managing Director</p>
 							</div>
-						</a>
+						</div>
+						<div class="border-div">
+							<div class="container">
+								<div class="pic-container" style="background: url(photos/management-staff/management/pic1.jpg); background-size: contain; background-repeat: no-repeat;"></div>
+								<p class="name">Michael O'Dell</p>
+								<br>
+								<p class="position">Managing Director</p>
+							</div>
+						</div>
 					</div>
-				</li>
-			</ul>
-		</div>
-		<div class="side-bar">
-			<div class="team-management">
-				<h2>Senior Team</h2>
-				<div>
-					<button class="read-more anim-01">Management</button>
-					<button class="read-more anim-01">Staff</button>
+				</div>
+				<div class="management-section">
+					<h2 class="heading">Staff</h2>
+					<div class="manage-section">
+						<h3>Editorial</h3>
+						<div class="border-div">
+							<div class="container">
+								<a href="">
+									<div class="pic-container" style="background: url(photos/management-staff/management/pic1.jpg); background-size: contain; background-repeat: no-repeat;"></div>
+								</a>
+								<p class="name">Michael O'Dell</p>
+								<br>
+								<p class="position">Managing Director</p>
+							</div>
+						</div>
+						<div class="border-div">
+							<div class="container">
+								<a href="">
+									<div class="pic-container" style="background: url(photos/management-staff/management/pic1.jpg); background-size: contain; background-repeat: no-repeat;"></div>
+								</a>
+								<p class="name">Michael O'Dell</p>
+								<br>
+								<p class="position">Managing Director</p>
+							</div>
+						</div>
+						<div class="border-div">
+							<div class="container">
+								<a href="">
+									<div class="pic-container" style="background: url(photos/management-staff/management/pic1.jpg); background-size: contain; background-repeat: no-repeat;"></div>
+								</a>
+								<p class="name">Michael O'Dell</p>
+								<br>
+								<p class="position">Managing Director</p>
+							</div>
+						</div>
+						<div class="border-div">
+							<div class="container">
+								<a href="">
+									<div class="pic-container" style="background: url(photos/management-staff/management/pic1.jpg); background-size: contain; background-repeat: no-repeat;"></div>
+								</a>
+								<p class="name">Michael O'Dell</p>
+								<br>
+								<p class="position">Managing Director</p>
+							</div>
+						</div>
+						<div class="border-div">
+							<div class="container">
+								<a href="">
+									<div class="pic-container" style="background: url(photos/management-staff/management/pic1.jpg); background-size: contain; background-repeat: no-repeat;"></div>
+								</a>
+								<p class="name">Michael O'Dell</p>
+								<br>
+								<p class="position">Managing Director</p>
+							</div>
+						</div>
+						<div class="border-div">
+							<div class="container">
+								<a href="">
+									<div class="pic-container" style="background: url(photos/management-staff/management/pic1.jpg); background-size: contain; background-repeat: no-repeat;"></div>
+								</a>
+								<p class="name">Michael O'Dell</p>
+								<br>
+								<p class="position">Managing Director</p>
+							</div>
+						</div>
+						<h3>Streamers</h3>
+						<div class="border-div">
+							<div class="container">
+								<a href="">
+									<div class="pic-container" style="background: url(photos/management-staff/management/pic1.jpg); background-size: contain; background-repeat: no-repeat;"></div>
+								</a>
+								<p class="name">Michael O'Dell</p>
+								<br>
+								<p class="position">Managing Director</p>
+							</div>
+						</div>
+						<div class="border-div">
+							<div class="container">
+								<a href="">
+									<div class="pic-container" style="background: url(photos/management-staff/management/pic1.jpg); background-size: contain; background-repeat: no-repeat;"></div>
+								</a>
+								<p class="name">Michael O'Dell</p>
+								<br>
+								<p class="position">Managing Director</p>
+							</div>
+						</div>
+						<div class="border-div">
+							<div class="container">
+								<a href="">
+									<div class="pic-container" style="background: url(photos/management-staff/management/pic1.jpg); background-size: contain; background-repeat: no-repeat;"></div>
+								</a>
+								<p class="name">Michael O'Dell</p>
+								<br>
+								<p class="position">Managing Director</p>
+							</div>
+						</div>
+						<div class="border-div">
+							<div class="container">
+								<a href="">
+									<div class="pic-container" style="background: url(photos/management-staff/management/pic1.jpg); background-size: contain; background-repeat: no-repeat;"></div>
+								</a>
+								<p class="name">Michael O'Dell</p>
+								<br>
+								<p class="position">Managing Director</p>
+							</div>
+						</div>
+						<div class="border-div">
+							<div class="container">
+								<a href="">
+									<div class="pic-container" style="background: url(photos/management-staff/management/pic1.jpg); background-size: contain; background-repeat: no-repeat;"></div>
+								</a>
+								<p class="name">Michael O'Dell</p>
+								<br>
+								<p class="position">Managing Director</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
+		</div>
+		<div class="side-bar">
 			<div class="vidcarousel">
 				<ul class="streams-list">
 					<li class="lead">
