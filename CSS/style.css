@@ -3104,3 +3104,147 @@ body{
 .comment-ul {
 	padding: 0;
 }
+
+/* styles of one-match.php */
+
+.wrapper-content .slider .matches-outer {
+	background-color: #ddd;
+	padding: 0;
+	overflow: hidden;
+}
+
+.wrapper-content .slider .matches-inner {
+	background-color: #fff;
+	margin: 10px;
+	overflow: hidden;
+}
+
+.wrapper-content .slider .matches-inner .cover {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	height: 200px;
+}
+
+.wrapper-content .slider .matches-inner .name {
+	float: left;
+	font-size: 32px;
+	font-weight: 200;
+	margin-left: 20px;
+}
+
+.wrapper-content .slider .matches-inner .date {
+	float: right;
+	font-size: 32px;
+	font-weight: 200;
+	color: #999;
+	margin-right: 20px;
+}
+
+.wrapper-content .slider .matches-inner .heading {
+	position: relative;
+	overflow: hidden;
+}
+
+.wrapper-content .slider .matches-inner .team-left .pic-container {
+	position: relative;
+	overflow: hidden;
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.wrapper-content .slider .matches-inner .team-left h3{
+	font-size: 32px;
+	color: #E6A800;
+	margin: 5px 0 5px 0;
+}
+
+.wrapper-content .slider .matches-inner .team-left h4{
+	font-size: 26px;
+	margin: 0;
+	padding: 5px 10px 5px 10px;
+	background-color: #62be2b;
+	float: left;
+	border-radius: 3px;
+	color: #fff;
+}
+
+.wrapper-content .slider .matches-inner .two-teams{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	font-size: 0;
+	border-top: solid 2px #e4e4e4;
+}
+
+.wrapper-content .slider .matches-inner .team-left{
+	width: 50%;
+	font-size: 0;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	padding: 40px 0 40px 0;
+	border-right: solid 2px #e4e4e4;
+	box-sizing: border-box;
+}
+
+.wrapper-content .slider .matches-inner .team-right{
+	width: 50%;
+	font-size: 0;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	padding: 40px 0 40px 0;
+}
+
+.wrapper-content .slider .matches-inner .vs {
+	position: absolute;
+	left: 47%;
+	margin-top: -120px;
+	padding: 10px;
+	background-color: #ddd;
+	border-radius: 80px;
+}
+
+.wrapper-content .slider .matches-inner .vs span{
+	font-size: 24px;
+	width: 80px;
+	height: 80px;
+	color: #999;
+
+}
+
+.wrapper-content .slider .matches-inner .team-right .pic-container {
+	position: relative;
+	overflow: hidden;
+	width: 100px;
+	height: 100px;
+	float: right;
+	padding: 0 10px 0 10px;
+}
+
+.wrapper-content .slider .matches-inner .team-right h3{
+	font-size: 32px;
+	color: #E6A800;
+	margin: 5px 20px 5px 0;
+	/*float: right;*/
+	overflow: hidden;
+	position: relative;
+}
+
+.wrapper-content .slider .matches-inner .team-right h4{
+	font-size: 26px;
+	margin: 0;
+	padding: 5px 10px 5px 10px;
+	background-color: #f04343;
+	float: right;
+	border-radius: 3px;
+	color: #fff;
+	overflow: hidden;
+	position: relative;
+	margin-right: 20px;
+}
