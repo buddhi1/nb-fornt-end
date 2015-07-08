@@ -1,6 +1,16 @@
+h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 32px;
+}
+
 h2{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
+}
+
+h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
 }
 
 p{
@@ -263,7 +273,7 @@ body{
 
 .wrapper-content{
 	max-width: 1240px;
-	margin: 0px auto 0px auto;
+	margin: 5px auto 0px auto;
 	left: 0;
 	right: 0;
 	position: relative;
@@ -645,6 +655,7 @@ body{
 .vidcarousel .streams-list {
 	border-bottom: solid 4px #222;
 	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
 .widget-list img {
@@ -2523,12 +2534,32 @@ body{
 	margin: 0;
 	font-size: 48px;
 	text-align: left;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .profile-area .cover-section .profile-info p{
 	margin: 0;
 	font-size: 16px;
 	text-align: left;
+	color: #999;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.profile-area .cover-section .personal-data {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 15px 0 0 50px;
+}
+
+.profile-area .cover-section .personal-data i{
+	margin-bottom: 10px;
+	color: #999;
+}
+
+.profile-area .cover-section .personal-data span{
+	margin-left: 10px;
+	font-size: 0.9em;
 }
 
 /* stream section of profile */
@@ -2602,6 +2633,23 @@ body{
 	text-transform: uppercase;
 }
 
+/* biography section of profile */
+.profile-area .biography-section {
+	margin: 10px 0 0 0;
+	border-radius: 3px;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	font-size: 0;
+	background-color: #fff;
+}
+
+.profile-area .biography-section .bio {
+	position: relative;
+	width: 100%;
+	padding: 10px;
+}
+
 /* hardware section of profile */
 
 .profile-area .hardware-section {
@@ -2612,11 +2660,17 @@ body{
 	width: 100%;
 	font-size: 0;
 	background-color: #fff;
+	padding: 0 0 10px 0;
 }
 
 .profile-area .hardware-section .hardware-parts {
 	position: relative;
 	width: 100%;
+	font-size: 0;
+	border-right: 10px solid #fff;
+	box-sizing: border-box;
+	padding-top: 10px;
+	overflow: hidden;
 }
 
 .profile-area .hardware-section h3 {
@@ -2629,23 +2683,32 @@ body{
 	font-size: 14px;
 }
 
-.profile-area .hardware-section .hardware-parts div {
+.profile-area .hardware-section .hardware-parts .border-div {
 	float: left;
 	width: 25%;
-	margin: 10px;
-	background-color: #eee;
+	background-color: #fff;
 	overflow: hidden;
 	position: relative;
-	padding: 10px;
+	display: inline-block;
+	border-left: 10px solid #fff;
+	box-sizing: border-box;
+	vertical-align: top;
+	padding: 0;
+	margin: 10px 0 0 0;
 }
 
-.profile-area .advertisment {
-	width: 80%;
-	height: 100px;
+.profile-area .hardware-section .hardware-parts .border-div div{
+	border-radius: 5px;
 	overflow: hidden;
 	position: relative;
 	background-color: #eee;
-	margin: 10px;
+	padding: 10px 0 0 0;
+	width: 100%;
+	height: 75px;
+}
+
+.profile-area .hardware-section .hardware-parts .border-div div h3,p{
+	padding: 0 0 0 10px;
 }
 
 /*------------------------------news item start-----------------------------*/
@@ -2764,6 +2827,11 @@ body{
 	background-color: #000000;
 }
 
+/*.comment-container .comment-ul {
+	margin-top: 5px;
+	background-color: #000000;
+}*/
+
 .author-info{
 	width: 181px;
 	height: 100px;
@@ -2823,3 +2891,216 @@ body{
 
 
 /*------------------------------news item end-----------------------------*/
+
+/* styles of management.php */
+
+.management-staff {
+	margin: 10px 0 0 0;
+	border-radius: 3px;
+	position: relative;
+	overflow: hidden;
+	width: auto;
+	font-size: 0;
+	background-color: #ddd;
+	padding: 10px;
+}
+
+.management-staff .heading {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 23px;
+	font-weight: 500;
+	color: #ffffff;
+	background-color: #000;
+	margin: 0;
+	position: relative;
+	padding-left: 10px;
+}
+
+.management-staff .manage-section {
+	position: relative;
+	width: 100%;
+	padding: 20px 0 20px 0;
+	display: inline-block;
+	vertical-align: top;
+	overflow: hidden;
+}
+
+.management-staff .management-section {
+	background-color: #fff;
+	position: relative;
+	overflow: hidden;
+	border-radius: 4px;
+	margin: 0 0 10px 0;
+}
+
+.management-staff .management-section .manage-section .border-div {
+	float: left;
+	width: 33%;
+	background-color: #fff;
+	overflow: hidden;
+	position: relative;
+	display: inline-block;
+	border-left: 10px solid #fff;
+	box-sizing: border-box;
+	vertical-align: top;
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+
+.management-staff .management-section .manage-section .border-div .container{
+	overflow: hidden;
+	position: relative;
+	background-color: #fff;
+	width: 100%;
+}
+
+.management-staff .management-section .manage-section .border-div .name{
+	padding: 0 0 0 10px;
+	font-size: 14px;
+	font-weight: 800;
+	margin: 0;
+}
+
+.management-staff .management-section .manage-section .border-div .position{
+	padding: 0 0 0 10px;
+	font-size: 14px;
+	margin: 3px 0 10px 0;
+}
+
+.management-staff .management-section .manage-section .border-div .pic-container {
+	width: 60%;
+	height: 165px;
+	overflow: hidden;
+	margin: 0 0 10px 0;
+}
+
+.management-staff .management-section .manage-section h3 {
+	padding: 0 0 0 10px;
+}
+
+/* styles of press.php - Same as about.php */
+
+
+/* styles of artworks.php */
+.wrapper-content .slider .about-inner .main-logo {
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	border-radius: 4px;
+	margin: 0 0 0 50px;
+	float: left;
+	position: relative;
+}
+
+.wrapper-content .slider .about-inner .download-links a {
+	margin: 0 0 0 10px;
+}
+
+/* styles of album.php */
+
+.album-area a{
+	text-decoration: none;
+}
+
+.album-area {
+	margin: 0px auto 0px auto;
+	max-width: 1240px;
+	border-radius: 3px;
+	position: relative;
+	overflow: hidden;
+	background-color: #191919;
+}
+
+.album-area .album-header{
+	width: 100%;
+	display: inline-block;
+}
+
+.album-area .album-header .heading {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 23px;
+	font-weight: 500;
+	float: left;
+	color: #ffffff;
+	padding: 0 0 0 20px;
+}
+
+.album-area .album-header .photo-count {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 23px;
+	font-weight: 500;
+	float: right;
+	color: #ffffff;
+	padding: 0 20px 0 0;
+}
+
+.album-area .album {
+	width: 100%;
+	font-size: 0;
+	padding: 0 0 10px 0;
+	background-color: #ddd;
+	border-right: 10px solid #ddd;
+	box-sizing: border-box;
+	margin: 0 0 10px 0;
+}
+
+.album-area .album .album-li {
+	width: 20%;
+	font-size: 0;
+	display: inline-block;
+	border-left: 10px solid #ddd;
+	padding: 10px 0 0 0;
+	box-sizing: border-box;
+	vertical-align: top;
+	position: relative;
+	overflow: hidden;
+}
+
+.album-area .album .album-li .pic-container {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 150px;
+	/*border: 2px solid #fff;*/
+	/*box-sizing: border-box;*/
+}
+
+.album-area .album .album-li .pic-container img{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+/*.album-area .album li .pic-container:hover {
+	transform: scale(1.1,1.1);
+}*/
+
+.album-area .album .album-li .pic-border {
+	overflow: hidden;
+	border: 2px solid #fff;
+}
+
+.album-area .album .album-li .pic-border:hover {
+	border-color: #E6A800;
+}
+
+.album-description {
+	background-color: #fff;
+	padding: 20px 0 20px 0;
+	border-radius: 3px;
+	margin: 10px 0 10px 10px;
+}
+
+.album-description .date {
+	font-size: 14px;
+	margin: 0 0 15px 0;
+}
+
+.album-description .des {
+	font-size: 14px;
+	margin: 0;
+}
+
+.comment-ul {
+	padding: 0;
+}

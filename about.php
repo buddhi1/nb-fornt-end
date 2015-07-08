@@ -1,7 +1,7 @@
 <html>
 <head>
 	
-	<title>Galleries</title>
+	<title>About</title>
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="js/woothemes-FlexSlider-8ed61ac/flexslider.css" type="text/css">
@@ -56,7 +56,6 @@
 			<a href="players.php"><li>Players</li></a>
 			<a href="news.php"><li>News</li></a>
 			<a href="blogs.php"><li>Blogs</li></a>
-			<a href="guides.php"><li>Guides</li></a>
 			<a href=""><li>Videos</li></a>
 			<a href=""><li>Streams</li></a>
 			<a href="matches.php"><li>Matches</li></a>
@@ -64,6 +63,7 @@
 			<a href="forums.php"><li>Forums</li></a>
 			<a href="downloads.php"><li>Downloads</li></a>
 			<a href="#"><li class="active">About</li></a>
+			<a href="contact.php"><li>Contact</li></a>
 		</ul>
 		<ul class="social">
 			<li class="anim-01 twitch"><a href="http://www.twitch.tv/team/dignitas">
@@ -121,7 +121,7 @@
 					<div class="about-logo" style="background: url(photos/logo/main-logo.png); background-size: contain; background-repeat: no-repeat;">
 					</div>
 					<p class="links">
-						<strong>Quick links:</strong> <a href="#">Management</a> - <a href="#">Staff</a> - <a href="#">Contact</a> - <a href="#">Career</a> - <a href="#">Hall of Fame</a> - <a href="#">ReadyUpTV</a> - <a href="#">Press</a> - <a href="#">Logos & Artwork</a>
+						<strong>Quick links:</strong> <a href="#">Management & Staff</a> - <a href="#">Hall of Fame</a> - <a href="#">Press</a> - <a href="#">Logos & Artwork</a>
 					</p>
 					<p>Team Dignitas is a Limited company, registered in the United Kingdom. Our goal is to further develop our reputation as one of the best and most professional gaming teams in the world.</p>
 					<p>Team Dignitas was formed in September 2003, after the merger of two excellent Battlefield 1942 teams. The new ‘Dignitas’ Battlefield team went on to be very successful and after attending CeBIT (2004) we held discussions with ABIT and within a few months we had secured our first sponsor.</p>

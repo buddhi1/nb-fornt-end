@@ -80,7 +80,6 @@
 			<a href="players.php"><li>Players</li></a>
 			<a href="#" style="color:#F9C700"><li style="background-color: #333; border-top-left-radius: 3px; border-top-right-radius: 3px;">News</li></a>
 			<a href="blogs.php"><li>Blogs</li></a>
-			<a href="guides.php"><li>Guides</li></a>
 			<a href=""><li>Videos</li></a>
 			<a href=""><li>Streams</li></a>
 			<a href="matches.php"><li>Matches</li></a>
@@ -88,6 +87,7 @@
 			<a href="forums.php"><li>Forums</li></a>
 			<a href="downloads.php"><li>Downloads</li></a>
 			<a href="about.php"><li>About</li></a>
+			<a href="contact.php"><li>Contact</li></a>
 		</ul>
 		<ul class="social">
 			<li class="anim-01 twitch"><a href="http://www.twitch.tv/team/dignitas">

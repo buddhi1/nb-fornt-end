@@ -1,7 +1,7 @@
 <html>
 <head>
 	
-	<title>Players</title>
+	<title>Press</title>
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="js/woothemes-FlexSlider-8ed61ac/flexslider.css" type="text/css">
@@ -23,13 +23,6 @@
 	    	minItems: 5,
 	    	move: 1
 	    });
-	   
-	    $('#flexslider-main').flexslider({
-		    animation: "slide",
-		    controlNav: false,
-		    animation: "fade",
-		  });
-
 	  });
 	</script>
 
@@ -60,7 +53,7 @@
 	<nav class="navigation">
 		<ul class="nav-links">
 			<a href="index.php"><li>Home</li></a>
-			<a href=""><li class="active">Players</li></a>
+			<a href="players.php"><li>Players</li></a>
 			<a href="news.php"><li>News</li></a>
 			<a href="blogs.php"><li>Blogs</li></a>
 			<a href=""><li>Videos</li></a>
@@ -69,7 +62,7 @@
 			<a href="galleries.php"><li>Galleries</li></a>
 			<a href="forums.php"><li>Forums</li></a>
 			<a href="downloads.php"><li>Downloads</li></a>
-			<a href="about.php"><li>About</li></a>
+			<a href="#"><li class="active">About</li></a>
 			<a href="contact.php"><li>Contact</li></a>
 		</ul>
 		<ul class="social">
@@ -122,78 +115,14 @@
 	</div>
 	<div class="wrapper-content">
 		<div class="slider">
-			<h2 class="page-title">GALLERIES</h2>		
-			<ul class="team-ul">
-				<li>
-					<div class="team-type">
-						<a href="#">
-							<div>
-								<img src="photos/teams/team1.jpg">
-								<h2>League of Legends</h2>
-							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class="team-type">
-						<a href="#">
-							<div>
-								<img src="photos/teams/team2.png">
-								<h2>Hearthstone</h2>
-							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class="team-type">
-						<a href="#">
-							<div>
-								<img src="photos/teams/team3.jpg">
-								<h2>Counter Strike Global Offensive</h2>
-							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class="team-type">
-						<a href="#">
-							<div>
-								<img src="photos/teams/team4.png">
-								<h2>StarCraft II</h2>
-							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class="team-type">
-						<a href="#">
-							<div>
-								<img src="photos/teams/team5.png">
-								<h2>SMITE</h2>
-							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class="team-type">
-						<a href="#">
-							<div>
-								<img src="photos/teams/team6.jpg">
-								<h2>Heroes of the Storm</h2>
-							</div>
-						</a>
-					</div>
-				</li>
-			</ul>
-		</div>
-		<div class="side-bar">
-			<div class="team-management">
-				<h2>Senior Team</h2>
-				<div>
-					<button class="read-more anim-01">Management</button>
-					<button class="read-more anim-01">Staff</button>
+			<h2 class="page-title">Press</h2>
+			<div class="about-outer">
+				<div class="about-inner">
+					<p>Coming soon.</p>
 				</div>
 			</div>
+		</div>
+		<div class="side-bar">
 			<div class="vidcarousel">
 				<ul class="streams-list">
 					<li class="lead">

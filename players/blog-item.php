@@ -1,7 +1,7 @@
 <html>
 <head>
 	
-	<title>Players</title>
+	<title>Blogs</title>
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="js/woothemes-FlexSlider-8ed61ac/flexslider.css" type="text/css">
@@ -16,12 +16,12 @@
 	    	animationLoop: true,
 	    	slideshow: true,
 	    	controlNav: false,
-	    	prevText: "",
-	    	nextText: "",
 	    	itemWidth: 800,
 	    	itemMargin: 0,
 	    	minItems: 5,
-	    	move: 1
+	    	move: 1,
+	    	prevText: "",
+	    	nextText: "",
 	    });
 	   
 	    $('#flexslider-main').flexslider({
@@ -48,7 +48,9 @@
 	}(document, 'script', 'facebook-jssdk'));</script>
 	<header class="header">
 		<div class="logo">
-			<img src="photos/logo/main-logo.png">
+			<a href="#">				
+				<img src="photos/logo/logo.jpg">n00b Alliance
+			</a>
 		</div>
 		<div class="leaderboard">
 			<a href="#">
@@ -60,9 +62,9 @@
 	<nav class="navigation">
 		<ul class="nav-links">
 			<a href="index.php"><li>Home</li></a>
-			<a href=""><li class="active">Players</li></a>
+			<a href="players.php"><li>Players</li></a>
 			<a href="news.php"><li>News</li></a>
-			<a href="blogs.php"><li>Blogs</li></a>
+			<a href="blogs.php"><li class="active">Blogs</li></a>
 			<a href=""><li>Videos</li></a>
 			<a href=""><li>Streams</li></a>
 			<a href="matches.php"><li>Matches</li></a>
@@ -122,78 +124,77 @@
 	</div>
 	<div class="wrapper-content">
 		<div class="slider">
-			<h2 class="page-title">GALLERIES</h2>		
-			<ul class="team-ul">
-				<li>
-					<div class="team-type">
-						<a href="#">
-							<div>
-								<img src="photos/teams/team1.jpg">
-								<h2>League of Legends</h2>
+			<h2 class="page-title">Blogs</h2>			
+			<div class="news-description">
+				<ul>
+					<li>
+						<h1 class="news-heading">PGL CCS: Team Dignitas vs. AliGon</h1>
+						<div class="news-info">
+							<div class="author-image" style="background: url(photos/author/IMG_8778.JPG);"></div>
+							<div class="info">
+								<h2 class="author-name">MepH</h2>
+								<p class="news-date">Sun 5th Jul 2015 - 8:02pm</p>
 							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class="team-type">
-						<a href="#">
-							<div>
-								<img src="photos/teams/team2.png">
-								<h2>Hearthstone</h2>
-							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class="team-type">
-						<a href="#">
-							<div>
-								<img src="photos/teams/team3.jpg">
-								<h2>Counter Strike Global Offensive</h2>
-							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class="team-type">
-						<a href="#">
-							<div>
-								<img src="photos/teams/team4.png">
-								<h2>StarCraft II</h2>
-							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class="team-type">
-						<a href="#">
-							<div>
-								<img src="photos/teams/team5.png">
-								<h2>SMITE</h2>
-							</div>
-						</a>
-					</div>
-				</li>
-				<li>
-					<div class="team-type">
-						<a href="#">
-							<div>
-								<img src="photos/teams/team6.jpg">
-								<h2>Heroes of the Storm</h2>
-							</div>
-						</a>
-					</div>
-				</li>
-			</ul>
+						</div>
+						<div class="news-body">
+							<p>Yesterday's decisive victory over Team 8 proved that our League of Legends NA team
+							 hasn't been affected by the defeat to TDK in the League of Legends Championship Series (LCS). 
+							 Today's matchup has been featured by Riot Games as the match of the week: we take on Team Liquid.
+							We hope to repeat our victory over TL tonight at 3pm PDT / 6pm EDT / midnight CEST.</p>	
+						</div>
+						<div class="comment-container">
+							<h2 class="comment-heading">Your comments</h2>
+							<ul>
+								<li>
+									<div class="author-info">
+										<a href=""><div class="author-image" style="background: url('photos/author/IMG_8778.JPG');"></div></a>
+										<a href=""><h2 class="author-name">MepH</h2></a>
+								</div>
+									<div class="comment-info">
+										<p class="comment-date">Sun 5th Jul 2015 - 4:08am</p>
+										<p class="comment">Excellent work today, boys! I look forward to another solid match tomorrow.</p>
+									</div>
+								</li>
+								<li>
+									<div class="author-info">
+										<a href=""><div class="author-image" style="background: url('photos/author/IMG_8778.JPG');"></div></a>
+										<a href=""><h2 class="author-name">MepH</h2></a>
+								</div>
+									<div class="comment-info">
+										<p class="comment-date">Sun 5th Jul 2015 - 4:08am</p>
+										<p class="comment">Excellent work today, boys! I look forward to another solid match tomorrow.</p>
+									</div>
+								</li>
+								<li>
+									<div class="author-info">
+										<a href=""><div class="author-image" style="background: url('photos/author/IMG_8778.JPG');"></div></a>
+										<a href=""><h2 class="author-name">MepH</h2></a>
+								</div>
+									<div class="comment-info">
+										<p class="comment-date">Sun 5th Jul 2015 - 4:08am</p>
+										<p class="comment">I would love to have a CoreJJ jersey. When I first got into League, 
+											my friend told me about all of the roles and by far ADC was my favorite. I dove right into watching the competitive scene and learned from Imaqtpie. Once he left DIG and I found out CoreJJ was joining the team I have had nothing but respect for him. 
+											He is a an amazing ADC and a great player for the team by far. He is my number one favorite ADC in the NA LCS <3.</p>
+									</div>
+								</li>
+								<li>
+									<div class="author-info">
+										<a href=""><div class="author-image" style="background: url('photos/author/IMG_8778.JPG');"></div></a>
+										<a href=""><h2 class="author-name">MepH</h2></a>
+								</div>
+									<div class="comment-info">
+										<p class="comment-date">Sun 5th Jul 2015 - 4:08am</p>
+										<p class="comment">Excellent work today, boys! I look forward to another solid match tomorrow.</p>
+									</div>
+								</li>
+							</ul>
+							<p class="login-info">Please <a href="">register</a> or <a href="">login</a> to post comments</p>
+						</div>						
+					</li>
+				</ul>
+			</div>
 		</div>
 		<div class="side-bar">
-			<div class="team-management">
-				<h2>Senior Team</h2>
-				<div>
-					<button class="read-more anim-01">Management</button>
-					<button class="read-more anim-01">Staff</button>
-				</div>
-			</div>
 			<div class="vidcarousel">
 				<ul class="streams-list">
 					<li class="lead">

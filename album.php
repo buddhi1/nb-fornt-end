@@ -1,7 +1,7 @@
 <html>
 <head>
 	
-	<title>Users</title>
+	<title>Galleries</title>
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="js/woothemes-FlexSlider-8ed61ac/flexslider.css" type="text/css">
@@ -28,6 +28,17 @@
 
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />
+	<style type="text/css">
+	    a.fancybox img {
+	        border: none;
+	        box-shadow: 0 1px 7px rgba(0,0,0,0.6);
+	        -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
+	    } 
+	    a.fancybox:hover img {
+	        position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
+	    }
+	</style>
 </head>
 <body>
 	<div id="fb-root"></div>
@@ -52,7 +63,7 @@
 			<a href=""><li>Videos</li></a>
 			<a href=""><li>Streams</li></a>
 			<a href="matches.php"><li>Matches</li></a>
-			<a href="galleries.php"><li>Galleries</li></a>
+			<a href="galleries.php"><li class="active">Galleries</li></a>
 			<a href="forums.php"><li>Forums</li></a>
 			<a href="downloads.php"><li>Downloads</li></a>
 			<a href="about.php"><li>About</li></a>
@@ -107,107 +118,134 @@
 		</div>
 	</div>
 	<div class="wrapper-content">
-		<div class="profile-area">
-			<div class="cover-section">
-				<div class="pic-container" style="background: url(photos/teams/team1.jpg); background-size: cover; background-repeat: no-repeat;"></div>
-				<div class="profile-pic"  style="background: url(photos/teams/team1/pic1.jpg); background-size: cover; background-repeat: no-repeat;"></div>
-				<div class="profile-info">
-					<h1>Wunderwear</h1>
-					<p>Martin Hansen</p>
-				</div>
-				<div class="personal-data">
-					<i class="fa fa-map-marker"><span>From Dudenhofen, Germany</span></i>
-					<br>
-					<i class="fa fa-heart"><span>Born on the 24th May 1989</span></i>
-				</div>
+		<div class="album-area">
+			<div class="album-header">
+				<h2 class="heading">ESPORTS FESTIVAL 2015</h2>
+				<h2 class="photo-count">112 PICS</h2>
 			</div>
-			<div class="pro-container">
-				<h2 class="heading">GAMING STREAM</h2>
-				<div class="stream-section">
-					<iframe height="515" scr=""></iframe>
-					<iframe height="600" src=""></iframe>
+			<ul class="album">
+				<li class="album-li">
+					<div class="pic-border">
+						<div class="pic-container">
+							<img class="fancybox" src="photos/galleries/gallery1/pic1.jpg">
+						</div>
+					</div>
+				</li>
+				<li class="album-li">
+					<div class="pic-border">
+						<div class="pic-container">
+							<img class="fancybox" src="photos/galleries/gallery1/pic1.jpg">
+						</div>
+					</div>
+				</li>
+				<li class="album-li">
+					<div class="pic-border">
+						<div class="pic-container">
+							<img class="fancybox" src="photos/galleries/gallery1/pic1.jpg">
+						</div>
+					</div>
+				</li class="album-li">
+				<li class="album-li">
+					<div class="pic-border">
+						<div class="pic-container">
+							<img class="fancybox" src="photos/galleries/gallery1/pic1.jpg">
+						</div>
+					</div>
+				</li>
+				<li class="album-li">
+					<div class="pic-border">
+						<div class="pic-container">
+							<img class="fancybox" src="photos/galleries/gallery1/pic1.jpg">
+						</div>
+					</div>
+				</li>
+				<li class="album-li">
+					<div class="pic-border">
+						<div class="pic-container">
+							<img class="fancybox" src="photos/galleries/gallery1/pic1.jpg">
+						</div>
+					</div>
+				</li>
+				<li class="album-li">
+					<div class="pic-border">
+						<div class="pic-container">
+							<img class="fancybox" src="photos/galleries/gallery1/pic1.jpg">
+						</div>
+					</div>
+				</li>
+				<li class="album-li">
+					<div class="pic-border">
+						<div class="pic-container">
+							<img class="fancybox" src="photos/galleries/gallery1/pic4.jpg">
+						</div>
+					</div>
+				</li>
+				<li class="album-li">
+					<div class="pic-border">
+						<div class="pic-container">
+							<img class="fancybox" src="photos/galleries/gallery1/pic4.jpg">
+						</div>
+					</div>
+				</li>
+				<li class="album-li">
+					<div class="pic-border">
+						<div class="pic-container">
+							<img class="fancybox" src="photos/galleries/gallery1/pic4.jpg">
+						</div>
+					</div>
+				</li>
+				<li class="album-li">
+					<div class="pic-border">
+						<div class="pic-container">
+							<img class="fancybox" src="photos/galleries/gallery1/pic4.jpg">
+						</div>
+					</div>
+				</li>
+				<li class="album-li">
+					<div class="pic-border">
+						<div class="pic-container">
+							<img class="fancybox" src="photos/galleries/gallery1/pic4.jpg">
+						</div>
+					</div>
+				</li>
+				<li class="album-li">
+					<div class="pic-border">
+						<div class="pic-container">
+							<img class="fancybox" src="photos/galleries/gallery1/pic4.jpg">
+						</div>
+					</div>
+				</li>
+				<li class="album-li">
+					<div class="pic-border">
+						<div class="pic-container">
+							<img class="fancybox" src="photos/galleries/gallery1/pic4.jpg">
+						</div>
+					</div>
+				</li>
+				<div class="album-description">
+					<p class="date">Posted Sat 4th Jul 2015 - 11:55pm</p>
+					<p class="des">Esports Festival 2015</p>
 				</div>
-				<div class="advert-section">
-					<button class="stream-link">
-						<i class="fa fa-twitch"></i>
-						View Twitch.TV profile
-					</button>
+				<div class="comment-container">
+					<h2 class="comment-heading">Your comments</h2>
+					<ul class="comment-ul">
+						<li>
+							<div class="author-info">
+								<a href=""><div class="author-image" style="background: url('photos/author/IMG_8778.JPG');"></div></a>
+								<a href=""><h2 class="author-name">MepH</h2></a>
+							</div>
+							<div class="comment-info">
+								<p class="comment-date">Sun 5th Jul 2015 - 4:08am</p>
+								<p class="comment">Excellent work today, boys! I look forward to another solid match tomorrow.</p>
+							</div>
+						</li>
+					</ul>
+					<p class="login-info">Please <a href="">register</a> or <a href="">login</a> to post comments</p>
 				</div>
-			</div>
-			<div class="biography-section">
-				<h2 class="heading">BIOGRAPHY</h2>
-				<div class="bio">
-					<p>Hello! My name is Alex Donahue and I am a recent high school gradute and long time League of Legends player. I started playing around the middle of season two and ever since then I have managed to achive the rank of diamond, and I have an interest in sharing the knowledge I've gained with others.</p>
-				</div>
-			</div>
-			<div class="hardware-section">
-				<h2 class="heading">MY HARDWARE</h2>
-				<div class="hardware-parts">
-					<div class="border-div">
-						<div>
-							<h3>Mouse</h3>
-							<p>Corsair Gaming Sabre Laser RGB Gaming Mouse (EU version)</p>
-						</div>
-					</div>
-					<div class="border-div">
-						<div>
-							<h3>Mousepad</h3>
-							<p>Corsair Gaming MM400 Mouse Mat — Standard Edition</p>
-						</div>
-					</div>
-					<div class="border-div">
-						<div>
-							<h3>Keyboard</h3>
-							<p>Corsair Gaming K70 RGB Mechanical Gaming Keyboard — Cherry MX Red MX Red</p>
-						</div>
-					</div>
-					<div class="border-div">
-						<div>
-							<h3>CASE</h3>
-							<p>Cooler Master HAF 912 Mid tower</p>
-						</div>
-					</div>
-					<div class="border-div">
-						<div>
-							<h3>CPU</h3>
-							<p>AMD FX(tm)-4350 Quad-Core Processor</p>
-						</div>
-					</div>
-					<div class="border-div">
-						<div>
-							<h3>GFX</h3>
-							<p>Nvidia Geoforce GTX 970</p>
-						</div>
-					</div>
-					<div class="border-div">
-						<div>
-							<h3>RAM</h3>
-							<p>8gigs of DDR 3</p>
-						</div>
-					</div>
-					<div class="border-div">
-						<div>
-							<h3>STORAGE</h3>
-							<p>1 Terabyte</p>
-						</div>
-					</div>
-					<div class="border-div">
-						<div>
-							<h3>MONITOR</h3>
-							<p>Asus Widescreen LED</p>
-						</div>
-					</div>
-					<div class="border-div">
-						<div>
-							<h3>HEADSET</h3>
-							<p>Logitech G430</p>
-						</div>
-					</div>
-				</div>
-				<div class="advertisment">
-				</div>
-			</div>
+			</ul>
+			
 		</div>
+		
 	</div>
 	<div id="main-footer">
 		<div class="logo">
@@ -279,5 +317,28 @@
 			<span id="comp">Ingens</span>
 		</div>
 	</div>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
+	<script type="text/javascript">
+	    $(function($){
+	        var addToAll = false;
+	        var gallery = false;
+	        var titlePosition = 'inside';
+	        $(addToAll ? 'img' : 'img.fancybox').each(function(){
+	            var $this = $(this);
+	            var title = $this.attr('title');
+	            var src = $this.attr('data-big') || $this.attr('src');
+	            var a = $('<a href="#" class="fancybox"></a>').attr('href', src).attr('title', title);
+	            $this.wrap(a);
+	        });
+	        if (gallery)
+	            $('a.fancybox').attr('rel', 'fancyboxgallery');
+	        $('a.fancybox').fancybox({
+	            titlePosition: titlePosition
+	        });
+	    });
+	    $.noConflict();
+	</script>
 </body>
 </html>
