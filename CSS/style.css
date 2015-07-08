@@ -2821,6 +2821,11 @@ body{
 	background-color: #000000;
 }
 
+/*.comment-container .comment-ul {
+	margin-top: 5px;
+	background-color: #000000;
+}*/
+
 .author-info{
 	width: 181px;
 	height: 100px;
@@ -2983,4 +2988,113 @@ body{
 
 .wrapper-content .slider .about-inner .download-links a {
 	margin: 0 0 0 10px;
+}
+
+/* styles of album.php */
+
+.album-area a{
+	text-decoration: none;
+}
+
+.album-area {
+	margin: 0px auto 0px auto;
+	max-width: 1240px;
+	border-radius: 3px;
+	position: relative;
+	overflow: hidden;
+	background-color: #191919;
+}
+
+.album-area .album-header{
+	width: 100%;
+	display: inline-block;
+}
+
+.album-area .album-header .heading {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 23px;
+	font-weight: 500;
+	float: left;
+	color: #ffffff;
+	padding: 0 0 0 20px;
+}
+
+.album-area .album-header .photo-count {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 23px;
+	font-weight: 500;
+	float: right;
+	color: #ffffff;
+	padding: 0 20px 0 0;
+}
+
+.album-area .album {
+	width: 100%;
+	font-size: 0;
+	padding: 0 0 10px 0;
+	background-color: #ddd;
+	border-right: 10px solid #ddd;
+	box-sizing: border-box;
+	margin: 0 0 10px 0;
+}
+
+.album-area .album .album-li {
+	width: 20%;
+	font-size: 0;
+	display: inline-block;
+	border-left: 10px solid #ddd;
+	padding: 10px 0 0 0;
+	box-sizing: border-box;
+	vertical-align: top;
+	position: relative;
+	overflow: hidden;
+}
+
+.album-area .album .album-li .pic-container {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 150px;
+	/*border: 2px solid #fff;*/
+	/*box-sizing: border-box;*/
+}
+
+.album-area .album .album-li .pic-container img{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+/*.album-area .album li .pic-container:hover {
+	transform: scale(1.1,1.1);
+}*/
+
+.album-area .album .album-li .pic-border {
+	overflow: hidden;
+	border: 2px solid #fff;
+}
+
+.album-area .album .album-li .pic-border:hover {
+	border-color: #E6A800;
+}
+
+.album-description {
+	background-color: #fff;
+	padding: 20px 0 20px 0;
+	border-radius: 3px;
+	margin: 10px 0 10px 10px;
+}
+
+.album-description .date {
+	font-size: 14px;
+	margin: 0 0 15px 0;
+}
+
+.album-description .des {
+	font-size: 14px;
+	margin: 0;
+}
+
+.comment-ul {
+	padding: 0;
 }
