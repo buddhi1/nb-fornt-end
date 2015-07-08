@@ -87,6 +87,12 @@ body{
 	border-bottom: 5px solid #333;
 }
 
+.navigation-fix{	
+	position: fixed !important;
+	z-index: 9999 !important;
+	top: 0;
+}
+
 .navigation .nav-links {	
 	padding: 0 0 0 5px;
 	margin: 6px 0 0 0;
@@ -1615,7 +1621,7 @@ body{
 	padding: 1px;
 	text-align: center;
 	display: inline-block;
-	background-color: #ffffff;
+	background-color: #ffffff !important;
 	margin: 2px;
 	overflow: hidden;
 	border-radius: 3px;
